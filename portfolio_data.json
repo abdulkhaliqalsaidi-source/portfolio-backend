@@ -225,8 +225,8 @@
   "model": "api.profile",
   "pk": 1,
   "fields": {
-    "full_name": "عبد الخالق علي محمد الصايدي",
-    "title": "مبرمج FRONT END",
+    "full_name": "عبد الخالق الصايدي",
+    "title": "مهندس ومطور Front-End",
     "tagline": "اقوم بتصميم جميع الشاشات",
     "bio": "مبرمج جديد",
     "email": "helloali@reallygreatsite.com",
@@ -245,7 +245,7 @@
     "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
     "available_for_work": true,
     "years_of_experience": 5,
-    "updated_at": "2026-09-09T03:42:07.216Z"
+    "updated_at": "2026-09-18T05:19:30.090Z"
   }
 },
 {
@@ -1279,11 +1279,11 @@
   "model": "api.sitesetting",
   "pk": "settings",
   "fields": {
-    "value": "[{'key': 'site_title', 'value': 'سلمى صالح | مصممة جرافيك', 'group_name': 'seo'}, {'key': 'title_template', 'value': '%s | عبد الخالق الصايدي', 'group_name': 'seo'}, {'key': 'site_description', 'value': 'الموقع الشخصي لمصممة الجرافيك سلمى صالح.', 'group_name': 'seo'}, {'key': 'site_domain', 'value': 'https://example.com', 'group_name': 'seo'}, {'key': 'og_image', 'value': '/avatar.jpg', 'group_name': 'seo'}]",
+    "value": "[{\"key\": \"site_title\", \"value\": \"عبد الخالق الصايدي | مهندس برمجيات وFront-End Developer\", \"group_name\": \"seo\"}, {\"key\": \"title_template\", \"value\": \"%s | عبد الخالق الصايدي\", \"group_name\": \"seo\"}, {\"key\": \"site_description\", \"value\": \"الموقع الشخصي ومعرض أعمال عبد الخالق الصايدي - مهندس برمجيات ومطور واجهات أمامية Front-End متخصص في بناء وتطوير الأنظمة السحابية وتطبيقات الويب الحديثة.\", \"group_name\": \"seo\"}, {\"key\": \"site_domain\", \"value\": \"https://portfolio-frontend-pink-mu.vercel.app\", \"group_name\": \"seo\"}, {\"key\": \"og_image\", \"value\": \"/avatar.jpg\", \"group_name\": \"seo\"}]",
     "group_name": "general",
     "setting_type": "string",
     "description": "",
-    "updated_at": "2026-09-12T04:34:24.727Z"
+    "updated_at": "2026-09-18T05:19:30.981Z"
   }
 },
 {
@@ -1312,22 +1312,22 @@
   "model": "api.sitesetting",
   "pk": "site_description",
   "fields": {
-    "value": "الموقع الشخصي لمصممة الجرافيك سلمى صالح.",
-    "group_name": "general",
+    "value": "الموقع الشخصي ومعرض أعمال عبد الخالق الصايدي - مهندس برمجيات ومطور واجهات أمامية Front-End متخصص في بناء وتطوير الأنظمة السحابية وتطبيقات الويب الحديثة.",
+    "group_name": "seo",
     "setting_type": "string",
     "description": "الوصف التعريفي للموقع",
-    "updated_at": "2026-08-26T03:42:58.042Z"
+    "updated_at": "2026-09-18T05:19:30.565Z"
   }
 },
 {
   "model": "api.sitesetting",
   "pk": "site_title",
   "fields": {
-    "value": "سلمى صالح | مصممة جرافيك",
-    "group_name": "general",
+    "value": "عبد الخالق الصايدي | مهندس برمجيات وFront-End Developer",
+    "group_name": "seo",
     "setting_type": "string",
     "description": "العنوان الرئيسي للموقع",
-    "updated_at": "2026-08-26T03:42:58.042Z"
+    "updated_at": "2026-09-18T05:19:30.348Z"
   }
 },
 {
@@ -1339,6 +1339,17 @@
     "setting_type": "text",
     "description": "المظهر الافتراضي للموقع",
     "updated_at": "2026-08-26T02:05:30.431Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "title_template",
+  "fields": {
+    "value": "%s | عبد الخالق الصايدي",
+    "group_name": "seo",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-09-18T05:19:30.768Z"
   }
 },
 {
