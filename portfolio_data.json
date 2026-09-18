@@ -276,6 +276,33 @@
   }
 },
 {
+  "model": "api.skillcategory",
+  "pk": 20,
+  "fields": {
+    "name": "تطوير الواجهات الأمامية (Frontend)",
+    "icon": "mdi-monitor-dashboard",
+    "sort_order": 1
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 21,
+  "fields": {
+    "name": "تطوير الواجهات الخلفية وقواعد البيانات (Backend)",
+    "icon": "mdi-server-network",
+    "sort_order": 2
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 22,
+  "fields": {
+    "name": "الخرائط والبيانات التفاعلية والأدوات (GIS & Tools)",
+    "icon": "mdi-map-marker-path",
+    "sort_order": 3
+  }
+},
+{
   "model": "api.skill",
   "pk": 58,
   "fields": {
@@ -393,6 +420,214 @@
   }
 },
 {
+  "model": "api.skill",
+  "pk": 67,
+  "fields": {
+    "category": 20,
+    "name": "Vue.js 3",
+    "icon": "mdi-vuejs",
+    "color": "#42B883",
+    "proficiency_percentage": 95,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 68,
+  "fields": {
+    "category": 20,
+    "name": "Nuxt 4 / 3",
+    "icon": "mdi-nuxt",
+    "color": "#00DC82",
+    "proficiency_percentage": 92,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 69,
+  "fields": {
+    "category": 20,
+    "name": "TypeScript / JavaScript",
+    "icon": "mdi-language-typescript",
+    "color": "#3178C6",
+    "proficiency_percentage": 90,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 70,
+  "fields": {
+    "category": 20,
+    "name": "Vuetify 3",
+    "icon": "mdi-vuetify",
+    "color": "#1867C0",
+    "proficiency_percentage": 92,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 71,
+  "fields": {
+    "category": 20,
+    "name": "Tailwind CSS",
+    "icon": "mdi-tailwind",
+    "color": "#38BDF8",
+    "proficiency_percentage": 88,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 72,
+  "fields": {
+    "category": 20,
+    "name": "Pinia State Management",
+    "icon": "mdi-database",
+    "color": "#FFE566",
+    "proficiency_percentage": 90,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 73,
+  "fields": {
+    "category": 21,
+    "name": "Laravel Framework (PHP)",
+    "icon": "mdi-laravel",
+    "color": "#FF2D20",
+    "proficiency_percentage": 92,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 74,
+  "fields": {
+    "category": 21,
+    "name": "Django & DRF (Python)",
+    "icon": "mdi-language-python",
+    "color": "#092E20",
+    "proficiency_percentage": 88,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 75,
+  "fields": {
+    "category": 21,
+    "name": "RESTful API Architecture",
+    "icon": "mdi-api",
+    "color": "#7B6EF6",
+    "proficiency_percentage": 95,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 76,
+  "fields": {
+    "category": 21,
+    "name": "SQLite & MySQL & PostgreSQL",
+    "icon": "mdi-database-outline",
+    "color": "#003B57",
+    "proficiency_percentage": 88,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 77,
+  "fields": {
+    "category": 21,
+    "name": "JWT Authentication & Security",
+    "icon": "mdi-shield-lock",
+    "color": "#EF4444",
+    "proficiency_percentage": 90,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 78,
+  "fields": {
+    "category": 22,
+    "name": "Leaflet GIS & Interactive Maps",
+    "icon": "mdi-map",
+    "color": "#10B981",
+    "proficiency_percentage": 88,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 79,
+  "fields": {
+    "category": 22,
+    "name": "ECharts & Data Visualization",
+    "icon": "mdi-chart-areaspline",
+    "color": "#F59E0B",
+    "proficiency_percentage": 85,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 80,
+  "fields": {
+    "category": 22,
+    "name": "WebSockets / Pusher Real-time",
+    "icon": "mdi-lightning-bolt",
+    "color": "#E11D48",
+    "proficiency_percentage": 85,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 81,
+  "fields": {
+    "category": 22,
+    "name": "Git & GitHub Version Control",
+    "icon": "mdi-git",
+    "color": "#F05032",
+    "proficiency_percentage": 92,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 82,
+  "fields": {
+    "category": 22,
+    "name": "Vercel & Render Cloud Deployment",
+    "icon": "mdi-cloud-upload",
+    "color": "#6366F1",
+    "proficiency_percentage": 90,
+    "sort_order": 0,
+    "is_visible": true
+  }
+},
+{
   "model": "api.service",
   "pk": 24,
   "fields": {
@@ -501,6 +736,295 @@
     "is_published": true,
     "created_at": "2026-09-09T04:05:49.433Z",
     "updated_at": "2026-09-09T04:15:01.222Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 2,
+  "fields": {
+    "slug": "prosanaa-gis-platform",
+    "title": "منصة برو صنعاء للمسوحات الميدانية والخرائط الجغرافية (ProSanaa)",
+    "category": "نظم المعلومات الجغرافية & تطبيقات الويب (GIS & Full-Stack)",
+    "role": "مهندس ومطور Full-Stack & UI/UX Designer",
+    "year": "2026",
+    "short_description": "منصة استخبارات جغرافية وميدانية متكاملة لإدارة المسوحات الذكية، تتبع نقاط البيع وتوزيع المتاجر، وجدولة زيارات المناديب الميدانية مع خرائط تفاعلية وتحليلات أداء لحظية.",
+    "full_description": "منصة سحابية متطورة مصممة لتمكين المؤسسات والشركات التجارية من إدارة كافة العمليات الميدانية بكفاءة متناهية. تجمع المنصة بين تقنيات نظم المعلومات الجغرافية (GIS) والرسم البياني للبيانات اللحظية.\n\nتتيح المنصة للمشرفين بناء استبيانات متقدمة وتوجيهها للمناديب، تتبع خطوط السير ونقاط البيع على الخريطة التفاعلية، مقارنة نتائج المسوحات الدورية، واستخراج تقارير تحليلية شاملة مدعومة بمؤشرات الأداء الرئيسية (KPIs). كما تتضمن تطبيق جوال مخصص للعمل الميداني بدون انقطاع.",
+    "problem": "صعوبة متابعة المناديب الميدانيين يدوياً، غياب التوثيق الجغرافي الدقيق لنقاط البيع، بطء جمع نتائج الاستبيانات الورقية، وغياب رؤية بيانية موحدة لتقييم الأداء في مختلف المناطق والمحافظات.",
+    "architecture": "تم بناء النظام بمعمارية حديثة تفصل بين الخدمات: الواجهة الأمامية مبنية بـ Vue 3 + Vuetify مع مكتبة Leaflet للخرائط التفاعلية و ECharts للتحليلات الإحصائية المتقدمة. الواجهة الخلفية مبنية على Laravel API عالي السرعة مع دعم البث اللحظي عبر WebSockets (Pusher/Laravel Echo) وتطبيق جوال مخصص للميدان.",
+    "features": [
+      "خرائط جغرافية تفاعلية دقيقة (Leaflet GIS) لعرض وتوزيع المتاجر والزيارات",
+      "محرك إنشاء استبيانات ميدانية ذكي ونظام متقدم لمقارنة النتائج والردود",
+      "لوحة تحليلات ورسوم بيانية تفاعلية (ECharts) لمراقبة مؤشرات الأداء الحيوية",
+      "إدارة المناطق الجغرافية، خطوط السير، وجدولة زيارات المناديب ومتابعة تنفيذها",
+      "إدارة الأهداف التشغيلية والبيعية الشهرية والأسبوعية للفرق الميدانية",
+      "تطبيق جوال مخصص للعمل الميداني للمناديب لتوثيق الزيارات مباشرة"
+    ],
+    "objectives": [
+      "أتمتة العمليات الميدانية بالكامل وتحويلها من ورقية إلى سحابية 100%",
+      "تمكين صانعي القرار من رؤية التوزيع الجغرافي للمتاجر على الخريطة الحية",
+      "تسريع وتيرة اتخاذ القرارات التسويقية بناءً على بيانات استبيانات دقيقة ولحظية"
+    ],
+    "metrics": [
+      "زيادة كفاءة الزيارات الميدانية بنسبة 65%",
+      "تقليص وقت إعداد تقارير المسح من أيام إلى ثوانٍ معدودة",
+      "تغطية جغرافية دقيقة لأكثر من 5000 نقطة بيع ومتجر"
+    ],
+    "tags": [
+      "Vue 3",
+      "Laravel",
+      "Leaflet GIS",
+      "Vuetify 3",
+      "ECharts",
+      "WebSockets",
+      "Pinia",
+      "RESTful API",
+      "Mobile App"
+    ],
+    "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مؤسسة التوزيع والتسويق الميداني",
+    "testimonial_quote": "أحدثت منصة برو صنعاء نقلة نوعية في كفاءة فرقنا الميدانية ومنحتنا رؤية جغرافية واضحة لم نكن نملكها من قبل.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/prosanaa-frontend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/prosanaa-frontend",
+    "accent_color": "#10B981",
+    "sort_order": 1,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:19.312Z",
+    "updated_at": "2026-09-18T04:55:19.340Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 3,
+  "fields": {
+    "slug": "riyadhi-construction-cms",
+    "title": "منصة شركة الرياضي مع منشئ الصفحات وإدارة المحتوى (Riyadhi CMS)",
+    "category": "أنظمة إدارة المحتوى وتطبيقات الويب (CMS & Enterprise)",
+    "role": "مطور Full-Stack & مهندس واجهات",
+    "year": "2026",
+    "short_description": "موقع شركة ومؤسسة مقاولات رائدة مزود بنظام إدارة محتوى متقدم (CMS) ومنشئ صفحات تفاعلي (Page Builder) بأكثر من 15 كتلة ديناميكية مع دعم كامل للغات وRTL.",
+    "full_description": "منصة ويب متكاملة مبنية بأحدث معايير تصميم الواجهات (Modern Dark Aesthetic) وسرعة الاستجابة، مخصصة لشركات المقاولات والأعمال الإنشائية.\n\nتتميز المنصة بوجود لوحة تحكم إدارية احترافية تمنح إدارة الشركة حرية كاملة في بناء وتخصيص صفحات الموقع وأقسامه بالسحب والإفلات (Drag & Drop) بدون كتابة أي سطر برمجي، مع دعم كامل للغتين العربية والإنجليزية وتوافق شامل مع محركات البحث وتكامل مباشر مع WhatsApp.",
+    "problem": "الحاجة إلى موقع يعكس الفخامة والجودة الهندسية للمشاريع مع التخلص من صعوبة الاعتماد على المطور في كل تعديل لمحتوى الخدمات أو معارض الصور أو الفرق.",
+    "architecture": "واجهة أمامية مبنية بـ Vue 3 و Tailwind CSS لضمان أعلى سرعة تحميل ورشاقة بصرية، مع باك إند Laravel 11 لتأمين واجهات الـ REST API، وإدارة ملفات الوسائط، والمصادقة الآمنة بالرموز المشفرة.",
+    "features": [
+      "منشئ صفحات ذكي (Page Builder) مع أكثر من 15 كتلة جاهزة (سلايدر، إحصائيات، كروت، أسئلة شائعة، جداول أسعار)",
+      "إعادة ترتيب الأقسام بالسحب والإفلات (Drag & Drop Sections)",
+      "دعم كامل للغة العربية باتجاه RTL واللغة الإنجليزية مع تبديل سلس",
+      "نظام تخصيص السمة البصرية (8 لوحات ألوان جاهزة وتحكم مباشر بالألوان والخطوط)",
+      "معارض أعمال وسلايدر متحرك مع شريط تقدم وتأثيرات بصرية جذابة",
+      "تكامل فوري لرسائل التواصل مع تنبيهات الرسائل غير المقروءة وزر WhatsApp عائم"
+    ],
+    "objectives": [
+      "منح العميل تحكماً مطلقاً في محتوى موقعه وتصميمه دون الحاجة لمبرمج",
+      "تحقيق أعلى تجربة مستخدم مع تصميم داكن احترافي يجذب كبار العملاء",
+      "توفير قوالب جاهزة ومجهزة للبيع على المنصات العالمية مثل CodeCanyon"
+    ],
+    "metrics": [
+      "سرعة تحميل فائقة بأقل من ثانية واحدة (1s Load Time)",
+      "مرونة بنسبة 100% في تخصيص أكثر من 15 قسماً ديناميكياً",
+      "متجاوب بالكامل مع كافة مقاسات الشاشات والهواتف الذكية"
+    ],
+    "tags": [
+      "Vue 3",
+      "Laravel 11",
+      "Tailwind CSS",
+      "Page Builder",
+      "CMS",
+      "RTL",
+      "Vite",
+      "REST API"
+    ],
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "شركة الرياضي للمقاولات العامة",
+    "testimonial_quote": "المنصة وفّرت علينا الكثير من الجهد والوقت بفضل منشئ الصفحات السلس وسرعة الموقع المذهلة.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
+    "accent_color": "#3B82F6",
+    "sort_order": 2,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:19.937Z",
+    "updated_at": "2026-09-18T04:55:19.937Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 4,
+  "fields": {
+    "slug": "al-shifa-medical-portal",
+    "title": "بوابة مركز الشفاء الطبي والعيادات التخصصية (Al-Shifa Healthcare)",
+    "category": "الأنظمة الطبية والرعاية الصحية (Healthcare & Medical)",
+    "role": "مطور ويب ومصمم أنظمة",
+    "year": "2025",
+    "short_description": "بوابة رقمية شاملة للمستشفيات والعيادات التخصصية لاستعراض الأقسام الطبية، دليل الأطباء، حجز المواعيد، وإدارة التواصل الطبي مع المرضى.",
+    "full_description": "حل برمجي متكامل موجه للمراكز الطبية والمجمعات الصحية، يوفر تجربة سلسة للمرضى للاطلاع على الخدمات والعيادات التخصصية (طوارئ، جراحة، مختبر، أشعة، علاج طبيعي) والتعرف على مواعيد وأطباء المركز.\n\nيشتمل النظام على لوحة تحكم ذكية لإدارة الكوادر الطبية وتحديث أوقات دوامهم، واستقبال طلبات الحجز والاستفسارات الطبية مع إشعارات فورية وتصميم مريح للعين يلبي معايير سهولة الوصول الطبية (Accessibility).",
+    "problem": "صعوبة وصول المرضى لمعلومات الأطباء المناوبين والتخصصات المتاحة وحاجتهم لوسيلة تواصل وحجز مباشرة وواضحة وسريعة في مختلف الأوقات.",
+    "architecture": "معمارية معتمدة على مكونات Vue.js و Laravel، مع هيكل قواعد بيانات دقيق يربط الأقسام بالأطباء والخدمات، وتصميم يراعي أعلى معايير أمان وتشفير البيانات.",
+    "features": [
+      "دليل شامل للأقسام الطبية والخدمات التشخيصية والعلاجية",
+      "ملفات تعريفية للأطباء مع التخصصات وساعات العمل والخبرات",
+      "نظام استقبال طلبات الحجز المسبق والتواصل الفوري مع قسم الاستقبال",
+      "قسم خاص بآراء المرضى وتجارب الشفاء (Patient Testimonials)",
+      "متوافق مع الهواتف الذكية وسريع الاستجابة للوصول السريع في حالات الطوارئ"
+    ],
+    "objectives": [
+      "تحسين وصول المريض للرعاية الصحية والمعلومات الطبية الدقيقة",
+      "تنظيم وميكنة استقبال الحجوزات الطبية في المركز",
+      "بناء صورة احترافية وموثوقة للمركز الطبي على شبكة الإنترنت"
+    ],
+    "metrics": [
+      "تسهيل حجز المواعيد بنسبة 80%",
+      "تقليل وقت الاستفسارات الهاتفية عبر تقديم معلومات الأطباء كاملة رقمياً"
+    ],
+    "tags": [
+      "Vue.js",
+      "Laravel",
+      "Healthcare UI",
+      "Medical CMS",
+      "REST API",
+      "Responsive"
+    ],
+    "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مجمع الشفاء الطبي التخصصي",
+    "testimonial_quote": "تصميم هادئ ومريح للمرضى، وسهل جداً في إدارة مواعيد وأطباء المركز من خلال لوحة التحكم.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-backend",
+    "accent_color": "#0EA5E9",
+    "sort_order": 3,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:20.322Z",
+    "updated_at": "2026-09-18T04:55:20.322Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 5,
+  "fields": {
+    "slug": "portfolio-tech-blog",
+    "title": "منصة معرض الأعمال والمدونة التقنية المتكاملة (Antigravity Portfolio)",
+    "category": "الأنظمة السحابية وهندسة الويب (Cloud & Full-Stack)",
+    "role": "مهندس ومطور النظام الرئيسي (Lead Full-Stack Developer)",
+    "year": "2026",
+    "short_description": "منصة معرض أعمال احترافية ومدونة تقنية تعتمد على العمارة الهجينة (SSR/SSG) في Nuxt 4 وباك إند Django REST Framework مع توافق فائق مع محركات البحث (SEO).",
+    "full_description": "منصة رقمية مهنية تمثل أحدث المعايير في هندسة الويب الحديثة. تقدم تجربة تصفح غامرة بجماليات الـ Dark Mode وتأثيرات Glassmorphism الفاخرة، مع سرعة تحميل فائقة وتوافق 100% مع محركات البحث (SEO) عبر الرندر الهجين لـ Nuxt 4.\n\nترتبط المنصة بباك إند قوي مبني على Django 5 REST Framework مع قاعدة بيانات SQLite مدمجة ومؤمنة بالكامل، ولوحة تحكم حية لإدارة المحتوى وإحصائيات الزوار والرسائل، مع استضافة سحابية مستقلة على Vercel و Render.",
+    "problem": "الحاجة إلى منصة متكاملة وسريعة تجمع بين معرض الأعمال والمدونة الهندسية المتطورة مع إدارة مركزية للمحتوى وظهور قوي في الصفحة الأولى بمحركات البحث.",
+    "architecture": "معمارية هجينة تفصل الواجهات بـ Nuxt 4 على Vercel لتقديم SSR وخريطة sitemap.xml تلقائية، مع خادم خلفي مستقل بـ Django 5 و SQLite على Render مع مصادقة JWT ونظام تصدير بيانات تلقائي.",
+    "features": [
+      "رندر هجين فائق السرعة (SSR/Prerendering) متوافق تماماً مع Google Search Console",
+      "لوحة تحكم إدارية كاملة لإدارة المشاريع والمقالات والمهارات والسيرة الذاتية",
+      "مولد خريطة الموقع (Sitemap XML) وملف Robots.txt وبيانات JSON-LD المنظمة تلقائياً",
+      "تصميم داكن عصري بجماليات Glassmorphism وأيقونات تفاعلية دقيقة",
+      "نظام مراسلة وتواصل فوري مع حماية ضد هجمات الـ Throttling والـ CSRF"
+    ],
+    "objectives": [
+      "بناء واجهة رقمية تعكس الاحترافية الهندسية بأحدث التقنيات العالمية لعام 2026",
+      "تحقيق درجة 100% في مؤشرات أداء Core Web Vitals و SEO",
+      "توفير استقلالية تامة في استضافة وإدارة الفرونت إند والباك إند"
+    ],
+    "metrics": [
+      "نتيجة أداء 98/100 على اختبارات Google Lighthouse",
+      "سرعة استجابة الـ API في أقل من 80 ميلي ثانية",
+      "فهرسة فورية بنسبة 100% في محرك بحث Google"
+    ],
+    "tags": [
+      "Nuxt 4",
+      "Vue 3",
+      "Django 5",
+      "Python",
+      "SQLite",
+      "Vuetify 3",
+      "SSR",
+      "SEO",
+      "Vercel",
+      "Render"
+    ],
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مشروع شخصي / هندسي",
+    "testimonial_quote": "تكامل تقني استثنائي يجمع بين قوة بايثون في الباك إند وسرعة ومرونة Nuxt في الفرونت إند.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://portfolio-frontend-pink-mu.vercel.app",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/portfolio-frontend",
+    "accent_color": "#7B6EF6",
+    "sort_order": 4,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:20.693Z",
+    "updated_at": "2026-09-18T04:55:20.693Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 6,
+  "fields": {
+    "slug": "smart-warehouse-erp",
+    "title": "نظام إدارة المستودعات واللوجستيات الذكي (Warehouse & Inventory ERP)",
+    "category": "أنظمة تخطيط الموارد وإدارة الأعمال (ERP & Logistics)",
+    "role": "مطور Full-Stack ومصمم قواعد البيانات",
+    "year": "2025",
+    "short_description": "نظام ERP متكامل لإدارة المخازن والمستودعات المتعددة، تتبع حركة الأصناف والمخزون، أتمتة سندات القبض والصرف، وتوليد تقارير الجرد المالي والكمي.",
+    "full_description": "منظومة مؤسسية لإدارة العمليات اللوجستية والمخزنية المتشعبة في الشركات التجارية والمصانع. يدعم النظام إدارة مستودعات متعددة في مواقع جغرافية مختلفة، مع تتبع دقيق لأرقام الدفعات وتواريخ الصلاحية وحركات التحويل بين المخازن.\n\nيوفر النظام نظام تنبيهات مبكر للأصناف الراكدة والأصناف التي وصلت لحد الطلب الأدنى، مع لوحة مؤشرات قيادية لإجمالي قيم المخزون ونسب الدوران.",
+    "problem": "العجز المخزني غير المبرر، بطء عمليات الجرد السنوي، صعوبة تتبع البضائع بين الفروع المختلفة، وتداخل الصلاحيات الإدارية.",
+    "architecture": "هندسة برمجية متماسكة مبنية على قواعد بيانات علائقية متينة تضمن سلامة المعاملات المالية والمخزنية (ACID Compliance)، مع واجهات مستخدم مخصصة لسرعة الإدخال بواسطة ماسحات الباركود.",
+    "features": [
+      "إدارة المستودعات المتعددة ومتابعة أرصدة الأصناف لحظياً",
+      "دعم كامل لماسحات الباركود وسرعة تسجيل أذونات الإضافة والصرف",
+      "نظام تتبع أرقام التشغيل والدفعات وتواريخ الصلاحية",
+      "تنبيهات ذكية للوصول إلى نقطة إعادة الطلب والأصناف الراكدة",
+      "تقارير جرد آلية وحساب تكلفة البضاعة المباعة والمخزون (FIFO / Weighted Average)"
+    ],
+    "objectives": [
+      "منع الهدر المالي وعجز المخزون بنسبة تفوق 95%",
+      "تقليص مدة الجرد الدوري من أسبوعين إلى ساعات محدودة",
+      "توفير تقارير محاسبية فورية لفرق الإدارة والمالية"
+    ],
+    "metrics": [
+      "دقة مطابقة المخزون الفعلي بالدفتري بنسبة 99.4%",
+      "تسريع وتيرة تجهيز طلبيات الشحن بنسبة 50%"
+    ],
+    "tags": [
+      "Full-Stack",
+      "ERP Systems",
+      "Inventory",
+      "Database Design",
+      "Barcode Integration",
+      "Logistics"
+    ],
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مجموعة الموزعين اللوجستية",
+    "testimonial_quote": "النظام حوّل إدارة مستودعاتنا من فوضى ورقية إلى تحكم إلكتروني كامل ودقيق.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/portfolio-backend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/portfolio-backend",
+    "accent_color": "#F59E0B",
+    "sort_order": 5,
+    "is_featured": false,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:22.076Z",
+    "updated_at": "2026-09-18T04:55:22.076Z"
   }
 },
 {
