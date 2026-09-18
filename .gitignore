@@ -9,12 +9,11 @@ venv/
 ENV/
 
 # Django
-*.sqlite3
+# db.sqlite3 is tracked so portfolio data is included in deployment
+*.sqlite3-journal
 staticfiles/
 media/
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
 # Environment variables & secrets
 .env

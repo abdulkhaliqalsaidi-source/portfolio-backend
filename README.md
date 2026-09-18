@@ -1,33 +1,33 @@
 # Portfolio Backend (Django 5 REST Framework)
 
-خادم الواجهات الخلفية وقاعدة البيانات لمنصة معرض الأعمال والمدونة التقنية مبني على **Django 5** و **Django REST Framework** مع توثيق JWT ودعم PostgreSQL.
+خادم الواجهات الخلفية وقاعدة البيانات لمنصة معرض الأعمال والمدونة التقنية مبني على **Django 5** و **Django REST Framework** مع توثيق JWT وقاعدة بيانات **SQLite** مدمجة وجاهزة للعمل فوراً بدون أي إعدادات خارجية معقدة.
 
 ---
 
 ## الميزات التقنية
 - **Django 5 + DRF:** واجهات برمجة تطبيقات RESTful كاملة وسريعة.
-- **SimpleJWT:** مصادقة وتوثيق عبر رموز JWT وحماية لوحة التحكم.
-- **Dynamic Database Support:** دعم تلقائي لـ PostgreSQL في الإنتاج مع التبديل التلقائي لـ SQLite في التطوير.
+- **SQLite Database:** قاعدة بيانات مدمجة وخفيفة وسريعة لا تتطلب إعداد سيرفرات خارجية أو كلمات مرور.
+- **SimpleJWT:** مصادقة وتوثيق عبر رموز JWT وحماية كاملة للمسارات.
 - **WhiteNoise & Gunicorn:** جاهز تماماً للتشغيل في بيئة الإنتاج السحابية.
-- **Data Templates Engine:** منظومة تصدير واستيراد بيانات المنصة بالكامل بصيغة JSON.
+- **Data Fixtures & Backup:** نسخة احتياطية كاملة للمحتوى بصيغة `portfolio_data.json` تضمن عدم ضياع أي بيانات.
 
 ---
 
-## التشغيل المحلي (Development)
+## التشغيل المحلي (Local Development)
 
 ```bash
 # إنشاء وتفعيل البيئة الافتراضية
 python -m venv venv
-source venv/bin/activate  # في Linux/Mac
 venv\Scripts\activate     # في Windows
+source venv/bin/activate  # في Linux/Mac
 
 # تثبيت الحزم
 pip install -r requirements.txt
 
-# تطبيق الهجرات
+# تطبيق الهجرات (إذا لزم)
 python manage.py migrate
 
-# تشغيل خادم التطوير
+# تشغيل الخادم
 python manage.py runserver
 ```
 
@@ -35,32 +35,44 @@ python manage.py runserver
 
 ## متغيرات البيئة (Environment Variables)
 
-قم بإنشاء ملف `.env` بناءً على `.env.example`:
+قم بإنشاء ملف `.env` في المجلد الرئيسي للباك إند:
 
 ```env
-DJANGO_SECRET_KEY=your-secure-secret-key
+DJANGO_SECRET_KEY=your-secret-key-here
 DJANGO_DEBUG=False
 DJANGO_ALLOWED_HOSTS=*
-CORS_ALLOWED_ORIGINS=https://your-frontend.vercel.app
-
-# بيانات قاعدة بيانات PostgreSQL
-DB_NAME=portfolio_db
-DB_USER=portfolio_user
-DB_PASSWORD=your_db_password
-DB_HOST=your_db_host
-DB_PORT=5432
+CORS_ALLOWED_ORIGINS=https://your-frontend.vercel.app,http://localhost:3000
+MAX_UPLOAD_SIZE_MB=10
 ```
+
+> **ملاحظة:** لا تحتاج إلى أي متغيرات لقاعدة البيانات مثل `DB_NAME` أو `DB_PASSWORD`، فقاعدة بيانات SQLite (`db.sqlite3`) مدمجة ومضمنة مع المشروع مباشرة!
 
 ---
 
-## النشر على Render / Railway
+## النشر على Render.com (Web Service)
 
-1. اربط هذا المستودع في **Render.com** كـ **Web Service**.
-2. **Build Command:**
-   ```bash
-   pip install -r requirements.txt && python manage.py migrate && python manage.py collectstatic --noinput
-   ```
-3. **Start Command:**
-   ```bash
-   gunicorn core.wsgi:application
-   ```
+1. ادخل على [Render.com](https://render.com) واضغط **New +** ثم اختر **Web Service**.
+2. اختر مستودع `portfolio-backend`.
+3. قم بملء الإعدادات:
+   - **Environment:** `Python 3`
+   - **Build Command:**
+     ```bash
+     pip install -r requirements.txt && python manage.py collectstatic --noinput
+     ```
+   - **Start Command:**
+     ```bash
+     gunicorn core.wsgi:application
+     ```
+4. في قسم **Environment Variables**، أضف فقط:
+   - `DJANGO_SECRET_KEY` = أي نص عشوائي قوي
+   - `DJANGO_ALLOWED_HOSTS` = `*`
+   - `CORS_ALLOWED_ORIGINS` = رابط موقعك على Vercel (مثال: `https://your-app.vercel.app`)
+
+---
+
+## استعادة أو تحديث البيانات
+
+إذا أردت إعادة تعيين أو تحميل كل بيانات المعرض والمدونة والحسابات:
+```bash
+python manage.py loaddata portfolio_data.json
+```

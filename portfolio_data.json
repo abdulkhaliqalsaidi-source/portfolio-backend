@@ -1,0 +1,3210 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$A440rbnmYUhIEiDi0raYUl$T+5uQjuyDihME8Iq9hN2iD2RoPWll7c4PL0UIAGoJxo=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-08-25T03:37:28.020Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$0cNOdq9HHsjkNFPOHJJ7je$JRhTEE2QQBtpocjmG6w1kw2IPJuaXM2BCkAjPYxmStw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ali",
+    "first_name": "",
+    "last_name": "",
+    "email": "Alld@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-08-26T04:29:28.122Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "448a90ee69dc4dc4a4cb86e6acc30f8a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDIyMTA5MCwiaWF0IjoxNzg3NjI5MDkwLCJqdGkiOiI0NDhhOTBlZTY5ZGM0ZGM0YTRjYjg2ZTZhY2MzMGY4YSIsInVzZXJfaWQiOiIxIn0.Bcx8MDdyaeX_-ItBA-FXZfBNpDUtyW1e4ZXIbd0GVj4",
+    "created_at": "2026-08-25T03:38:10.406Z",
+    "expires_at": "2026-09-24T03:38:10Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "394114cd8c3846b9878d17c030c60ca4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDIzMDMzNywiaWF0IjoxNzg3NjM4MzM3LCJqdGkiOiIzOTQxMTRjZDhjMzg0NmI5ODc4ZDE3YzAzMGM2MGNhNCIsInVzZXJfaWQiOiIxIn0.w_vthNPkxyANikLf0ewmYAVuGGsFBp_5yGYkENsOOhw",
+    "created_at": "2026-08-25T06:12:17.635Z",
+    "expires_at": "2026-09-24T06:12:17Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "ali"
+    ],
+    "jti": "4fc1ae3d348c4cdf84956847ec413f53",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDMxMDYwMCwiaWF0IjoxNzg3NzE4NjAwLCJqdGkiOiI0ZmMxYWUzZDM0OGM0Y2RmODQ5NTY4NDdlYzQxM2Y1MyIsInVzZXJfaWQiOiIyIn0.jyM4VRDvQUXviYe43JmiILWpdQeI_npLv4HDjtcnzUo",
+    "created_at": "2026-08-26T04:30:00.201Z",
+    "expires_at": "2026-09-25T04:30:00Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "5c47f321b62e4c8d9cc5366c23653d41",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDMxMDYzOCwiaWF0IjoxNzg3NzE4NjM4LCJqdGkiOiI1YzQ3ZjMyMWI2MmU0YzhkOWNjNTM2NmMyMzY1M2Q0MSIsInVzZXJfaWQiOiIxIn0.qgpvxny5MH0dBrfre4dYTTh3wzIsOwgimuLVXcXFk_8",
+    "created_at": "2026-08-26T04:30:38.058Z",
+    "expires_at": "2026-09-25T04:30:38Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "6a9d022bcfbd49ba8f31c501189b0491",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4OTU4MTQ3OSwiaWF0IjoxNzg2OTg5NDc5LCJqdGkiOiI2YTlkMDIyYmNmYmQ0OWJhOGYzMWM1MDExODliMDQ5MSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AcG9ydGZvbGlvLmRldiIsImlzX3N1cGVydXNlciI6dHJ1ZSwiaXNfc3RhZmYiOnRydWV9.POV0oPGmU3pwa2mMgrrqBLliwjCFj1jChndFI7fmlbk",
+    "created_at": "2026-08-26T05:04:42.924Z",
+    "expires_at": "2026-09-16T17:57:59Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "ea1a876288b04d05b48615d6611e88fe",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDMxMjY4MiwiaWF0IjoxNzg3NzIwNjgyLCJqdGkiOiJlYTFhODc2Mjg4YjA0ZDA1YjQ4NjE1ZDY2MTFlODhmZSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AcG9ydGZvbGlvLmRldiIsImlzX3N1cGVydXNlciI6dHJ1ZSwiaXNfc3RhZmYiOnRydWV9.ZMgxLGXSrlHjdIwbWg4x2hZDH4lHdzLFTJzToVdGa_A",
+    "created_at": "2026-08-26T05:04:42.924Z",
+    "expires_at": "2026-09-25T05:04:42Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "c345e9f23b93497eb5337c70f6abee47",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTQyODY1MywiaWF0IjoxNzg4ODM2NjUzLCJqdGkiOiJjMzQ1ZTlmMjNiOTM0OTdlYjUzMzdjNzBmNmFiZWU0NyIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.CYBxMpmlA4BZCVz6K6ix27nojHodPLRhPVh7Rh13NhQ",
+    "created_at": "2026-09-08T03:04:13.506Z",
+    "expires_at": "2026-10-08T03:04:13Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "9ed0b3f7125c460ebb29af03ed5ed5b8",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTQyODcyOCwiaWF0IjoxNzg4ODM2NzI4LCJqdGkiOiI5ZWQwYjNmNzEyNWM0NjBlYmIyOWFmMDNlZDVlZDViOCIsInVzZXJfaWQiOiIxIn0.qnbAyM2iCKQ_M5PqV0mU1dKvrrdbrRKAIvAU5rPNaco",
+    "created_at": "2026-09-08T03:05:28.459Z",
+    "expires_at": "2026-10-08T03:05:28Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "446670cf01434ceb8a899eba4f7dafbb",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTQzMjM1OCwiaWF0IjoxNzg4ODQwMzU4LCJqdGkiOiI0NDY2NzBjZjAxNDM0Y2ViOGE4OTllYmE0ZjdkYWZiYiIsInVzZXJfaWQiOiIxIn0.5yw71C088d-qJMPYODNWhtQJFDYNcBi15gCCwkdH9eA",
+    "created_at": "2026-09-08T04:05:58.814Z",
+    "expires_at": "2026-10-08T04:05:58Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "57506be2b66f474e8ae98ce0f2b5d3ca",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTUxODc1OSwiaWF0IjoxNzg4OTI2NzU5LCJqdGkiOiI1NzUwNmJlMmI2NmY0NzRlOGFlOThjZTBmMmI1ZDNjYSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.q56tat0x2qVCWlOoiY7dDawbSNC6dja2mnJ97BNo1cY",
+    "created_at": "2026-09-09T04:05:59.060Z",
+    "expires_at": "2026-10-09T04:05:59Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 11,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "046cd70c7be94318b76dc949aed706da",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTc3MDA4NiwiaWF0IjoxNzg5MTc4MDg2LCJqdGkiOiIwNDZjZDcwYzdiZTk0MzE4Yjc2ZGM5NDlhZWQ3MDZkYSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.tUd0KdbKI4MrnlClqbEL0rJaQc046S2MvLy57-ZUBME",
+    "created_at": "2026-09-12T01:54:46.042Z",
+    "expires_at": "2026-10-12T01:54:46Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "2c263a8e688d482c90b811879852c875",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTc3OTU5OSwiaWF0IjoxNzg5MTg3NTk5LCJqdGkiOiIyYzI2M2E4ZTY4OGQ0ODJjOTBiODExODc5ODUyYzg3NSIsInVzZXJfaWQiOiIxIn0.qyeK9A8TOM_V8QT6ktgKkQHOPxEkQlf2tgDrtrNxSsA",
+    "created_at": "2026-09-12T04:33:19.070Z",
+    "expires_at": "2026-10-12T04:33:19Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 1,
+  "fields": {
+    "token": 5,
+    "blacklisted_at": "2026-08-26T05:04:45.122Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 2,
+  "fields": {
+    "token": 4,
+    "blacklisted_at": "2026-09-08T03:04:13.888Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 3,
+  "fields": {
+    "token": 9,
+    "blacklisted_at": "2026-09-09T04:05:59.095Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 4,
+  "fields": {
+    "token": 10,
+    "blacklisted_at": "2026-09-12T01:54:46.236Z"
+  }
+},
+{
+  "model": "api.profile",
+  "pk": 1,
+  "fields": {
+    "full_name": "عبد الخالق علي محمد الصايدي",
+    "title": "مبرمج FRONT END",
+    "tagline": "اقوم بتصميم جميع الشاشات",
+    "bio": "مبرمج جديد",
+    "email": "helloali@reallygreatsite.com",
+    "phone": "770990078",
+    "whatsapp": "770990078",
+    "github": "https://www.linkedin.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "twitter": "https://www.linkedin.com/",
+    "instagram": "https://www.linkedin.com/",
+    "behance": "https://www.linkedin.com/",
+    "dribbble": "https://www.linkedin.com/",
+    "youtube": "https://www.linkedin.com/",
+    "website": "https://www.linkedin.com/",
+    "location": "123 Anywhere St., Any City",
+    "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+    "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+    "available_for_work": true,
+    "years_of_experience": 5,
+    "updated_at": "2026-09-09T03:42:07.216Z"
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 17,
+  "fields": {
+    "name": "المهارات الفنية والتصميم",
+    "icon": "mdi-palette",
+    "sort_order": 1
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 18,
+  "fields": {
+    "name": "المهارات البصرية",
+    "icon": "mdi-camera",
+    "sort_order": 2
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 19,
+  "fields": {
+    "name": "اللغات",
+    "icon": "mdi-translate",
+    "sort_order": 3
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 58,
+  "fields": {
+    "category": 17,
+    "name": "تصميم الجرافيك",
+    "icon": "mdi-vector-curve",
+    "color": "#3B82F6",
+    "proficiency_percentage": 95,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 59,
+  "fields": {
+    "category": 17,
+    "name": "التخطيط",
+    "icon": "mdi-view-dashboard",
+    "color": "#10B981",
+    "proficiency_percentage": 90,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 60,
+  "fields": {
+    "category": 17,
+    "name": "الرسم",
+    "icon": "mdi-draw",
+    "color": "#F59E0B",
+    "proficiency_percentage": 90,
+    "sort_order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 61,
+  "fields": {
+    "category": 18,
+    "name": "التصوير الفوتوغرافي",
+    "icon": "mdi-camera-iris",
+    "color": "#8B5CF6",
+    "proficiency_percentage": 85,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 62,
+  "fields": {
+    "category": 18,
+    "name": "الرسوم المتحركة",
+    "icon": "mdi-animation",
+    "color": "#EF4444",
+    "proficiency_percentage": 85,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 63,
+  "fields": {
+    "category": 18,
+    "name": "تصوير مقاطع الفيديو",
+    "icon": "mdi-video",
+    "color": "#6366F1",
+    "proficiency_percentage": 80,
+    "sort_order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 64,
+  "fields": {
+    "category": 19,
+    "name": "اللغة العربية",
+    "icon": "mdi-abjad-arabic",
+    "color": "#10B981",
+    "proficiency_percentage": 100,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 65,
+  "fields": {
+    "category": 19,
+    "name": "اللغة الانجليزية",
+    "icon": "mdi-alphabet-latin",
+    "color": "#3B82F6",
+    "proficiency_percentage": 85,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 66,
+  "fields": {
+    "category": 19,
+    "name": "اللغة الفرنسية",
+    "icon": "mdi-alphabet-latin",
+    "color": "#F59E0B",
+    "proficiency_percentage": 75,
+    "sort_order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.service",
+  "pk": 24,
+  "fields": {
+    "title": "تصميم الشعارات والمواد المطبوعة",
+    "description": "تحويل الأفكار والمفاهيم إلى شعارات وقطع فنية ومواد مطبوعة استثنائية.",
+    "icon": "mdi-printer",
+    "color": "#3B82F6",
+    "features": [],
+    "sort_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "api.service",
+  "pk": 25,
+  "fields": {
+    "title": "الرسوم المتحركة",
+    "description": "إنشاء رسوم متحركة إبداعية استثنائية.",
+    "icon": "mdi-animation",
+    "color": "#EF4444",
+    "features": [],
+    "sort_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "api.service",
+  "pk": 26,
+  "fields": {
+    "title": "التخطيط الإبداعي",
+    "description": "تجميع الصور والمواد المرئية لإنشاء تصاميم استثنائية وتعديل الصور الافتتاحية للعملاء والمجلات.",
+    "icon": "mdi-layers",
+    "color": "#10B981",
+    "features": [],
+    "sort_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "api.project",
+  "pk": 1,
+  "fields": {
+    "slug": "-salg",
+    "title": "نظام ادارة المستودعات",
+    "category": "هندسة البرمجية",
+    "role": "باكلوريوس",
+    "year": "2025-2026",
+    "short_description": "ثةبنينبثتب",
+    "full_description": "تجريبي تجريبي",
+    "problem": "مهم",
+    "architecture": "مهم جدا",
+    "features": [
+      "ثبثب",
+      "ثببقث",
+      "ثصثصق3\\"
+    ],
+    "objectives": [
+      "[39] المواد الإجتماعية ← المـجـمـوع",
+      "اتثابثص",
+      "ثبث"
+    ],
+    "metrics": [
+      {
+        "value": "+55%",
+        "label": "الكل",
+        "badge": "↑ أداء مضاعف",
+        "desc": "تقليل زمن التحميل بنسبة 55%",
+        "icon": "mdi-rocket-launch-outline"
+      }
+    ],
+    "tags": [],
+    "image": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9_51ebfw9.png",
+    "before_image": "http://localhost:8000/media/uploads/Gemini_Generated_Image_14qis114qis114qi.jpg",
+    "after_image": "http://localhost:8000/media/uploads/Gemini_Generated_Image_89heni89heni89he.jpg",
+    "client_name": "تم",
+    "testimonial_quote": "شمةء",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [
+      {
+        "title": "طبقة الواجهات وتجربة المستخدم",
+        "subtitle": "المرحلة 01: Client Layer",
+        "description": "واجهات تفاعلية متجاوبة بأحدث المعايير",
+        "icon": "mdi-laptop-account",
+        "color": "#38BDF8",
+        "tools": [
+          "Vue.js 3",
+          "Vite",
+          "Pinia"
+        ]
+      },
+      {
+        "title": "مرحلة عمل جديدة",
+        "subtitle": "المرحلة 2",
+        "description": "شرح تفاصيل هذه المرحلة والأدوات المعتمدة",
+        "icon": "mdi-layers-outline",
+        "color": "#38BDF8",
+        "tools": []
+      }
+    ],
+    "demo_url": "https://www.linkedin.com/",
+    "github_url": "https://www.linkedin.com/",
+    "accent_color": "#D946EF",
+    "sort_order": 1,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-09T04:05:49.433Z",
+    "updated_at": "2026-09-09T04:15:01.222Z"
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 21,
+  "fields": {
+    "year": "2016-2020",
+    "title": "مصمم جرافيك خبير",
+    "organization": "استوديو فنون الطباعة",
+    "description": "تلخصت مهامي في أعمال التصميم والتخطيط. تعديل الصور الافتتاحية للعملاء والمجلات، ومنشورات وسائل التواصل الاجتماعي تنظيم الملفات تعديل التصميم واستقبال طلبات العملاء.",
+    "icon": "mdi-briefcase",
+    "color": "#3B82F6",
+    "sort_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 22,
+  "fields": {
+    "year": "2019-2020",
+    "title": "مصمم جرافيك خبير",
+    "organization": "استوديو فنون الطباعة",
+    "description": "تلخصت مهامي في أعمال التصميم والتخطيط. تعديل الصور الافتتاحية للعملاء والمجلات، ومنشورات وسائل التواصل الاجتماعي تنظيم الملفات تعديل التصميم واستقبال طلبات العملاء.",
+    "icon": "mdi-briefcase",
+    "color": "#10B981",
+    "sort_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 23,
+  "fields": {
+    "year": "2017-2019",
+    "title": "مصمم جرافيك خبير",
+    "organization": "استوديو فنون الطباعة",
+    "description": "تلخصت مهامي في أعمال التصميم والتخطيط. تعديل الصور الافتتاحية للعملاء والمجلات، ومنشورات وسائل التواصل الاجتماعي تنظيم الملفات . تعديل التصميم واستقبال طلبات العملاء.",
+    "icon": "mdi-briefcase",
+    "color": "#F59E0B",
+    "sort_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "api.testimonial",
+  "pk": 15,
+  "fields": {
+    "client_name": "د. أحمد السيد",
+    "client_role": "شركة الوفاء للتصميم الداخلي",
+    "client_company": "",
+    "client_avatar": "",
+    "feedback_text": "مرجع مهني - للتواصل: 123-456-7890 | hello@reallygreatsite.com",
+    "rating": 3,
+    "color": "rgba(123,110,246,0.2)",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-08-26T03:42:58.009Z"
+  }
+},
+{
+  "model": "api.testimonial",
+  "pk": 16,
+  "fields": {
+    "client_name": "م. أميرة حديد",
+    "client_role": "شركة الوفاء للتصميم الداخلي",
+    "client_company": "",
+    "client_avatar": "",
+    "feedback_text": "مرجع مهني - للتواصل: 123-456-7890 | hello@reallygreatsite.com",
+    "rating": 5,
+    "color": "rgba(123,110,246,0.2)",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-08-26T03:42:58.009Z"
+  }
+},
+{
+  "model": "api.statistic",
+  "pk": 26,
+  "fields": {
+    "label": "سنوات خبرة في المجال",
+    "value": 5,
+    "suffix": "+",
+    "description": "",
+    "icon": "mdi-calendar-star-outline",
+    "color": "#7B6EF6",
+    "sort_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "api.statistic",
+  "pk": 27,
+  "fields": {
+    "label": "لغات",
+    "value": 3,
+    "suffix": "",
+    "description": "",
+    "icon": "mdi-translate",
+    "color": "#10B981",
+    "sort_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "api.statistic",
+  "pk": 28,
+  "fields": {
+    "label": "شهادات أكاديمية",
+    "value": 2,
+    "suffix": "",
+    "description": "",
+    "icon": "mdi-school",
+    "color": "#F59E0B",
+    "sort_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "architecture_note_desc",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.704Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "architecture_note_title",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.704Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "contact_enabled",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "تفعيل نموذج التواصل",
+    "updated_at": "2026-08-26T03:42:58.025Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "default_language",
+  "fields": {
+    "value": "ar",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "اللغة الافتراضية للموقع",
+    "updated_at": "2026-08-26T03:42:58.025Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "enable_contact_form",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.720Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "enable_particles_bg",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "enable_testimonials",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "maintenance_mode",
+  "fields": {
+    "value": "False",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "إيقاف الموقع مؤقتاً للصيانة",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "meta_description",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "meta_keywords",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "projects_per_page",
+  "fields": {
+    "value": "6",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "عدد المشاريع المعروضة في الصفحة",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "rtl",
+  "fields": {
+    "value": "True",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "تفعيل اتجاه الكتابة من اليمين إلى اليسار",
+    "updated_at": "2026-08-26T02:05:30.431Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "settings",
+  "fields": {
+    "value": "[{'key': 'site_title', 'value': 'سلمى صالح | مصممة جرافيك', 'group_name': 'seo'}, {'key': 'title_template', 'value': '%s | عبد الخالق الصايدي', 'group_name': 'seo'}, {'key': 'site_description', 'value': 'الموقع الشخصي لمصممة الجرافيك سلمى صالح.', 'group_name': 'seo'}, {'key': 'site_domain', 'value': 'https://example.com', 'group_name': 'seo'}, {'key': 'og_image', 'value': '/avatar.jpg', 'group_name': 'seo'}]",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-09-12T04:34:24.727Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "show_statistics",
+  "fields": {
+    "value": "True",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "إظهار قسم الإحصائيات",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "show_testimonials",
+  "fields": {
+    "value": "True",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "إظهار قسم تقييمات العملاء",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "site_description",
+  "fields": {
+    "value": "الموقع الشخصي لمصممة الجرافيك سلمى صالح.",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "الوصف التعريفي للموقع",
+    "updated_at": "2026-08-26T03:42:58.042Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "site_title",
+  "fields": {
+    "value": "سلمى صالح | مصممة جرافيك",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "العنوان الرئيسي للموقع",
+    "updated_at": "2026-08-26T03:42:58.042Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "theme",
+  "fields": {
+    "value": "system",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "المظهر الافتراضي للموقع",
+    "updated_at": "2026-08-26T02:05:30.431Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "typing_roles",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.739Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "whatsapp_number",
+  "fields": {
+    "value": "+123-456-7890",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-26T03:42:58.042Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T03:38:10.540Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (UPSERT)",
+    "entity_type": "DataTemplate",
+    "entity_id": "portfolio-demo-data-full.json",
+    "details": {
+      "filename": "portfolio-demo-data-full.json",
+      "mode": "UPSERT",
+      "created": 49,
+      "updated": 1,
+      "skipped": 0,
+      "duration_ms": 234
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T03:38:33.501Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "1",
+    "details": {
+      "title": "proj_ChatGPT Image 13 أغسطس 2026، 08_44_32 ص.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T03:40:09.333Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "3",
+    "details": {
+      "title": "منصة المرشد الجامعي"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T03:40:10.630Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "2",
+    "details": {
+      "title": "avatar_11.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T03:40:26.412Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "أحمد محمد العريقي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/11_Mk6sboH.png",
+      "resume": "http://localhost:8000/media/profile/ahmed-alariqi-resume.pdf",
+      "available_for_work": true,
+      "years_of_experience": 7,
+      "id": 1,
+      "updated_at": "2026-08-25T06:38:33.201488+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T03:40:27.170Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "3",
+    "details": {
+      "title": "proj_11.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:02:07.046Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "4",
+    "details": {
+      "title": "لوحة تحليلات الأعمال"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:02:08.098Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "4",
+    "details": {
+      "title": "resume_سيره ذاتيه باللون الأبيض و الأزرق بنمط نظيف.pdf"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:04:58.698Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "أحمد محمد العريقي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/11_Mk6sboH.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": true,
+      "years_of_experience": 7,
+      "id": 1,
+      "updated_at": "2026-08-25T06:40:26.928772+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:04:59.298Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 11,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "3",
+    "details": {
+      "title": "منصة المرشد الجامعي"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:06:21.000Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "5",
+    "details": {
+      "title": "avatar_ChatGPT Image 13 أغسطس 2026، 08_28_45 ص.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:13:06.288Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 13,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "أحمد محمد العريقي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": true,
+      "years_of_experience": 7,
+      "id": 1,
+      "updated_at": "2026-08-25T07:04:59.079949+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:13:06.655Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 14,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "site_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "typing_roles": "",
+      "maintenance_mode": true,
+      "enable_particles_bg": true,
+      "enable_contact_form": true,
+      "enable_testimonials": true,
+      "whatsapp_number": ""
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:54:33.731Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 15,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "site_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "typing_roles": "",
+      "maintenance_mode": true,
+      "enable_particles_bg": true,
+      "enable_contact_form": true,
+      "enable_testimonials": true,
+      "whatsapp_number": ""
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:54:44.345Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "site_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "typing_roles": "",
+      "maintenance_mode": true,
+      "enable_particles_bg": true,
+      "enable_contact_form": true,
+      "enable_testimonials": true,
+      "whatsapp_number": ""
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:55:08.806Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 17,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "site_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "typing_roles": "",
+      "maintenance_mode": false,
+      "enable_particles_bg": false,
+      "enable_contact_form": true,
+      "enable_testimonials": true,
+      "whatsapp_number": ""
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:55:40.568Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 18,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "أحمد محمد العريقي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": false,
+      "years_of_experience": 7,
+      "id": 1,
+      "updated_at": "2026-08-25T07:13:06.505697+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:56:39.074Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 19,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "أحمد محمد العريقي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": true,
+      "years_of_experience": 7,
+      "id": 1,
+      "updated_at": "2026-08-25T07:56:38.846175+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:56:47.871Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "3",
+    "details": {
+      "title": "منصة المرشد الجامعي"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T04:57:27.696Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "site_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "typing_roles": "",
+      "architecture_note_title": "",
+      "architecture_note_desc": "",
+      "maintenance_mode": true,
+      "enable_particles_bg": true,
+      "enable_contact_form": true,
+      "enable_testimonials": true,
+      "whatsapp_number": "",
+      "contact_enabled": true,
+      "default_language": "ar",
+      "projects_per_page": "6",
+      "rtl": true,
+      "show_statistics": true,
+      "show_testimonials": true,
+      "site_description": "الموقع الشخصي لأحمد العريقي، مطور Full-Stack متخصص في Vue.js وDjango.",
+      "theme": "system"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T05:00:56.154Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق الصايدي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": true,
+      "years_of_experience": 7,
+      "id": 1,
+      "updated_at": "2026-08-25T07:56:47.720782+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T05:25:39.508Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T06:12:17.831Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف مشروع",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام إدارة المدارس"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T06:13:15.752Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق الصايدي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": true,
+      "years_of_experience": 4,
+      "id": 1,
+      "updated_at": "2026-08-25T08:25:39.357995+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T21:50:10.986Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق الصايدي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": true,
+      "years_of_experience": 4,
+      "id": 1,
+      "updated_at": "2026-08-26T00:50:10.778339+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T21:52:57.468Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "3",
+    "details": {
+      "title": "منصة المرشد الجامعي"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T22:31:06.098Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق الصايدي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": false,
+      "years_of_experience": 4,
+      "id": 1,
+      "updated_at": "2026-08-26T00:52:57.367831+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T22:47:00.849Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق الصايدي",
+      "title": "Senior Full-Stack Developer",
+      "tagline": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع",
+      "bio": "مطور برمجيات بخبرة عملية في تطوير تطبيقات الويب والأنظمة الإدارية. أعمل على بناء واجهات حديثة باستخدام Vue.js وواجهات API قوية باستخدام Django وDjango REST Framework، مع اهتمام كبير بالأداء وتجربة المستخدم وجودة الكود.",
+      "email": "ahmed.alariqi@example.com",
+      "phone": "+967700123456",
+      "whatsapp": "+967700123456",
+      "github": "https://github.com/ahmed-alariqi",
+      "linkedin": "https://www.linkedin.com/in/ahmed-alariqi",
+      "behance": "https://www.behance.net/ahmed-alariqi",
+      "dribbble": "https://dribbble.com/ahmed-alariqi",
+      "instagram": "https://instagram.com/ahmed.alariqi",
+      "youtube": "https://youtube.com/@ahmed-alariqi",
+      "website": "https://ahmed-alariqi.example.com",
+      "twitter": "https://twitter.com/ahmed_alariqi",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_28_45_%D8%B5.png",
+      "resume": "http://localhost:8000/media/uploads/%D8%B3%D9%8A%D8%B1%D9%87_%D8%B0%D8%A7%D8%AA%D9%8A%D9%87_%D8%A8%D8%A7%D9%84%D9%84%D9%88%D9%86_%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6_%D9%88_%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82_%D8%A8%D9%86%D9%85%D8%B7_%D9%86%D8%B8%D9%8A%D9%81.pdf",
+      "available_for_work": true,
+      "years_of_experience": 4,
+      "id": 1,
+      "updated_at": "2026-08-26T01:47:00.631945+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T22:47:09.108Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 30,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تصدير قالب بيانات الموقع (بيانات حية)",
+    "entity_type": "DataTemplate",
+    "entity_id": "",
+    "details": {
+      "entities": "all",
+      "with_examples": false
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T22:48:16.775Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 31,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (UPSERT)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "UPSERT",
+      "created": 0,
+      "updated": 58,
+      "skipped": 0,
+      "duration_ms": 318
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T23:01:37.921Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 32,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (UPSERT)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "UPSERT",
+      "created": 17,
+      "updated": 7,
+      "skipped": 0,
+      "duration_ms": 299
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T23:04:04.825Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 33,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (REPLACE)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "REPLACE",
+      "created": 17,
+      "updated": 7,
+      "skipped": 0,
+      "duration_ms": 332
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T23:06:15.416Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 34,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "4",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-25T23:11:20.315Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 35,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "إضافة مشروع جديد",
+    "entity_type": "Project",
+    "entity_id": "6",
+    "details": {
+      "title": "76766"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T01:32:57.241Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 36,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (REPLACE)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "REPLACE",
+      "created": 39,
+      "updated": 11,
+      "skipped": 0,
+      "duration_ms": 466
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T01:43:57.515Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 37,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "10",
+    "details": {
+      "title": "لوحة تحليلات الأعمال"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T01:47:14.770Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 38,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "10",
+    "details": {
+      "title": "لوحة تحليلات الأعمال"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T01:47:35.143Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 39,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "6",
+    "details": {
+      "title": "proj_image_11.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T02:00:23.542Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 40,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "7",
+    "details": {
+      "title": "proj_before_image_ChatGPT Image 13 أغسطس 2026، 08_44_32 ص.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T02:00:50.110Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 41,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "10",
+    "details": {
+      "title": "لوحة تحليلات الأعمال"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T02:01:48.642Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 42,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (REPLACE)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "REPLACE",
+      "created": 29,
+      "updated": 7,
+      "skipped": 0,
+      "duration_ms": 407
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T02:05:30.674Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 43,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (REPLACE)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "REPLACE",
+      "created": 23,
+      "updated": 6,
+      "skipped": 0,
+      "duration_ms": 332
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:33:48.598Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 44,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "سلمى صالح",
+      "title": "مصممة جرافيك",
+      "tagline": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك[cite: 1]",
+      "bio": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك[cite: 1]. بفضل مهاراتي الفنية والإبداعية، أقوم بتحويل الأفكار والمفاهيم إلى قطع فنية رائعة[cite: 1]. يشمل عملي تصميم الشعارات والمواد المطبوعة[cite: 1]. والرسوم المتحركة، وكذلك تجميع الصور والمواد المرئية لإنشاء تصاميم استثنائية[cite: 1].",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City[cite: 1]",
+      "avatar": "",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-08-26T06:33:48.087827+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:35:28.297Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 45,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (UPSERT)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "UPSERT",
+      "created": 0,
+      "updated": 29,
+      "skipped": 0,
+      "duration_ms": 189
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:40:29.274Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 46,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "استيراد قالب بيانات (REPLACE)",
+    "entity_type": "DataTemplate",
+    "entity_id": "template.json",
+    "details": {
+      "filename": "template.json",
+      "mode": "REPLACE",
+      "created": 23,
+      "updated": 6,
+      "skipped": 0,
+      "duration_ms": 299
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:42:58.309Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 47,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "11",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:45:52.366Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 48,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "10",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:45:55.480Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 49,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "9",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:45:57.462Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 50,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "8",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:45:59.351Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 51,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "7",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:46:03.282Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 52,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "6",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:46:08.153Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 53,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "5",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:46:10.159Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 54,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "3",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:46:14.125Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 55,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "2",
+    "details": {
+      "filename": "template.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:46:15.848Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 56,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف سجل استيراد",
+    "entity_type": "DataImportHistory",
+    "entity_id": "1",
+    "details": {
+      "filename": "portfolio-demo-data-full.json"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:46:17.811Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 57,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "سلمى صالح",
+      "title": "مصممة جرافيك",
+      "tagline": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك",
+      "bio": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك. بفضل مهاراتي الفنية والإبداعية، أقوم بتحويل الأفكار والمفاهيم إلى قطع فنية رائعة. يشمل عملي تصميم الشعارات والمواد المطبوعة. والرسوم المتحركة، وكذلك تجميع الصور والمواد المرئية لإنشاء تصاميم استثنائية.",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-08-26T06:42:57.938813+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T03:47:11.699Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 58,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف ملف وسائط",
+    "entity_type": "MediaFile",
+    "entity_id": "6",
+    "details": {},
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:24:13.816Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 59,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف ملف وسائط",
+    "entity_type": "MediaFile",
+    "entity_id": "5",
+    "details": {},
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:24:17.398Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 60,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف ملف وسائط",
+    "entity_type": "MediaFile",
+    "entity_id": "3",
+    "details": {},
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:24:20.485Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 61,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف ملف وسائط",
+    "entity_type": "MediaFile",
+    "entity_id": "2",
+    "details": {},
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:24:23.547Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 62,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف ملف وسائط",
+    "entity_type": "MediaFile",
+    "entity_id": "7",
+    "details": {},
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:24:38.412Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 63,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تعديل مقال",
+    "entity_type": "BlogPost",
+    "entity_id": "2",
+    "details": {
+      "title": "منهجية التفكير التصميمي وبناء أنظمة الواجهات (Design Systems) القابلة للتوسع"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:24:57.825Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 64,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "8",
+    "details": {
+      "title": "صورة داخل المقال"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:26:46.533Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 65,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "9",
+    "details": {
+      "title": "صورة داخل المقال"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:27:08.429Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 66,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف ملف وسائط",
+    "entity_type": "MediaFile",
+    "entity_id": "9",
+    "details": {},
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:28:28.449Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 67,
+  "fields": {
+    "user": [
+      "ali"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "2",
+    "details": {
+      "username": "ali"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:30:00.331Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 68,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-08-26T04:30:38.196Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 69,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-08T03:05:28.645Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 70,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تعديل مقال",
+    "entity_type": "BlogPost",
+    "entity_id": "1",
+    "details": {
+      "title": "دليل بناء المعماريات السحابية عالية التوفر والأداء في الأنظمة الحديثة"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-08T04:01:53.045Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 71,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "10",
+    "details": {
+      "title": "avatar_Gemini_Generated_Image_2fb9v02fb9v02fb9.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-08T04:05:04.791Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 72,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "سلمى صالح",
+      "title": "مصممة جرافيك",
+      "tagline": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك",
+      "bio": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك. بفضل مهاراتي الفنية والإبداعية، أقوم بتحويل الأفكار والمفاهيم إلى قطع فنية رائعة. يشمل عملي تصميم الشعارات والمواد المطبوعة. والرسوم المتحركة، وكذلك تجميع الصور والمواد المرئية لإنشاء تصاميم استثنائية.",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-08-26T06:47:11.527371+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-08T04:05:05.183Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 73,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-08T04:05:59.017Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 74,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تصدير قالب بيانات الموقع (بيانات حية)",
+    "entity_type": "DataTemplate",
+    "entity_id": "",
+    "details": {
+      "entities": "all",
+      "with_examples": false
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-08T04:12:19.164Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 75,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مصممة جرافيك",
+      "tagline": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك",
+      "bio": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك. بفضل مهاراتي الفنية والإبداعية، أقوم بتحويل الأفكار والمفاهيم إلى قطع فنية رائعة. يشمل عملي تصميم الشعارات والمواد المطبوعة. والرسوم المتحركة، وكذلك تجميع الصور والمواد المرئية لإنشاء تصاميم استثنائية.",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-08T07:05:05.043655+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:26:50.370Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 76,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك",
+      "bio": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك. بفضل مهاراتي الفنية والإبداعية، أقوم بتحويل الأفكار والمفاهيم إلى قطع فنية رائعة. يشمل عملي تصميم الشعارات والمواد المطبوعة. والرسوم المتحركة، وكذلك تجميع الصور والمواد المرئية لإنشاء تصاميم استثنائية.",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-09T06:26:50.153504+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:33:08.302Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 77,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "اقوم بتصميم جميع الشاشات",
+      "bio": "مصممة جرافيك محترفة ومتخصصة في فنون التخطيط الإبداعي وتصميم الجرافيك. بفضل مهاراتي الفنية والإبداعية، أقوم بتحويل الأفكار والمفاهيم إلى قطع فنية رائعة. يشمل عملي تصميم الشعارات والمواد المطبوعة. والرسوم المتحركة، وكذلك تجميع الصور والمواد المرئية لإنشاء تصاميم استثنائية.",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-09T06:33:08.167537+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:33:32.494Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 78,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "اقوم بتصميم جميع الشاشات",
+      "bio": "",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-09T06:33:32.313310+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:34:18.836Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 79,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "اقوم بتصميم جميع الشاشات",
+      "bio": "مبرمج جديد",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-09T06:34:18.722381+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:34:40.414Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 80,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "اقوم بتصميم جميع الشاشات",
+      "bio": "مبرمج جديد",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": false,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-09T06:34:40.298274+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:34:54.240Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 81,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "اقوم بتصميم جميع الشاشات",
+      "bio": "مبرمج جديد",
+      "email": "hello@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "whatsapp": "+123-456-7890",
+      "github": "",
+      "linkedin": "",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-09T06:34:54.145939+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:35:05.127Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 82,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "اقوم بتصميم جميع الشاشات",
+      "bio": "مبرمج جديد",
+      "email": "helloali@reallygreatsite.com",
+      "phone": "770990078",
+      "whatsapp": "770990078",
+      "github": "https://www.linkedin.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "https://www.linkedin.com/",
+      "dribbble": "https://www.linkedin.com/",
+      "instagram": "https://www.linkedin.com/",
+      "youtube": "https://www.linkedin.com/",
+      "website": "https://www.linkedin.com/",
+      "twitter": "https://www.linkedin.com/",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {},
+      "id": 1,
+      "updated_at": "2026-09-09T06:35:04.961502+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:39:30.115Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 83,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مبرمج FRONT END",
+      "tagline": "اقوم بتصميم جميع الشاشات",
+      "bio": "مبرمج جديد",
+      "email": "helloali@reallygreatsite.com",
+      "phone": "770990078",
+      "whatsapp": "770990078",
+      "github": "https://www.linkedin.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "https://www.linkedin.com/",
+      "dribbble": "https://www.linkedin.com/",
+      "instagram": "https://www.linkedin.com/",
+      "youtube": "https://www.linkedin.com/",
+      "website": "https://www.linkedin.com/",
+      "twitter": "https://www.linkedin.com/",
+      "location": "123 Anywhere St., Any City",
+      "avatar": "http://localhost:8000/media/uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+      "resume": "سيرة ذاتية أزرق احترافية بتصميم حديث و بسيط.pdf",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "extra_data": {
+        "mm": [
+          "m",
+          "y"
+        ]
+      },
+      "id": 1,
+      "updated_at": "2026-09-09T06:39:29.914855+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T03:42:07.347Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 84,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "11",
+    "details": {
+      "title": "proj_image_Gemini_Generated_Image_2fb9v02fb9v02fb9.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:03:25.849Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 85,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "12",
+    "details": {
+      "title": "proj_before_image_Gemini_Generated_Image_14qis114qis114qi.jpg"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:05:15.414Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 86,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "13",
+    "details": {
+      "title": "proj_after_image_Gemini_Generated_Image_89heni89heni89he.jpg"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:05:20.885Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 87,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "إضافة مشروع جديد",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام ادارة المستودعات"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:05:49.539Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 88,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام ادارة المستودعات"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:06:57.187Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 89,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام ادارة المستودعات"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:07:16.767Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 90,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام ادارة المستودعات"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:12:40.660Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 91,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام ادارة المستودعات"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:12:58.158Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 92,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام ادارة المستودعات"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:14:51.584Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 93,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث بيانات مشروع",
+    "entity_type": "Project",
+    "entity_id": "1",
+    "details": {
+      "title": "نظام ادارة المستودعات"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-09T04:15:01.347Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 94,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-12T04:33:19.454Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 95,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "settings": [
+        {
+          "key": "site_title",
+          "value": "سلمى صالح | مصممة جرافيك",
+          "group_name": "seo"
+        },
+        {
+          "key": "title_template",
+          "value": "%s | عبد الخالق الصايدي",
+          "group_name": "seo"
+        },
+        {
+          "key": "site_description",
+          "value": "الموقع الشخصي لمصممة الجرافيك سلمى صالح.",
+          "group_name": "seo"
+        },
+        {
+          "key": "site_domain",
+          "value": "https://example.com",
+          "group_name": "seo"
+        },
+        {
+          "key": "og_image",
+          "value": "/avatar.jpg",
+          "group_name": "seo"
+        }
+      ]
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-12T04:34:24.838Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 1,
+  "fields": {
+    "title": "proj_ChatGPT Image 13 أغسطس 2026، 08_44_32 ص.png",
+    "file": "uploads/ChatGPT_Image_13_أغسطس_2026_08_44_32_ص_GoSxwaJ.png",
+    "file_type": "image",
+    "file_size": 1248784,
+    "uploaded_at": "2026-08-25T03:40:09.118Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 4,
+  "fields": {
+    "title": "resume_سيره ذاتيه باللون الأبيض و الأزرق بنمط نظيف.pdf",
+    "file": "uploads/سيره_ذاتيه_باللون_الأبيض_و_الأزرق_بنمط_نظيف.pdf",
+    "file_type": "document",
+    "file_size": 74498,
+    "uploaded_at": "2026-08-25T04:04:58.451Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 8,
+  "fields": {
+    "title": "صورة داخل المقال",
+    "file": "uploads/11_Ub4sU8S.png",
+    "file_type": "image",
+    "file_size": 1984932,
+    "uploaded_at": "2026-08-26T04:26:46.417Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 10,
+  "fields": {
+    "title": "avatar_Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+    "file": "uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+    "file_type": "image",
+    "file_size": 2425434,
+    "uploaded_at": "2026-09-08T04:05:04.668Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 11,
+  "fields": {
+    "title": "proj_image_Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
+    "file": "uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9_51ebfw9.png",
+    "file_type": "image",
+    "file_size": 2425434,
+    "uploaded_at": "2026-09-09T04:03:25.664Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 12,
+  "fields": {
+    "title": "proj_before_image_Gemini_Generated_Image_14qis114qis114qi.jpg",
+    "file": "uploads/Gemini_Generated_Image_14qis114qis114qi.jpg",
+    "file_type": "image",
+    "file_size": 723834,
+    "uploaded_at": "2026-09-09T04:05:15.281Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 13,
+  "fields": {
+    "title": "proj_after_image_Gemini_Generated_Image_89heni89heni89he.jpg",
+    "file": "uploads/Gemini_Generated_Image_89heni89heni89he.jpg",
+    "file_type": "image",
+    "file_size": 699367,
+    "uploaded_at": "2026-09-09T04:05:20.750Z"
+  }
+},
+{
+  "model": "api.blogpost",
+  "pk": 1,
+  "fields": {
+    "title": "دليل بناء المعماريات السحابية عالية التوفر والأداء في الأنظمة الحديثة",
+    "slug": "high-availability-cloud-architecture-guide",
+    "category": "هندسة البرمجيات والتطوير",
+    "excerpt": "استعراض شامل لأفضل ممارسات تصميم بنية الأنظمة السحابية الموزعة، إدارة قواعد البيانات المتزامنة، وتطبيق استراتيجيات التخزين المؤقت لضمان أداء فائق.",
+    "content": "<h2>مقدمة حول المعماريات السحابية الحديثة</h2>\n<p>في عصر الأنظمة الرقمية المتسارعة، لم يعد بناء التطبيقات يقتصر على كتابة كود وظيفي فقط، بل يتطلب هندسة معمارية تضمن <strong>التوسع الأفقي (Horizontal Scalability)</strong>، استمرارية العمل دون انقطاع (Zero Downtime)، وسرعة معالجة متناهية.</p>\n<blockquote>\n<p>\"المعمارية الجيدة ليست التي تجعل النظام يعمل اليوم فقط، بل التي تجعل التعديل عليه وتوسيعه غداً أمراً سلساً وآمناً.\"</p>\n</blockquote>\n<hr>\n<h2>1. نموذج البناء الطبقي (Layered System Design)</h2>\n<p>تعتمد المعمارية النظيفة على فصل الاهتمامات بين طبقات النظام:</p>\n<ul>\n<li><strong>طبقة العرض والواجهات (Frontend Layer):</strong> واجهات تفاعلية سريعة تعتمد على تقنيات الـ SPA/SSR.</li>\n<li><strong>طبقة الخوادم والـ API Gateway:</strong> معالجة الطلبات، التحقق من الصلاحيات (Authentication &amp; RBAC)، وإدارة معدل الطلبات (Rate Limiting).</li>\n<li><strong>طبقة منطق الأعمال والخدمات المصغرة (Domain &amp; Business Logic):</strong> خدمات مستقلة تؤدي وظائف محددة ومترابطة.</li>\n<li><strong>طبقة قواعد البيانات والتخزين المؤقت (Data &amp; Cache Layer):</strong> عزل عمليات القراءة عن الكتابة واستخدام محركات الكاش السريعة.</li>\n</ul>\n<hr>\n<h2>2. كود تطبيقي: إدارة الكاش الذكي باستخدام Redis</h2>\n<p>في المثال البرمجي التالي، نستعرض دالة مخصصة في Python لتطبيق نمط <strong>Cache-Aside Pattern</strong> مع معالجة الاستعلامات بكفاءة:</p>\n<pre><code class=\"language-python\">import json\nimport redis\nfrom typing import Optional, Any\n\n# تهيئة اتصال الـ Cache مع معالجة مهلة الاتصال\ncache_client = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)\n\ndef get_or_set_cache(key: str, fetch_callback, ttl_seconds: int = 3600) -&gt; Any:\n    \"\"\"\n    استرجاع البيانات من الكاش إن وجدت، أو جلبها وتخزينها تلقائياً\n    \"\"\"\n    cached_data = cache_client.get(key)\n    if cached_data:\n        # استرجاع فوري من الذاكرة العشوائية\n        return json.loads(cached_data)\n    \n    # جلب البيانات من قاعدة البيانات الأساسية\n    fresh_data = fetch_callback()\n    if fresh_data is not None:\n        cache_client.setex(key, ttl_seconds, json.dumps(fresh_data))\n        \n    return fresh_data\n</code></pre>\n<hr>\n<h2>3. مقارنة الأداء قبل وبعد تطبيق استراتيجيات التخزين المؤقت</h2>\n<table>\n<thead>\n<tr>\n<th>معيار القياس</th>\n<th>قبل التحسين (Direct DB Queries)</th>\n<th>بعد تطبيق التخزين المؤقت (Redis Cache)</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>متوسط زمن الاستجابة</td>\n<td>420ms</td>\n<td><strong>18ms (تحسن بنسبة 95%)</strong></td>\n</tr>\n<tr>\n<td>استهلاك موارد المعالج</td>\n<td>78% في أوقات الذروة</td>\n<td><strong>15% كحد أقصى</strong></td>\n</tr>\n<tr>\n<td>معدل تحمل الطلبات المتزامنة</td>\n<td>1,200 طلب / ثانية</td>\n<td><strong>18,000+ طلب / ثانية</strong></td>\n</tr>\n</tbody></table>\n<hr>\n<h2>4. الخلاصة والتوصيات العملية</h2>\n<ol>\n<li><strong>ابدأ بالبساطة:</strong> لا تلجأ للخدمات المصغرة (Microservices) المعقدة ما لم تكن هناك حاجة فعلية لحجم النظام وفريق العمل.</li>\n<li><strong>عزل المهام الثقيلة:</strong> استخدم طوابير المهام الخلفية (Background Workers مثل Celery أو RabbitMQ) للعمليات الطويلة.</li>\n<li><strong>المراقبة الاستباقية:</strong> اعتمد على أدوات مراقبة الأداء (APM) وسجلات التدقيق لتحديد نقاط الاختناق قبل أن يشعر بها المستخدم.</li>\n</ol>",
+    "cover_image": "",
+    "tags": [
+      "Cloud",
+      "Microservices",
+      "Python",
+      "Architecture",
+      "Redis"
+    ],
+    "reading_time_minutes": 6,
+    "views_count": 9,
+    "likes_count": 0,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 1,
+    "meta_title": "دليل بناء المعماريات السحابية عالية التوفر",
+    "meta_description": "تعلم كيفية تصميم وبناء المعماريات السحابية الموزعة لضمان أداء مستقر ومعالجة آلاف الطلبات المتزامنة.",
+    "meta_keywords": "معمارية برمجية, حوسبة سحابية, قواعد بيانات, Redis",
+    "published_at": "2026-08-26T02:28:01.766Z",
+    "updated_at": "2026-09-08T04:01:52.836Z"
+  }
+},
+{
+  "model": "api.blogpost",
+  "pk": 2,
+  "fields": {
+    "title": "منهجية التفكير التصميمي وبناء أنظمة الواجهات (Design Systems) القابلة للتوسع",
+    "slug": "design-thinking-and-scalable-design-systems",
+    "category": "تصميم واجهات وتجربة مستخدم UI/UX",
+    "excerpt": "كيف تبني نظام تصميم موحد يربط بين المصممين والمطورين، يقلل من هدر الوقت، ويخلق تجربة بصرية متسقة وهوية رقمية استثنائية لمنتجك.",
+    "content": "<h2>أهمية نظام التصميم (Design System)</h2>\n<p>أنظمة التصميم ليست مجرد مكتبة لملفات Figma أو لوحة ألوان عشوائية، بل هي <strong>لغة تواصل مشتركة</strong> وعقد عمل بين المصمم والمطور وفريق المنتج لضمان اتساق كافة التجارب الرقمية.</p>\n<hr>\n<h2>1. ركائز نظام التصميم المتكامل</h2>\n<ol>\n<li><strong>رموز التصميم (Design Tokens):</strong> الوحدات الذرية الأساسية للقيم (الألوان، الخطوط، المسافات، وظلال الـ Elevation).</li>\n<li><strong>المكونات التفاعلية (Interactive UI Components):</strong> أزرار، حقول إدخال، نوافذ منبثقة، وبطاقات ذات حالات محددة (Default, Hover, Active, Disabled).</li>\n<li><strong>إمكانية الوصول والشمولية (Accessibility - WCAG 2.1):</strong> تباين ألوان مريح، دعم قارئات الشاشة، ومراعاة مختلف المستخدمين.</li>\n</ol>\n<blockquote>\n<p>\"التصميم العظيم ليس ما يُرى بالعين فقط، بل ما يُشعر به من سلاسة وبساطة أثناء الاستخدام اليومي.\"</p>\n</blockquote>\n<hr>\n<h2>2. خطوات مسار التفكير التصميمي (Design Thinking Workflow)</h2>\n<ul>\n<li><strong>الفهم والتعاطف (Empathize):</strong> إجراء المقابلات وبناء شخصيات المستخدمين.</li>\n<li><strong>التحديد (Define):</strong> صياغة المشكلة والتحدي بدقة.</li>\n<li><strong>التوليد والتخطيط (Ideate &amp; Wireframe):</strong> رسم المخططات الهيكلية منخفضة الدقة.</li>\n<li><strong>النمذجة (Prototype):</strong> بناء واجهات تفاعلية عالية الدقة.</li>\n<li><strong>الاختبار والتحقق (Test):</strong> قياس سهولة الاستخدام وإجراء التحسينات المستمرة.</li>\n</ul>",
+    "cover_image": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_44_32_%D8%B5_GoSxwaJ.png",
+    "tags": [
+      "UI/UX",
+      "Design System",
+      "Figma",
+      "Design Thinking"
+    ],
+    "reading_time_minutes": 5,
+    "views_count": 5,
+    "likes_count": 0,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 2,
+    "meta_title": "بناء أنظمة الواجهات وتجربة المستخدم القابلة للتوسع",
+    "meta_description": "دليل بناء Design System متكامل من التفكير الأولي وحتى التسليم النهائي للواجهات.",
+    "meta_keywords": "تصميم واجهات, تجربة مستخدم, Design System, Figma",
+    "published_at": "2026-08-26T02:28:50.645Z",
+    "updated_at": "2026-08-26T04:24:57.675Z"
+  }
+},
+{
+  "model": "api.blogpost",
+  "pk": 3,
+  "fields": {
+    "title": "استراتيجيات تحويل الأفكار إلى منتجات رقمية ناجحة ومربحة",
+    "slug": "digital-product-strategy-and-growth",
+    "category": "إدارة واستراتيجيات الأعمال",
+    "excerpt": "خارطة طريق واضحة لرواد الأعمال وأصحاب المشاريع للتحقق من جدوى الفكرة وبناء نموذج العمل (Business Model) وتحقيق أعلى عائد استثمار.",
+    "content": "## من الفكرة إلى الإطلاق الناجح\n\nالكثير من المشاريع الرقمية تفشل ليس بسبب سوء البرمجة أو ضعف التصميم، بل بسبب بناء منتج لا يحل مشكلة حقيقية في السوق.\n\n---\n\n## 1. نموذج إطلاق الـ MVP (المنتج الأولي القابل للتطبيق)\n\n- تحديد الميزة الجوهرية (Core Value Proposition) والتركيز عليها فقط.\n- إطلاق سريع للتحقق من تفاعل الجمهور المستهدف (Validate Assumptions).\n- جمع التغذية الراجعة (Feedback Loops) والتطوير بناءً على أرقام وسلوك المستخدمين الفعلي.\n\n---\n\n## 2. مؤشرات الأداء الرئيسية (KPIs) لنجاح المشاريع\n\n- **تكلفة الاستحواذ على العميل (CAC):** كم تنفق لجلب عميل جديد؟\n- **القيمة الدائمة للعميل (LTV):** كم ينفق العميل خلال فترة استخدامه للمنتج؟\n- **معدل الاحتفاظ (Retention Rate):** هل يعود المستخدمون لاستخدام النظام بانتظام؟\n",
+    "cover_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Business",
+      "Startup",
+      "Growth",
+      "Product Management"
+    ],
+    "reading_time_minutes": 4,
+    "views_count": 2,
+    "likes_count": 0,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 3,
+    "meta_title": "استراتيجيات بناء المنتجات الرقمية ونمو الأعمال",
+    "meta_description": "دليل استراتيجي لتحويل الأفكار إلى منتجات ذات عائد استثماري ونمو مستمر.",
+    "meta_keywords": "ريادة أعمال, استراتيجيات الأعمال, نمو المشاريع, إدارة المنتجات",
+    "published_at": "2026-08-26T02:28:50.799Z",
+    "updated_at": "2026-08-26T02:28:50.799Z"
+  }
+}
+]

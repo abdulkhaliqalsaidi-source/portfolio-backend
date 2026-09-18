@@ -77,12 +77,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
-DB_NAME = os.environ.get('DB_NAME') or os.environ.get('POSTGRES_DB')
-if DB_NAME:
+# Database Configuration
+# SQLite is configured as the primary database
+USE_POSTGRES = os.environ.get('USE_POSTGRES', 'False').lower() in ('true', '1')
+if USE_POSTGRES and (os.environ.get('DB_NAME') or os.environ.get('POSTGRES_DB')):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': DB_NAME,
+            'NAME': os.environ.get('DB_NAME') or os.environ.get('POSTGRES_DB'),
             'USER': os.environ.get('DB_USER', os.environ.get('POSTGRES_USER', 'postgres')),
             'PASSWORD': os.environ.get('DB_PASSWORD', os.environ.get('POSTGRES_PASSWORD', '')),
             'HOST': os.environ.get('DB_HOST', 'localhost'),
