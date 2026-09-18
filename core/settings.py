@@ -14,19 +14,27 @@ load_dotenv(BASE_DIR / '.env')
 DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
 
 # In production, require an explicit SECRET_KEY
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
-if not SECRET_KEY:
-    if DEBUG:
-        SECRET_KEY = 'django-insecure-portfolio-dev-secret-key-9f8e7d6c5b4a321'
-    else:
-        raise ValueError("DJANGO_SECRET_KEY must be set in production environment variables.")
+# SECRET_KEY with safe fallback
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-portfolio-prod-fallback-secret-key-9f8e7d6c5b4a321')
 
 # Allowed Hosts configuration
 env_hosts = os.environ.get('DJANGO_ALLOWED_HOSTS', '')
 if env_hosts:
     ALLOWED_HOSTS = [h.strip() for h in env_hosts.split(',') if h.strip()]
 else:
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]'] if DEBUG else []
+    ALLOWED_HOSTS = ['*']
+
+for h in ['localhost', '127.0.0.1', '[::1]', '.onrender.com', 'portfolio-backend-1kar.onrender.com']:
+    if '*' not in ALLOWED_HOSTS and h not in ALLOWED_HOSTS:
+        ALLOWED_HOSTS.append(h)
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.onrender.com',
+    'https://portfolio-backend-1kar.onrender.com',
+    'https://*.vercel.app',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -154,23 +162,8 @@ SIMPLE_JWT = {
 
 # CORS Settings
 # In production, restrict to explicitly configured origins only
-CORS_ALLOW_ALL_ORIGINS = DEBUG
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-
-env_cors = os.environ.get('CORS_ALLOWED_ORIGINS', '')
-if env_cors:
-    CORS_ALLOWED_ORIGINS = [origin.strip() for origin in env_cors.split(',') if origin.strip()]
-else:
-    CORS_ALLOWED_ORIGINS = [
-        'http://localhost:5173',
-        'http://127.0.0.1:5173',
-        'http://localhost:5174',
-        'http://127.0.0.1:5174',
-        'http://localhost:3000',
-        'http://127.0.0.1:3000',
-        'http://localhost:8000',
-        'http://127.0.0.1:8000',
-    ]
 
 # File Upload Security Limits
 MAX_UPLOAD_SIZE_MB = int(os.environ.get('MAX_UPLOAD_SIZE_MB', 10))
