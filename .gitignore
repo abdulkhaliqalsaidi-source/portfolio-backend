@@ -14,8 +14,9 @@ ENV/
 staticfiles/
 local_settings.py
 
-# Exclude large unused files from media
-media/uploads/linkedin_portrait_enhanced.png
+# Media files (Do not track or upload any media library files to Git)
+media/
+media/*
 
 # Environment variables & secrets
 .env
