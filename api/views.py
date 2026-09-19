@@ -329,21 +329,39 @@ class SiteSettingViewSet(viewsets.ModelViewSet):
 
     @action(detail=False, methods=['post'], url_path='bulk-update')
     def bulk_update(self, request):
-        settings_data = request.data
-        if not isinstance(settings_data, dict):
-            return Response({"error": "البيانات المرسلة غير صحيحة، يجب إرسال كائن مفتاح-قيمة."}, status=status.HTTP_400_BAD_REQUEST)
-        for key, value in settings_data.items():
-            if isinstance(value, bool):
-                val_str = 'true' if value else 'false'
+        data = request.data
+        items_to_save = []
+        if isinstance(data, dict):
+            if 'settings' in data and isinstance(data['settings'], list):
+                items_to_save = data['settings']
+            else:
+                for k, v in data.items():
+                    items_to_save.append({'key': k, 'value': v})
+        elif isinstance(data, list):
+            items_to_save = data
+        else:
+            return Response({"error": "البيانات المرسلة غير صحيحة."}, status=status.HTTP_400_BAD_REQUEST)
+
+        for item in items_to_save:
+            if not isinstance(item, dict) or 'key' not in item:
+                continue
+            k = str(item['key'])
+            val = item.get('value', '')
+            grp = item.get('group_name', 'general')
+            if isinstance(val, bool):
+                val_str = 'true' if val else 'false'
                 v_type = 'boolean'
-            elif isinstance(value, int):
-                val_str = str(value)
+            elif isinstance(val, int):
+                val_str = str(val)
                 v_type = 'integer'
             else:
-                val_str = str(value) if value is not None else ''
+                val_str = str(val) if val is not None else ''
                 v_type = 'string'
-            SiteSetting.objects.update_or_create(key=str(key), defaults={'value': val_str, 'setting_type': v_type})
-        log_action(request.user, "تحديث إعدادات الموقع العامة", "SiteSetting", "", settings_data, request)
+            SiteSetting.objects.update_or_create(
+                key=k,
+                defaults={'value': val_str, 'setting_type': v_type, 'group_name': grp}
+            )
+        log_action(request.user, "تحديث إعدادات الموقع العامة", "SiteSetting", "", data, request)
         return Response({"message": "تم حفظ الإعدادات بنجاح."})
 
 
