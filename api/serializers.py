@@ -62,6 +62,21 @@ class ProfileSerializer(serializers.ModelSerializer):
         model = Profile
         fields = '__all__'
 
+    def to_internal_value(self, data):
+        if isinstance(data, dict):
+            mutable_data = data.copy()
+            # Convert None/null string and URL fields into empty string so DB CharFields never fail validation
+            string_fields = [
+                'full_name', 'title', 'tagline', 'bio', 'email', 'phone', 'whatsapp',
+                'github', 'linkedin', 'twitter', 'instagram', 'behance', 'dribbble',
+                'youtube', 'website', 'location', 'avatar', 'resume'
+            ]
+            for field in string_fields:
+                if field in mutable_data and mutable_data[field] is None:
+                    mutable_data[field] = ''
+            return super().to_internal_value(mutable_data)
+        return super().to_internal_value(data)
+
     def to_representation(self, instance):
         data = super().to_representation(instance)
         request = self.context.get('request')
