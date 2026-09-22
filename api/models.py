@@ -20,6 +20,7 @@ class Profile(models.Model):
     location = models.CharField(max_length=100, verbose_name="الموقع الجغرافي", blank=True, default="")
     avatar = models.CharField(max_length=500, verbose_name="رابط صورة الملف الشخصي", blank=True, default="")
     resume = models.CharField(max_length=500, verbose_name="رابط ملف السيرة الذاتية (PDF)", blank=True, default="")
+    logo = models.CharField(max_length=500, verbose_name="شعار أو أيقونة الموقع (Logo)", blank=True, default="mdi-star-four-points")
     available_for_work = models.BooleanField(verbose_name="متاح للعمل الحر والمشاريع", default=True)
     years_of_experience = models.PositiveIntegerField(verbose_name="سنوات الخبرة", default=0)
     updated_at = models.DateTimeField(auto_now=True, verbose_name="آخر تحديث")

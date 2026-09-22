@@ -69,7 +69,7 @@ class ProfileSerializer(serializers.ModelSerializer):
             string_fields = [
                 'full_name', 'title', 'tagline', 'bio', 'email', 'phone', 'whatsapp',
                 'github', 'linkedin', 'twitter', 'instagram', 'behance', 'dribbble',
-                'youtube', 'website', 'location', 'avatar', 'resume'
+                'youtube', 'website', 'location', 'avatar', 'resume', 'logo'
             ]
             for field in string_fields:
                 if field in mutable_data and mutable_data[field] is None:
@@ -104,6 +104,18 @@ class ProfileSerializer(serializers.ModelSerializer):
                 data['resume'] = resume_val
         else:
             data['resume'] = ''
+
+        logo_val = str(instance.logo or '').strip()
+        if logo_val:
+            if logo_val.startswith('http://') or logo_val.startswith('https://'):
+                data['logo'] = logo_val
+            elif logo_val.startswith('/media/') or logo_val.startswith('media/'):
+                clean_path = '/' + logo_val.lstrip('/')
+                data['logo'] = request.build_absolute_uri(clean_path) if request else f"http://127.0.0.1:8000{clean_path}"
+            else:
+                data['logo'] = logo_val
+        else:
+            data['logo'] = 'mdi-star-four-points'
             
         return data
 
