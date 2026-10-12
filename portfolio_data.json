@@ -1,42 +1,1406 @@
 [
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "pbkdf2_sha256$1200000$A440rbnmYUhIEiDi0raYUl$T+5uQjuyDihME8Iq9hN2iD2RoPWll7c4PL0UIAGoJxo=",
-      "last_login": null,
-      "is_superuser": true,
-      "username": "admin",
-      "first_name": "",
-      "last_name": "",
-      "email": "",
-      "is_staff": true,
-      "is_active": true,
-      "date_joined": "2026-08-25 03:37:28.020243",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "auth.user",
-    "fields": {
-      "password": "pbkdf2_sha256$1200000$0cNOdq9HHsjkNFPOHJJ7je$JRhTEE2QQBtpocjmG6w1kw2IPJuaXM2BCkAjPYxmStw=",
-      "last_login": null,
-      "is_superuser": false,
-      "username": "ali",
-      "first_name": "",
-      "last_name": "",
-      "email": "Alld@gmail.com",
-      "is_staff": true,
-      "is_active": true,
-      "date_joined": "2026-08-26 04:29:28.122466",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "api.profile",
-    "pk": 1,
-    "fields": {
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$A440rbnmYUhIEiDi0raYUl$T+5uQjuyDihME8Iq9hN2iD2RoPWll7c4PL0UIAGoJxo=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-08-25T03:37:28.020Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$0cNOdq9HHsjkNFPOHJJ7je$JRhTEE2QQBtpocjmG6w1kw2IPJuaXM2BCkAjPYxmStw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ali",
+    "first_name": "",
+    "last_name": "",
+    "email": "Alld@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-08-26T04:29:28.122Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "448a90ee69dc4dc4a4cb86e6acc30f8a",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDIyMTA5MCwiaWF0IjoxNzg3NjI5MDkwLCJqdGkiOiI0NDhhOTBlZTY5ZGM0ZGM0YTRjYjg2ZTZhY2MzMGY4YSIsInVzZXJfaWQiOiIxIn0.Bcx8MDdyaeX_-ItBA-FXZfBNpDUtyW1e4ZXIbd0GVj4",
+    "created_at": "2026-08-25T03:38:10.406Z",
+    "expires_at": "2026-09-24T03:38:10Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "394114cd8c3846b9878d17c030c60ca4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDIzMDMzNywiaWF0IjoxNzg3NjM4MzM3LCJqdGkiOiIzOTQxMTRjZDhjMzg0NmI5ODc4ZDE3YzAzMGM2MGNhNCIsInVzZXJfaWQiOiIxIn0.w_vthNPkxyANikLf0ewmYAVuGGsFBp_5yGYkENsOOhw",
+    "created_at": "2026-08-25T06:12:17.635Z",
+    "expires_at": "2026-09-24T06:12:17Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "ali"
+    ],
+    "jti": "4fc1ae3d348c4cdf84956847ec413f53",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDMxMDYwMCwiaWF0IjoxNzg3NzE4NjAwLCJqdGkiOiI0ZmMxYWUzZDM0OGM0Y2RmODQ5NTY4NDdlYzQxM2Y1MyIsInVzZXJfaWQiOiIyIn0.jyM4VRDvQUXviYe43JmiILWpdQeI_npLv4HDjtcnzUo",
+    "created_at": "2026-08-26T04:30:00.201Z",
+    "expires_at": "2026-09-25T04:30:00Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "5c47f321b62e4c8d9cc5366c23653d41",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDMxMDYzOCwiaWF0IjoxNzg3NzE4NjM4LCJqdGkiOiI1YzQ3ZjMyMWI2MmU0YzhkOWNjNTM2NmMyMzY1M2Q0MSIsInVzZXJfaWQiOiIxIn0.qgpvxny5MH0dBrfre4dYTTh3wzIsOwgimuLVXcXFk_8",
+    "created_at": "2026-08-26T04:30:38.058Z",
+    "expires_at": "2026-09-25T04:30:38Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "6a9d022bcfbd49ba8f31c501189b0491",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4OTU4MTQ3OSwiaWF0IjoxNzg2OTg5NDc5LCJqdGkiOiI2YTlkMDIyYmNmYmQ0OWJhOGYzMWM1MDExODliMDQ5MSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AcG9ydGZvbGlvLmRldiIsImlzX3N1cGVydXNlciI6dHJ1ZSwiaXNfc3RhZmYiOnRydWV9.POV0oPGmU3pwa2mMgrrqBLliwjCFj1jChndFI7fmlbk",
+    "created_at": "2026-08-26T05:04:42.924Z",
+    "expires_at": "2026-09-16T17:57:59Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "ea1a876288b04d05b48615d6611e88fe",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MDMxMjY4MiwiaWF0IjoxNzg3NzIwNjgyLCJqdGkiOiJlYTFhODc2Mjg4YjA0ZDA1YjQ4NjE1ZDY2MTFlODhmZSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AcG9ydGZvbGlvLmRldiIsImlzX3N1cGVydXNlciI6dHJ1ZSwiaXNfc3RhZmYiOnRydWV9.ZMgxLGXSrlHjdIwbWg4x2hZDH4lHdzLFTJzToVdGa_A",
+    "created_at": "2026-08-26T05:04:42.924Z",
+    "expires_at": "2026-09-25T05:04:42Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "c345e9f23b93497eb5337c70f6abee47",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTQyODY1MywiaWF0IjoxNzg4ODM2NjUzLCJqdGkiOiJjMzQ1ZTlmMjNiOTM0OTdlYjUzMzdjNzBmNmFiZWU0NyIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.CYBxMpmlA4BZCVz6K6ix27nojHodPLRhPVh7Rh13NhQ",
+    "created_at": "2026-09-08T03:04:13.506Z",
+    "expires_at": "2026-10-08T03:04:13Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "9ed0b3f7125c460ebb29af03ed5ed5b8",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTQyODcyOCwiaWF0IjoxNzg4ODM2NzI4LCJqdGkiOiI5ZWQwYjNmNzEyNWM0NjBlYmIyOWFmMDNlZDVlZDViOCIsInVzZXJfaWQiOiIxIn0.qnbAyM2iCKQ_M5PqV0mU1dKvrrdbrRKAIvAU5rPNaco",
+    "created_at": "2026-09-08T03:05:28.459Z",
+    "expires_at": "2026-10-08T03:05:28Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "446670cf01434ceb8a899eba4f7dafbb",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTQzMjM1OCwiaWF0IjoxNzg4ODQwMzU4LCJqdGkiOiI0NDY2NzBjZjAxNDM0Y2ViOGE4OTllYmE0ZjdkYWZiYiIsInVzZXJfaWQiOiIxIn0.5yw71C088d-qJMPYODNWhtQJFDYNcBi15gCCwkdH9eA",
+    "created_at": "2026-09-08T04:05:58.814Z",
+    "expires_at": "2026-10-08T04:05:58Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "57506be2b66f474e8ae98ce0f2b5d3ca",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTUxODc1OSwiaWF0IjoxNzg4OTI2NzU5LCJqdGkiOiI1NzUwNmJlMmI2NmY0NzRlOGFlOThjZTBmMmI1ZDNjYSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.q56tat0x2qVCWlOoiY7dDawbSNC6dja2mnJ97BNo1cY",
+    "created_at": "2026-09-09T04:05:59.060Z",
+    "expires_at": "2026-10-09T04:05:59Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 11,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "046cd70c7be94318b76dc949aed706da",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTc3MDA4NiwiaWF0IjoxNzg5MTc4MDg2LCJqdGkiOiIwNDZjZDcwYzdiZTk0MzE4Yjc2ZGM5NDlhZWQ3MDZkYSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.tUd0KdbKI4MrnlClqbEL0rJaQc046S2MvLy57-ZUBME",
+    "created_at": "2026-09-12T01:54:46.042Z",
+    "expires_at": "2026-10-12T01:54:46Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "2c263a8e688d482c90b811879852c875",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MTc3OTU5OSwiaWF0IjoxNzg5MTg3NTk5LCJqdGkiOiIyYzI2M2E4ZTY4OGQ0ODJjOTBiODExODc5ODUyYzg3NSIsInVzZXJfaWQiOiIxIn0.qyeK9A8TOM_V8QT6ktgKkQHOPxEkQlf2tgDrtrNxSsA",
+    "created_at": "2026-09-12T04:33:19.070Z",
+    "expires_at": "2026-10-12T04:33:19Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 13,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "1b2af60a63674cd786529acc740340e6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MjYzNzc0MiwiaWF0IjoxNzkwMDQ1NzQyLCJqdGkiOiIxYjJhZjYwYTYzNjc0Y2Q3ODY1MjlhY2M3NDAzNDBlNiIsInVzZXJfaWQiOiIxIn0.sQrYVzqu9L92YZYBsc5xoFnbVnTxq8R_Qa7XEWh0eDM",
+    "created_at": "2026-09-22T02:55:42.936Z",
+    "expires_at": "2026-10-22T02:55:42Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 14,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "f55d77e022db4c549b3648179c595d81",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5NDE4NDI4NywiaWF0IjoxNzkxNTkyMjg3LCJqdGkiOiJmNTVkNzdlMDIyZGI0YzU0OWIzNjQ4MTc5YzU5NWQ4MSIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.JycGq03Gfonb4EssNlUK8Qar-Rb6vf5uD7OKKtMiUdw",
+    "created_at": "2026-10-10T00:31:27.221Z",
+    "expires_at": "2026-11-09T00:31:27Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 15,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "459f5c1bfb0e48fa9244956ce5b5c7bd",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5NDI2MTcwMiwiaWF0IjoxNzkxNjY5NzAyLCJqdGkiOiI0NTlmNWMxYmZiMGU0OGZhOTI0NDk1NmNlNWI1YzdiZCIsInVzZXJfaWQiOiIxIn0.BkV4AnXUuFv0f_xSKjpW4txIpoy0tLA0xRmBvbTIYJM",
+    "created_at": "2026-10-10T22:01:42.111Z",
+    "expires_at": "2026-11-09T22:01:42Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "jti": "4233c50a80da4af8a7705d567731d838",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5NDM2OTk1MCwiaWF0IjoxNzkxNzc3OTUwLCJqdGkiOiI0MjMzYzUwYTgwZGE0YWY4YTc3MDVkNTY3NzMxZDgzOCIsInVzZXJfaWQiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJpc19zdGFmZiI6dHJ1ZX0.HM4dVjEBbL4MZdu0F6HDyk3-bHViPahw71Z1MECd-NA",
+    "created_at": "2026-10-12T04:05:50.682Z",
+    "expires_at": "2026-11-11T04:05:50Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 1,
+  "fields": {
+    "token": 5,
+    "blacklisted_at": "2026-08-26T05:04:45.122Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 2,
+  "fields": {
+    "token": 4,
+    "blacklisted_at": "2026-09-08T03:04:13.888Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 3,
+  "fields": {
+    "token": 9,
+    "blacklisted_at": "2026-09-09T04:05:59.095Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 4,
+  "fields": {
+    "token": 10,
+    "blacklisted_at": "2026-09-12T01:54:46.236Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 5,
+  "fields": {
+    "token": 13,
+    "blacklisted_at": "2026-10-10T00:31:27.361Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 6,
+  "fields": {
+    "token": 14,
+    "blacklisted_at": "2026-10-12T04:05:50.763Z"
+  }
+},
+{
+  "model": "api.profile",
+  "pk": 1,
+  "fields": {
+    "full_name": "عبد الخالق علي محمد الصايدي",
+    "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+    "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+    "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+    "email": "abdulkhaliq.al.saidi@gmail.com",
+    "phone": "+967 771523243",
+    "whatsapp": "967771523243",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "twitter": "",
+    "instagram": "",
+    "behance": "",
+    "dribbble": "",
+    "youtube": "",
+    "website": "",
+    "location": "صنعاء، اليمن",
+    "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+    "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+    "logo": "mdi-xml",
+    "available_for_work": true,
+    "years_of_experience": 5,
+    "updated_at": "2026-10-10T22:56:37.142Z"
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 23,
+  "fields": {
+    "name": "تطوير الواجهات الأمامية (Frontend Development)",
+    "icon": "mdi-monitor-dashboard",
+    "sort_order": 1
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 24,
+  "fields": {
+    "name": "تطوير الواجهات الخلفية وقواعد البيانات (Backend & Databases)",
+    "icon": "mdi-server-network",
+    "sort_order": 2
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 25,
+  "fields": {
+    "name": "الشبكات وإدارة السيرفرات (Systems & Networking)",
+    "icon": "mdi-router-wireless",
+    "sort_order": 3
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 26,
+  "fields": {
+    "name": "التطبيقات وإدارة المحتوى والتصميم (Mobile, CMS & Tools)",
+    "icon": "mdi-tools",
+    "sort_order": 4
+  }
+},
+{
+  "model": "api.skillcategory",
+  "pk": 27,
+  "fields": {
+    "name": "اللغات (Languages)",
+    "icon": "mdi-translate",
+    "sort_order": 5
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 83,
+  "fields": {
+    "category": 23,
+    "name": "Vue.js",
+    "icon": "mdi-vuejs",
+    "color": "#41B883",
+    "proficiency_percentage": 95,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 84,
+  "fields": {
+    "category": 23,
+    "name": "Vuetify",
+    "icon": "mdi-vuetify",
+    "color": "#2196F3",
+    "proficiency_percentage": 90,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 85,
+  "fields": {
+    "category": 23,
+    "name": "JavaScript (ES6+)",
+    "icon": "mdi-language-javascript",
+    "color": "#F7DF1E",
+    "proficiency_percentage": 90,
+    "sort_order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 86,
+  "fields": {
+    "category": 23,
+    "name": "HTML5",
+    "icon": "mdi-language-html5",
+    "color": "#E34F26",
+    "proficiency_percentage": 95,
+    "sort_order": 4,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 87,
+  "fields": {
+    "category": 23,
+    "name": "CSS3",
+    "icon": "mdi-language-css3",
+    "color": "#264DE4",
+    "proficiency_percentage": 92,
+    "sort_order": 5,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 88,
+  "fields": {
+    "category": 24,
+    "name": "Django REST Framework (أساسيات)",
+    "icon": "mdi-language-python",
+    "color": "#092E20",
+    "proficiency_percentage": 75,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 89,
+  "fields": {
+    "category": 24,
+    "name": "Oracle Database",
+    "icon": "mdi-database",
+    "color": "#F80000",
+    "proficiency_percentage": 85,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 90,
+  "fields": {
+    "category": 24,
+    "name": "MySQL",
+    "icon": "mdi-database-outline",
+    "color": "#4479A1",
+    "proficiency_percentage": 85,
+    "sort_order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 91,
+  "fields": {
+    "category": 24,
+    "name": "PHP",
+    "icon": "mdi-language-php",
+    "color": "#777BB4",
+    "proficiency_percentage": 75,
+    "sort_order": 4,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 92,
+  "fields": {
+    "category": 24,
+    "name": "C#",
+    "icon": "mdi-language-csharp",
+    "color": "#9B4F96",
+    "proficiency_percentage": 70,
+    "sort_order": 5,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 93,
+  "fields": {
+    "category": 25,
+    "name": "MCSA (Server Administration)",
+    "icon": "mdi-server-security",
+    "color": "#0078D4",
+    "proficiency_percentage": 85,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 94,
+  "fields": {
+    "category": 25,
+    "name": "CCNA (Networking)",
+    "icon": "mdi-network",
+    "color": "#1BA0D7",
+    "proficiency_percentage": 80,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 95,
+  "fields": {
+    "category": 25,
+    "name": "الدعم الفني وصيانة الأنظمة",
+    "icon": "mdi-wrench-clock",
+    "color": "#10B981",
+    "proficiency_percentage": 90,
+    "sort_order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 96,
+  "fields": {
+    "category": 26,
+    "name": "Flutter",
+    "icon": "mdi-cellphone",
+    "color": "#02569B",
+    "proficiency_percentage": 75,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 97,
+  "fields": {
+    "category": 26,
+    "name": "WordPress",
+    "icon": "mdi-wordpress",
+    "color": "#21759B",
+    "proficiency_percentage": 80,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 98,
+  "fields": {
+    "category": 26,
+    "name": "Git",
+    "icon": "mdi-git",
+    "color": "#F05032",
+    "proficiency_percentage": 85,
+    "sort_order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 99,
+  "fields": {
+    "category": 26,
+    "name": "Adobe Photoshop",
+    "icon": "mdi-palette",
+    "color": "#31A8FF",
+    "proficiency_percentage": 85,
+    "sort_order": 4,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 100,
+  "fields": {
+    "category": 27,
+    "name": "العربية (اللغة الأم - Native)",
+    "icon": "mdi-translate",
+    "color": "#10B981",
+    "proficiency_percentage": 100,
+    "sort_order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.skill",
+  "pk": 101,
+  "fields": {
+    "category": 27,
+    "name": "الإنجليزية (مستوى متوسط - Intermediate)",
+    "icon": "mdi-earth",
+    "color": "#3B82F6",
+    "proficiency_percentage": 75,
+    "sort_order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "api.service",
+  "pk": 27,
+  "fields": {
+    "title": "تطوير واجهات المستخدم التفاعلية (Frontend Development)",
+    "description": "تصميم وتطوير واجهات مستخدم تفاعلية وتجاوبية بالكامل وعالية الأداء باستخدام Vue.js ومكتبة المكونات Vuetify مع أفضل معايير تجربة وسهولة الاستخدام.",
+    "icon": "mdi-vuejs",
+    "color": "#41B883",
+    "features": [
+      "مكونات تفاعلية باستخدام Vue.js & Vuetify",
+      "واجهات سريعة وتجاوبية مع كافة الأجهزة",
+      "أفضل معايير تجربة وسهولة الاستخدام UX/UI"
+    ],
+    "sort_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "api.service",
+  "pk": 28,
+  "fields": {
+    "title": "الربط والتكامل مع واجهات البرمجة (RESTful APIs Integration)",
+    "description": "الربط السلس والآمن مع واجهات برمجة التطبيقات REST APIs وتوظيف المعرفة الأساسية بـ Django REST Framework لتبادل البيانات وتحقيق التكامل التام.",
+    "icon": "mdi-api",
+    "color": "#3B82F6",
+    "features": [
+      "تكامل آمن وسريع مع REST APIs",
+      "معالجة البيانات والتحقق الفوري",
+      "إدارة الحالة المتطورة بكفاءة"
+    ],
+    "sort_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "api.service",
+  "pk": 29,
+  "fields": {
+    "title": "تطوير وإدارة قواعد البيانات (Database Administration)",
+    "description": "بناء وإدارة وهندسة قواعد البيانات المتقدمة باستخدام Oracle Database و MySQL لتلبية المتطلبات التشغيلية للبرمجيات وتحسين كفاءة البيانات.",
+    "icon": "mdi-database-check",
+    "color": "#F59E0B",
+    "features": [
+      "تصميم وبناء قواعد بيانات Oracle و MySQL",
+      "صيانة وأرشفة وتأمين قواعد البيانات",
+      "كتابة استعلامات عالية الكفاءة"
+    ],
+    "sort_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "api.service",
+  "pk": 30,
+  "fields": {
+    "title": "الشبكات وإدارة السيرفرات والدعم الفني (Server Admin & IT Support)",
+    "description": "إدارة سيرفرات ويندوز (MCSA) والشبكات وحل المشكلات التقنية للأجهزة والأنظمة لضمان سير العمل واستمرارية العمليات دون انقطاع.",
+    "icon": "mdi-server-network",
+    "color": "#8B5CF6",
+    "features": [
+      "إدارة خوادم وسيرفرات MCSA",
+      "تكوين ودعم الشبكات CCNA",
+      "حل المشاكل التقنية وصيانة الأجهزة والأنظمة"
+    ],
+    "sort_order": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "api.project",
+  "pk": 2,
+  "fields": {
+    "slug": "prosanaa-gis-platform",
+    "title": "منصة برو صنعاء للمسوحات الميدانية والخرائط الجغرافية (ProSanaa)",
+    "category": "نظم المعلومات الجغرافية & تطبيقات الويب (GIS & Full-Stack)",
+    "role": "مهندس ومطور Full-Stack & UI/UX Designer",
+    "year": "2026",
+    "short_description": "منصة استخبارات جغرافية وميدانية متكاملة لإدارة المسوحات الذكية، تتبع نقاط البيع وتوزيع المتاجر، وجدولة زيارات المناديب الميدانية مع خرائط تفاعلية وتحليلات أداء لحظية.",
+    "full_description": "منصة سحابية متطورة مصممة لتمكين المؤسسات والشركات التجارية من إدارة كافة العمليات الميدانية بكفاءة متناهية. تجمع المنصة بين تقنيات نظم المعلومات الجغرافية (GIS) والرسم البياني للبيانات اللحظية.\n\nتتيح المنصة للمشرفين بناء استبيانات متقدمة وتوجيهها للمناديب، تتبع خطوط السير ونقاط البيع على الخريطة التفاعلية، مقارنة نتائج المسوحات الدورية، واستخراج تقارير تحليلية شاملة مدعومة بمؤشرات الأداء الرئيسية (KPIs). كما تتضمن تطبيق جوال مخصص للعمل الميداني بدون انقطاع.",
+    "problem": "صعوبة متابعة المناديب الميدانيين يدوياً، غياب التوثيق الجغرافي الدقيق لنقاط البيع، بطء جمع نتائج الاستبيانات الورقية، وغياب رؤية بيانية موحدة لتقييم الأداء في مختلف المناطق والمحافظات.",
+    "architecture": "تم بناء النظام بمعمارية حديثة تفصل بين الخدمات: الواجهة الأمامية مبنية بـ Vue 3 + Vuetify مع مكتبة Leaflet للخرائط التفاعلية و ECharts للتحليلات الإحصائية المتقدمة. الواجهة الخلفية مبنية على Laravel API عالي السرعة مع دعم البث اللحظي عبر WebSockets (Pusher/Laravel Echo) وتطبيق جوال مخصص للميدان.",
+    "features": [
+      "خرائط جغرافية تفاعلية دقيقة (Leaflet GIS) لعرض وتوزيع المتاجر والزيارات",
+      "محرك إنشاء استبيانات ميدانية ذكي ونظام متقدم لمقارنة النتائج والردود",
+      "لوحة تحليلات ورسوم بيانية تفاعلية (ECharts) لمراقبة مؤشرات الأداء الحيوية",
+      "إدارة المناطق الجغرافية، خطوط السير، وجدولة زيارات المناديب ومتابعة تنفيذها",
+      "إدارة الأهداف التشغيلية والبيعية الشهرية والأسبوعية للفرق الميدانية",
+      "تطبيق جوال مخصص للعمل الميداني للمناديب لتوثيق الزيارات مباشرة"
+    ],
+    "objectives": [
+      "أتمتة العمليات الميدانية بالكامل وتحويلها من ورقية إلى سحابية 100%",
+      "تمكين صانعي القرار من رؤية التوزيع الجغرافي للمتاجر على الخريطة الحية",
+      "تسريع وتيرة اتخاذ القرارات التسويقية بناءً على بيانات استبيانات دقيقة ولحظية"
+    ],
+    "metrics": [
+      "زيادة كفاءة الزيارات الميدانية بنسبة 65%",
+      "تقليص وقت إعداد تقارير المسح من أيام إلى ثوانٍ معدودة",
+      "تغطية جغرافية دقيقة لأكثر من 5000 نقطة بيع ومتجر"
+    ],
+    "tags": [
+      "Vue 3",
+      "Laravel",
+      "Leaflet GIS",
+      "Vuetify 3",
+      "ECharts",
+      "WebSockets",
+      "Pinia",
+      "RESTful API",
+      "Mobile App"
+    ],
+    "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مؤسسة التوزيع والتسويق الميداني",
+    "testimonial_quote": "أحدثت منصة برو صنعاء نقلة نوعية في كفاءة فرقنا الميدانية ومنحتنا رؤية جغرافية واضحة لم نكن نملكها من قبل.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/prosanaa-frontend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/prosanaa-frontend",
+    "accent_color": "#10B981",
+    "sort_order": 1,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:19.312Z",
+    "updated_at": "2026-09-18T04:55:19.340Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 3,
+  "fields": {
+    "slug": "riyadhi-construction-cms",
+    "title": "منصة شركة الرياضي مع منشئ الصفحات وإدارة المحتوى (Riyadhi CMS)",
+    "category": "أنظمة إدارة المحتوى وتطبيقات الويب (CMS & Enterprise)",
+    "role": "مطور Full-Stack & مهندس واجهات",
+    "year": "2026",
+    "short_description": "موقع شركة ومؤسسة مقاولات رائدة مزود بنظام إدارة محتوى متقدم (CMS) ومنشئ صفحات تفاعلي (Page Builder) بأكثر من 15 كتلة ديناميكية مع دعم كامل للغات وRTL.",
+    "full_description": "منصة ويب متكاملة مبنية بأحدث معايير تصميم الواجهات (Modern Dark Aesthetic) وسرعة الاستجابة، مخصصة لشركات المقاولات والأعمال الإنشائية.\n\nتتميز المنصة بوجود لوحة تحكم إدارية احترافية تمنح إدارة الشركة حرية كاملة في بناء وتخصيص صفحات الموقع وأقسامه بالسحب والإفلات (Drag & Drop) بدون كتابة أي سطر برمجي، مع دعم كامل للغتين العربية والإنجليزية وتوافق شامل مع محركات البحث وتكامل مباشر مع WhatsApp.",
+    "problem": "الحاجة إلى موقع يعكس الفخامة والجودة الهندسية للمشاريع مع التخلص من صعوبة الاعتماد على المطور في كل تعديل لمحتوى الخدمات أو معارض الصور أو الفرق.",
+    "architecture": "واجهة أمامية مبنية بـ Vue 3 و Tailwind CSS لضمان أعلى سرعة تحميل ورشاقة بصرية، مع باك إند Laravel 11 لتأمين واجهات الـ REST API، وإدارة ملفات الوسائط، والمصادقة الآمنة بالرموز المشفرة.",
+    "features": [
+      "منشئ صفحات ذكي (Page Builder) مع أكثر من 15 كتلة جاهزة (سلايدر، إحصائيات، كروت، أسئلة شائعة، جداول أسعار)",
+      "إعادة ترتيب الأقسام بالسحب والإفلات (Drag & Drop Sections)",
+      "دعم كامل للغة العربية باتجاه RTL واللغة الإنجليزية مع تبديل سلس",
+      "نظام تخصيص السمة البصرية (8 لوحات ألوان جاهزة وتحكم مباشر بالألوان والخطوط)",
+      "معارض أعمال وسلايدر متحرك مع شريط تقدم وتأثيرات بصرية جذابة",
+      "تكامل فوري لرسائل التواصل مع تنبيهات الرسائل غير المقروءة وزر WhatsApp عائم"
+    ],
+    "objectives": [
+      "منح العميل تحكماً مطلقاً في محتوى موقعه وتصميمه دون الحاجة لمبرمج",
+      "تحقيق أعلى تجربة مستخدم مع تصميم داكن احترافي يجذب كبار العملاء",
+      "توفير قوالب جاهزة ومجهزة للبيع على المنصات العالمية مثل CodeCanyon"
+    ],
+    "metrics": [
+      "سرعة تحميل فائقة بأقل من ثانية واحدة (1s Load Time)",
+      "مرونة بنسبة 100% في تخصيص أكثر من 15 قسماً ديناميكياً",
+      "متجاوب بالكامل مع كافة مقاسات الشاشات والهواتف الذكية"
+    ],
+    "tags": [
+      "Vue 3",
+      "Laravel 11",
+      "Tailwind CSS",
+      "Page Builder",
+      "CMS",
+      "RTL",
+      "Vite",
+      "REST API"
+    ],
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "شركة الرياضي للمقاولات العامة",
+    "testimonial_quote": "المنصة وفّرت علينا الكثير من الجهد والوقت بفضل منشئ الصفحات السلس وسرعة الموقع المذهلة.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
+    "accent_color": "#3B82F6",
+    "sort_order": 2,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:19.937Z",
+    "updated_at": "2026-09-18T04:55:19.937Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 4,
+  "fields": {
+    "slug": "al-shifa-medical-portal",
+    "title": "بوابة مركز الشفاء الطبي والعيادات التخصصية (Al-Shifa Healthcare)",
+    "category": "الأنظمة الطبية والرعاية الصحية (Healthcare & Medical)",
+    "role": "مطور ويب ومصمم أنظمة",
+    "year": "2025",
+    "short_description": "بوابة رقمية شاملة للمستشفيات والعيادات التخصصية لاستعراض الأقسام الطبية، دليل الأطباء، حجز المواعيد، وإدارة التواصل الطبي مع المرضى.",
+    "full_description": "حل برمجي متكامل موجه للمراكز الطبية والمجمعات الصحية، يوفر تجربة سلسة للمرضى للاطلاع على الخدمات والعيادات التخصصية (طوارئ، جراحة، مختبر، أشعة، علاج طبيعي) والتعرف على مواعيد وأطباء المركز.\n\nيشتمل النظام على لوحة تحكم ذكية لإدارة الكوادر الطبية وتحديث أوقات دوامهم، واستقبال طلبات الحجز والاستفسارات الطبية مع إشعارات فورية وتصميم مريح للعين يلبي معايير سهولة الوصول الطبية (Accessibility).",
+    "problem": "صعوبة وصول المرضى لمعلومات الأطباء المناوبين والتخصصات المتاحة وحاجتهم لوسيلة تواصل وحجز مباشرة وواضحة وسريعة في مختلف الأوقات.",
+    "architecture": "معمارية معتمدة على مكونات Vue.js و Laravel، مع هيكل قواعد بيانات دقيق يربط الأقسام بالأطباء والخدمات، وتصميم يراعي أعلى معايير أمان وتشفير البيانات.",
+    "features": [
+      "دليل شامل للأقسام الطبية والخدمات التشخيصية والعلاجية",
+      "ملفات تعريفية للأطباء مع التخصصات وساعات العمل والخبرات",
+      "نظام استقبال طلبات الحجز المسبق والتواصل الفوري مع قسم الاستقبال",
+      "قسم خاص بآراء المرضى وتجارب الشفاء (Patient Testimonials)",
+      "متوافق مع الهواتف الذكية وسريع الاستجابة للوصول السريع في حالات الطوارئ"
+    ],
+    "objectives": [
+      "تحسين وصول المريض للرعاية الصحية والمعلومات الطبية الدقيقة",
+      "تنظيم وميكنة استقبال الحجوزات الطبية في المركز",
+      "بناء صورة احترافية وموثوقة للمركز الطبي على شبكة الإنترنت"
+    ],
+    "metrics": [
+      "تسهيل حجز المواعيد بنسبة 80%",
+      "تقليل وقت الاستفسارات الهاتفية عبر تقديم معلومات الأطباء كاملة رقمياً"
+    ],
+    "tags": [
+      "Vue.js",
+      "Laravel",
+      "Healthcare UI",
+      "Medical CMS",
+      "REST API",
+      "Responsive"
+    ],
+    "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مجمع الشفاء الطبي التخصصي",
+    "testimonial_quote": "تصميم هادئ ومريح للمرضى، وسهل جداً في إدارة مواعيد وأطباء المركز من خلال لوحة التحكم.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-backend",
+    "accent_color": "#0EA5E9",
+    "sort_order": 3,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:20.322Z",
+    "updated_at": "2026-09-18T04:55:20.322Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 5,
+  "fields": {
+    "slug": "portfolio-tech-blog",
+    "title": "منصة معرض الأعمال والمدونة التقنية المتكاملة (Antigravity Portfolio)",
+    "category": "الأنظمة السحابية وهندسة الويب (Cloud & Full-Stack)",
+    "role": "مهندس ومطور النظام الرئيسي (Lead Full-Stack Developer)",
+    "year": "2026",
+    "short_description": "منصة معرض أعمال احترافية ومدونة تقنية تعتمد على العمارة الهجينة (SSR/SSG) في Nuxt 4 وباك إند Django REST Framework مع توافق فائق مع محركات البحث (SEO).",
+    "full_description": "منصة رقمية مهنية تمثل أحدث المعايير في هندسة الويب الحديثة. تقدم تجربة تصفح غامرة بجماليات الـ Dark Mode وتأثيرات Glassmorphism الفاخرة، مع سرعة تحميل فائقة وتوافق 100% مع محركات البحث (SEO) عبر الرندر الهجين لـ Nuxt 4.\n\nترتبط المنصة بباك إند قوي مبني على Django 5 REST Framework مع قاعدة بيانات SQLite مدمجة ومؤمنة بالكامل، ولوحة تحكم حية لإدارة المحتوى وإحصائيات الزوار والرسائل، مع استضافة سحابية مستقلة على Vercel و Render.",
+    "problem": "الحاجة إلى منصة متكاملة وسريعة تجمع بين معرض الأعمال والمدونة الهندسية المتطورة مع إدارة مركزية للمحتوى وظهور قوي في الصفحة الأولى بمحركات البحث.",
+    "architecture": "معمارية هجينة تفصل الواجهات بـ Nuxt 4 على Vercel لتقديم SSR وخريطة sitemap.xml تلقائية، مع خادم خلفي مستقل بـ Django 5 و SQLite على Render مع مصادقة JWT ونظام تصدير بيانات تلقائي.",
+    "features": [
+      "رندر هجين فائق السرعة (SSR/Prerendering) متوافق تماماً مع Google Search Console",
+      "لوحة تحكم إدارية كاملة لإدارة المشاريع والمقالات والمهارات والسيرة الذاتية",
+      "مولد خريطة الموقع (Sitemap XML) وملف Robots.txt وبيانات JSON-LD المنظمة تلقائياً",
+      "تصميم داكن عصري بجماليات Glassmorphism وأيقونات تفاعلية دقيقة",
+      "نظام مراسلة وتواصل فوري مع حماية ضد هجمات الـ Throttling والـ CSRF"
+    ],
+    "objectives": [
+      "بناء واجهة رقمية تعكس الاحترافية الهندسية بأحدث التقنيات العالمية لعام 2026",
+      "تحقيق درجة 100% في مؤشرات أداء Core Web Vitals و SEO",
+      "توفير استقلالية تامة في استضافة وإدارة الفرونت إند والباك إند"
+    ],
+    "metrics": [
+      "نتيجة أداء 98/100 على اختبارات Google Lighthouse",
+      "سرعة استجابة الـ API في أقل من 80 ميلي ثانية",
+      "فهرسة فورية بنسبة 100% في محرك بحث Google"
+    ],
+    "tags": [
+      "Nuxt 4",
+      "Vue 3",
+      "Django 5",
+      "Python",
+      "SQLite",
+      "Vuetify 3",
+      "SSR",
+      "SEO",
+      "Vercel",
+      "Render"
+    ],
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مشروع شخصي / هندسي",
+    "testimonial_quote": "تكامل تقني استثنائي يجمع بين قوة بايثون في الباك إند وسرعة ومرونة Nuxt في الفرونت إند.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://portfolio-frontend-pink-mu.vercel.app",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/portfolio-frontend",
+    "accent_color": "#7B6EF6",
+    "sort_order": 4,
+    "is_featured": true,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:20.693Z",
+    "updated_at": "2026-09-18T04:55:20.693Z"
+  }
+},
+{
+  "model": "api.project",
+  "pk": 6,
+  "fields": {
+    "slug": "smart-warehouse-erp",
+    "title": "نظام إدارة المستودعات واللوجستيات الذكي (Warehouse & Inventory ERP)",
+    "category": "أنظمة تخطيط الموارد وإدارة الأعمال (ERP & Logistics)",
+    "role": "مطور Full-Stack ومصمم قواعد البيانات",
+    "year": "2025",
+    "short_description": "نظام ERP متكامل لإدارة المخازن والمستودعات المتعددة، تتبع حركة الأصناف والمخزون، أتمتة سندات القبض والصرف، وتوليد تقارير الجرد المالي والكمي.",
+    "full_description": "منظومة مؤسسية لإدارة العمليات اللوجستية والمخزنية المتشعبة في الشركات التجارية والمصانع. يدعم النظام إدارة مستودعات متعددة في مواقع جغرافية مختلفة، مع تتبع دقيق لأرقام الدفعات وتواريخ الصلاحية وحركات التحويل بين المخازن.\n\nيوفر النظام نظام تنبيهات مبكر للأصناف الراكدة والأصناف التي وصلت لحد الطلب الأدنى، مع لوحة مؤشرات قيادية لإجمالي قيم المخزون ونسب الدوران.",
+    "problem": "العجز المخزني غير المبرر، بطء عمليات الجرد السنوي، صعوبة تتبع البضائع بين الفروع المختلفة، وتداخل الصلاحيات الإدارية.",
+    "architecture": "هندسة برمجية متماسكة مبنية على قواعد بيانات علائقية متينة تضمن سلامة المعاملات المالية والمخزنية (ACID Compliance)، مع واجهات مستخدم مخصصة لسرعة الإدخال بواسطة ماسحات الباركود.",
+    "features": [
+      "إدارة المستودعات المتعددة ومتابعة أرصدة الأصناف لحظياً",
+      "دعم كامل لماسحات الباركود وسرعة تسجيل أذونات الإضافة والصرف",
+      "نظام تتبع أرقام التشغيل والدفعات وتواريخ الصلاحية",
+      "تنبيهات ذكية للوصول إلى نقطة إعادة الطلب والأصناف الراكدة",
+      "تقارير جرد آلية وحساب تكلفة البضاعة المباعة والمخزون (FIFO / Weighted Average)"
+    ],
+    "objectives": [
+      "منع الهدر المالي وعجز المخزون بنسبة تفوق 95%",
+      "تقليص مدة الجرد الدوري من أسبوعين إلى ساعات محدودة",
+      "توفير تقارير محاسبية فورية لفرق الإدارة والمالية"
+    ],
+    "metrics": [
+      "دقة مطابقة المخزون الفعلي بالدفتري بنسبة 99.4%",
+      "تسريع وتيرة تجهيز طلبيات الشحن بنسبة 50%"
+    ],
+    "tags": [
+      "Full-Stack",
+      "ERP Systems",
+      "Inventory",
+      "Database Design",
+      "Barcode Integration",
+      "Logistics"
+    ],
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=85&auto=format&fit=crop",
+    "before_image": "",
+    "after_image": "",
+    "client_name": "مجموعة الموزعين اللوجستية",
+    "testimonial_quote": "النظام حوّل إدارة مستودعاتنا من فوضى ورقية إلى تحكم إلكتروني كامل ودقيق.",
+    "before_notes": [],
+    "after_notes": [],
+    "architecture_stages": [],
+    "demo_url": "https://github.com/abdulkhaliqalsaidi-source/portfolio-backend",
+    "github_url": "https://github.com/abdulkhaliqalsaidi-source/portfolio-backend",
+    "accent_color": "#F59E0B",
+    "sort_order": 5,
+    "is_featured": false,
+    "is_published": true,
+    "created_at": "2026-09-18T04:55:22.076Z",
+    "updated_at": "2026-09-18T04:55:22.076Z"
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 24,
+  "fields": {
+    "year": "يناير 2025 – الآن",
+    "title": "مطور واجهات أمامية (Frontend Developer)",
+    "organization": "شركة أوبن سوفت (OpenSoft) — صنعاء، اليمن",
+    "description": "تصميم وتطوير واجهات مستخدم تفاعلية وتجاوبية وعالية الأداء باستخدام إطار العمل Vue.js ومكتبة المكونات Vuetify. الربط مع واجهات برمجة التطبيقات (RESTful APIs) وتوظيف المعرفة الأساسية بـ Django REST Framework لتبادل البيانات وتسهيل التكامل بين الواجهتين. تحسين أداء الواجهات وتجربة المستخدم وضمان التوافقية التامة.",
+    "icon": "mdi-vuejs",
+    "color": "#10B981",
+    "sort_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 25,
+  "fields": {
+    "year": "2020 – 2024",
+    "title": "مبرمج قواعد بيانات ودعم فني",
+    "organization": "شركة تكنولوجيا أستارز (Stars Technology) — صنعاء، اليمن",
+    "description": "تطوير وإدارة قواعد البيانات باستخدام Oracle Database لدعم المتطلبات التشغيلية للبرمجيات. تقديم الدعم الفني المتكامل وتقنية المعلومات وصيانة الأنظمة البرمجية.",
+    "icon": "mdi-database",
+    "color": "#3B82F6",
+    "sort_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 26,
+  "fields": {
+    "year": "2022 – 2023",
+    "title": "بكالوريوس تقنية معلومات (B.Sc. IT)",
+    "organization": "جامعة آزال للتنمية البشرية — صنعاء، اليمن",
+    "description": "درجة البكالوريوس في تخصص تقنية معلومات، دراسة متخصصة ومكثفة في هندسة البرمجيات، قواعد البيانات، شبكات الحاسوب، وتصميم وتطوير الأنظمة والتطبيقات البرمجية.",
+    "icon": "mdi-school",
+    "color": "#8B5CF6",
+    "sort_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 27,
+  "fields": {
+    "year": "2018 – 2022",
+    "title": "أخصائي دعم تقني ومسؤول أرشيف وسكرتير تنفيذي",
+    "organization": "مستشفى الملك — صنعاء، اليمن",
+    "description": "حل المشكلات التقنية المتعلقة بالأجهزة والأنظمة لضمان سير العمل دون انقطاع (2021 – 2022). تنظيم وأرشفة البيانات والوثائق الطبية والملفات الإلكترونية (2020). إدارة المراسلات الإدارية وتنظيم المواعيد وتسهيل التواصل بين الأقسام (2018 – 2019).",
+    "icon": "mdi-hospital-box",
+    "color": "#F59E0B",
+    "sort_order": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 28,
+  "fields": {
+    "year": "2023",
+    "title": "دورة إدارة السيرفرات MCSA وتدريب اتصالات سبأفون",
+    "organization": "مركز آزال للتدريب & الشركة اليمنية للهاتف النقال (سبأفون)",
+    "description": "إدارة سيرفرات ويندوز وخوادم الشبكات MCSA Server Administration من مركز آزال للتطوير. تدريب ميداني وعملي متقدم في شبكات الاتصالات لدى شركة سبأفون.",
+    "icon": "mdi-server-security",
+    "color": "#0078D4",
+    "sort_order": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "api.experience",
+  "pk": 29,
+  "fields": {
+    "year": "2024",
+    "title": "مشاركات وجوائز ريادية وعلمية",
+    "organization": "المسابقة الوطنية لرواد المشاريع الإبداعية & المسابقة العلمية للجامعات",
+    "description": "التأهل للنهائيات في المسابقة الوطنية لرواد المشاريع الإبداعية (الموسم الرابع) بمشروع تطبيق \"لمعة\". المركز العاشر في المسابقة العلمية التنافسية على مستوى الجامعات في اليمن. دورات معتمدة في استراتيجيات التسويق وصناعة المحتوى.",
+    "icon": "mdi-trophy-award",
+    "color": "#EC4899",
+    "sort_order": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "api.statistic",
+  "pk": 29,
+  "fields": {
+    "label": "سنوات خبرة في المجال",
+    "value": 5,
+    "suffix": "+",
+    "description": "في تطوير الواجهات وقواعد البيانات والدعم الفني والشبكات",
+    "icon": "mdi-calendar-check-outline",
+    "color": "#3B82F6",
+    "sort_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "api.statistic",
+  "pk": 30,
+  "fields": {
+    "label": "شهادات وتدريبات معتمدة",
+    "value": 4,
+    "suffix": "+",
+    "description": "MCSA، اتصالات سبأفون، فوتوشوب، لغة إنجليزية",
+    "icon": "mdi-certificate-outline",
+    "color": "#10B981",
+    "sort_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "api.statistic",
+  "pk": 31,
+  "fields": {
+    "label": "جوائز ومشاركات وطنية",
+    "value": 2,
+    "suffix": "",
+    "description": "نهائيات رواد المشاريع الإبداعية والمسابقة العلمية",
+    "icon": "mdi-trophy-outline",
+    "color": "#F59E0B",
+    "sort_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "architecture_note_desc",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.704Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "architecture_note_title",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.704Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "availability_badge_text",
+  "fields": {
+    "value": "متاح لاستقبال المشاريع وفرص العمل",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "",
+    "updated_at": "2026-09-19T01:39:58.062Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "contact_enabled",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "تفعيل نموذج التواصل",
+    "updated_at": "2026-08-26T03:42:58.025Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "default_language",
+  "fields": {
+    "value": "ar",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "اللغة الافتراضية للموقع",
+    "updated_at": "2026-08-26T03:42:58.025Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "enable_contact_form",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.720Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "enable_particles_bg",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "enable_testimonials",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "boolean",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "hero_avatar_badges",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-10-12T04:37:29.020Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "hero_avatar_glow",
+  "fields": {
+    "value": "true",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-10-12T04:37:28.789Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "hero_avatar_style",
+  "fields": {
+    "value": "golden-luxury",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-10-12T04:37:28.645Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "hero_background",
+  "fields": {
+    "value": "orbit",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-10-10T22:55:26.858Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "hero_role_typing",
+  "fields": {
+    "value": "مطور واجهات أمامية, مهندس Vue.js & Vuetify, مبرمج برمجيات وقواعد بيانات, متخصص شبكات وسيرفرات",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "",
+    "updated_at": "2026-09-19T01:39:58.062Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "maintenance_mode",
+  "fields": {
+    "value": "False",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "إيقاف الموقع مؤقتاً للصيانة",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "meta_description",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "meta_keywords",
+  "fields": {
+    "value": "",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-08-25T23:01:37.722Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "projects_per_page",
+  "fields": {
+    "value": "6",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "عدد المشاريع المعروضة في الصفحة",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "rtl",
+  "fields": {
+    "value": "True",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "تفعيل اتجاه الكتابة من اليمين إلى اليسار",
+    "updated_at": "2026-08-26T02:05:30.431Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "settings",
+  "fields": {
+    "value": "[{\"key\": \"site_title\", \"value\": \"عبد الخالق الصايدي | مهندس برمجيات وFront-End Developer\", \"group_name\": \"seo\"}, {\"key\": \"title_template\", \"value\": \"%s | عبد الخالق الصايدي\", \"group_name\": \"seo\"}, {\"key\": \"site_description\", \"value\": \"الموقع الشخصي ومعرض أعمال عبد الخالق الصايدي - مهندس برمجيات ومطور واجهات أمامية Front-End متخصص في بناء وتطوير الأنظمة السحابية وتطبيقات الويب الحديثة.\", \"group_name\": \"seo\"}, {\"key\": \"site_domain\", \"value\": \"https://portfolio-frontend-pink-mu.vercel.app\", \"group_name\": \"seo\"}, {\"key\": \"og_image\", \"value\": \"/avatar.jpg\", \"group_name\": \"seo\"}]",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-09-18T05:19:30.981Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "show_statistics",
+  "fields": {
+    "value": "True",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "إظهار قسم الإحصائيات",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "show_testimonials",
+  "fields": {
+    "value": "True",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "إظهار قسم تقييمات العملاء",
+    "updated_at": "2026-08-26T01:43:57.195Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "site_description",
+  "fields": {
+    "value": "الموقع الشخصي ومعرض أعمال عبد الخالق علي محمد الصايدي - مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify والربط مع Django REST APIs وإدارة قواعد البيانات Oracle و MySQL.",
+    "group_name": "seo",
+    "setting_type": "string",
+    "description": "الوصف التعريفي للموقع",
+    "updated_at": "2026-09-19T01:39:58.062Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "site_title",
+  "fields": {
+    "value": "عبد الخالق علي محمد الصايدي | مطور واجهات أمامية وبرمجيات",
+    "group_name": "seo",
+    "setting_type": "string",
+    "description": "العنوان الرئيسي للموقع",
+    "updated_at": "2026-09-19T01:39:58.062Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "theme",
+  "fields": {
+    "value": "system",
+    "group_name": "general",
+    "setting_type": "text",
+    "description": "المظهر الافتراضي للموقع",
+    "updated_at": "2026-08-26T02:05:30.431Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "title_template",
+  "fields": {
+    "value": "%s | عبد الخالق الصايدي",
+    "group_name": "seo",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-09-18T05:19:30.768Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "typing_roles",
+  "fields": {
+    "value": "مطور واجهات أمامية, مهندس Vue.js & Vuetify, مبرمج برمجيات وقواعد بيانات, متخصص شبكات وسيرفرات",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-09-19T01:39:58.062Z"
+  }
+},
+{
+  "model": "api.sitesetting",
+  "pk": "whatsapp_number",
+  "fields": {
+    "value": "+967771523243",
+    "group_name": "general",
+    "setting_type": "string",
+    "description": "",
+    "updated_at": "2026-09-19T01:39:58.062Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 96,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "id": 1,
       "full_name": "عبد الخالق علي محمد الصايدي",
       "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
       "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
@@ -54,1171 +1418,1656 @@
       "website": "",
       "location": "صنعاء، اليمن",
       "avatar": "/avatar.jpg",
-      "resume": "",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-lightning-bolt",
       "available_for_work": true,
       "years_of_experience": 5,
-      "updated_at": "2026-09-19T01:39:58.062337+00:00"
-    }
-  },
-  {
-    "model": "api.skillcategory",
-    "pk": 23,
-    "fields": {
-      "name": "تطوير الواجهات الأمامية (Frontend Development)",
-      "icon": "mdi-monitor-dashboard",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "api.skillcategory",
-    "pk": 24,
-    "fields": {
-      "name": "تطوير الواجهات الخلفية وقواعد البيانات (Backend & Databases)",
-      "icon": "mdi-server-network",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "api.skillcategory",
-    "pk": 25,
-    "fields": {
-      "name": "الشبكات وإدارة السيرفرات (Systems & Networking)",
-      "icon": "mdi-router-wireless",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "api.skillcategory",
-    "pk": 26,
-    "fields": {
-      "name": "التطبيقات وإدارة المحتوى والتصميم (Mobile, CMS & Tools)",
-      "icon": "mdi-tools",
-      "sort_order": 4
-    }
-  },
-  {
-    "model": "api.skillcategory",
-    "pk": 27,
-    "fields": {
-      "name": "اللغات (Languages)",
-      "icon": "mdi-translate",
-      "sort_order": 5
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 83,
-    "fields": {
-      "category": 23,
-      "name": "Vue.js",
-      "icon": "mdi-vuejs",
-      "color": "#41B883",
-      "proficiency_percentage": 95,
-      "sort_order": 1,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 88,
-    "fields": {
-      "category": 24,
-      "name": "Django REST Framework (أساسيات)",
-      "icon": "mdi-language-python",
-      "color": "#092E20",
-      "proficiency_percentage": 75,
-      "sort_order": 1,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 93,
-    "fields": {
-      "category": 25,
-      "name": "MCSA (Server Administration)",
-      "icon": "mdi-server-security",
-      "color": "#0078D4",
-      "proficiency_percentage": 85,
-      "sort_order": 1,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 96,
-    "fields": {
-      "category": 26,
-      "name": "Flutter",
-      "icon": "mdi-cellphone",
-      "color": "#02569B",
-      "proficiency_percentage": 75,
-      "sort_order": 1,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 100,
-    "fields": {
-      "category": 27,
-      "name": "العربية (اللغة الأم - Native)",
-      "icon": "mdi-translate",
-      "color": "#10B981",
-      "proficiency_percentage": 100,
-      "sort_order": 1,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 84,
-    "fields": {
-      "category": 23,
-      "name": "Vuetify",
-      "icon": "mdi-vuetify",
-      "color": "#2196F3",
-      "proficiency_percentage": 90,
-      "sort_order": 2,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 89,
-    "fields": {
-      "category": 24,
-      "name": "Oracle Database",
-      "icon": "mdi-database",
-      "color": "#F80000",
-      "proficiency_percentage": 85,
-      "sort_order": 2,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 94,
-    "fields": {
-      "category": 25,
-      "name": "CCNA (Networking)",
-      "icon": "mdi-network",
-      "color": "#1BA0D7",
-      "proficiency_percentage": 80,
-      "sort_order": 2,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 97,
-    "fields": {
-      "category": 26,
-      "name": "WordPress",
-      "icon": "mdi-wordpress",
-      "color": "#21759B",
-      "proficiency_percentage": 80,
-      "sort_order": 2,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 101,
-    "fields": {
-      "category": 27,
-      "name": "الإنجليزية (مستوى متوسط - Intermediate)",
-      "icon": "mdi-earth",
-      "color": "#3B82F6",
-      "proficiency_percentage": 75,
-      "sort_order": 2,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 85,
-    "fields": {
-      "category": 23,
-      "name": "JavaScript (ES6+)",
-      "icon": "mdi-language-javascript",
-      "color": "#F7DF1E",
-      "proficiency_percentage": 90,
-      "sort_order": 3,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 90,
-    "fields": {
-      "category": 24,
-      "name": "MySQL",
-      "icon": "mdi-database-outline",
-      "color": "#4479A1",
-      "proficiency_percentage": 85,
-      "sort_order": 3,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 95,
-    "fields": {
-      "category": 25,
-      "name": "الدعم الفني وصيانة الأنظمة",
-      "icon": "mdi-wrench-clock",
-      "color": "#10B981",
-      "proficiency_percentage": 90,
-      "sort_order": 3,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 98,
-    "fields": {
-      "category": 26,
-      "name": "Git",
-      "icon": "mdi-git",
-      "color": "#F05032",
-      "proficiency_percentage": 85,
-      "sort_order": 3,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 86,
-    "fields": {
-      "category": 23,
-      "name": "HTML5",
-      "icon": "mdi-language-html5",
-      "color": "#E34F26",
-      "proficiency_percentage": 95,
-      "sort_order": 4,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 91,
-    "fields": {
-      "category": 24,
-      "name": "PHP",
-      "icon": "mdi-language-php",
-      "color": "#777BB4",
-      "proficiency_percentage": 75,
-      "sort_order": 4,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 99,
-    "fields": {
-      "category": 26,
-      "name": "Adobe Photoshop",
-      "icon": "mdi-palette",
-      "color": "#31A8FF",
-      "proficiency_percentage": 85,
-      "sort_order": 4,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 87,
-    "fields": {
-      "category": 23,
-      "name": "CSS3",
-      "icon": "mdi-language-css3",
-      "color": "#264DE4",
-      "proficiency_percentage": 92,
-      "sort_order": 5,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.skill",
-    "pk": 92,
-    "fields": {
-      "category": 24,
-      "name": "C#",
-      "icon": "mdi-language-csharp",
-      "color": "#9B4F96",
-      "proficiency_percentage": 70,
-      "sort_order": 5,
-      "is_visible": true
-    }
-  },
-  {
-    "model": "api.service",
-    "pk": 27,
-    "fields": {
-      "title": "تطوير واجهات المستخدم التفاعلية (Frontend Development)",
-      "description": "تصميم وتطوير واجهات مستخدم تفاعلية وتجاوبية بالكامل وعالية الأداء باستخدام Vue.js ومكتبة المكونات Vuetify مع أفضل معايير تجربة وسهولة الاستخدام.",
-      "icon": "mdi-vuejs",
-      "color": "#41B883",
-      "features": [
-        "مكونات تفاعلية باستخدام Vue.js & Vuetify",
-        "واجهات سريعة وتجاوبية مع كافة الأجهزة",
-        "أفضل معايير تجربة وسهولة الاستخدام UX/UI"
-      ],
-      "sort_order": 1,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.service",
-    "pk": 28,
-    "fields": {
-      "title": "الربط والتكامل مع واجهات البرمجة (RESTful APIs Integration)",
-      "description": "الربط السلس والآمن مع واجهات برمجة التطبيقات REST APIs وتوظيف المعرفة الأساسية بـ Django REST Framework لتبادل البيانات وتحقيق التكامل التام.",
-      "icon": "mdi-api",
-      "color": "#3B82F6",
-      "features": [
-        "تكامل آمن وسريع مع REST APIs",
-        "معالجة البيانات والتحقق الفوري",
-        "إدارة الحالة المتطورة بكفاءة"
-      ],
-      "sort_order": 2,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.service",
-    "pk": 29,
-    "fields": {
-      "title": "تطوير وإدارة قواعد البيانات (Database Administration)",
-      "description": "بناء وإدارة وهندسة قواعد البيانات المتقدمة باستخدام Oracle Database و MySQL لتلبية المتطلبات التشغيلية للبرمجيات وتحسين كفاءة البيانات.",
-      "icon": "mdi-database-check",
-      "color": "#F59E0B",
-      "features": [
-        "تصميم وبناء قواعد بيانات Oracle و MySQL",
-        "صيانة وأرشفة وتأمين قواعد البيانات",
-        "كتابة استعلامات عالية الكفاءة"
-      ],
-      "sort_order": 3,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.service",
-    "pk": 30,
-    "fields": {
-      "title": "الشبكات وإدارة السيرفرات والدعم الفني (Server Admin & IT Support)",
-      "description": "إدارة سيرفرات ويندوز (MCSA) والشبكات وحل المشكلات التقنية للأجهزة والأنظمة لضمان سير العمل واستمرارية العمليات دون انقطاع.",
-      "icon": "mdi-server-network",
-      "color": "#8B5CF6",
-      "features": [
-        "إدارة خوادم وسيرفرات MCSA",
-        "تكوين ودعم الشبكات CCNA",
-        "حل المشاكل التقنية وصيانة الأجهزة والأنظمة"
-      ],
-      "sort_order": 4,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.experience",
-    "pk": 24,
-    "fields": {
-      "year": "يناير 2025 – الآن",
-      "title": "مطور واجهات أمامية (Frontend Developer)",
-      "organization": "شركة أوبن سوفت (OpenSoft) — صنعاء، اليمن",
-      "description": "تصميم وتطوير واجهات مستخدم تفاعلية وتجاوبية وعالية الأداء باستخدام إطار العمل Vue.js ومكتبة المكونات Vuetify. الربط مع واجهات برمجة التطبيقات (RESTful APIs) وتوظيف المعرفة الأساسية بـ Django REST Framework لتبادل البيانات وتسهيل التكامل بين الواجهتين. تحسين أداء الواجهات وتجربة المستخدم وضمان التوافقية التامة.",
-      "icon": "mdi-vuejs",
-      "color": "#10B981",
-      "sort_order": 1,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.experience",
-    "pk": 25,
-    "fields": {
-      "year": "2020 – 2024",
-      "title": "مبرمج قواعد بيانات ودعم فني",
-      "organization": "شركة تكنولوجيا أستارز (Stars Technology) — صنعاء، اليمن",
-      "description": "تطوير وإدارة قواعد البيانات باستخدام Oracle Database لدعم المتطلبات التشغيلية للبرمجيات. تقديم الدعم الفني المتكامل وتقنية المعلومات وصيانة الأنظمة البرمجية.",
-      "icon": "mdi-database",
-      "color": "#3B82F6",
-      "sort_order": 2,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.experience",
-    "pk": 26,
-    "fields": {
-      "year": "2022 – 2023",
-      "title": "بكالوريوس تقنية معلومات (B.Sc. IT)",
-      "organization": "جامعة آزال للتنمية البشرية — صنعاء، اليمن",
-      "description": "درجة البكالوريوس في تخصص تقنية معلومات، دراسة متخصصة ومكثفة في هندسة البرمجيات، قواعد البيانات، شبكات الحاسوب، وتصميم وتطوير الأنظمة والتطبيقات البرمجية.",
-      "icon": "mdi-school",
-      "color": "#8B5CF6",
-      "sort_order": 3,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.experience",
-    "pk": 27,
-    "fields": {
-      "year": "2018 – 2022",
-      "title": "أخصائي دعم تقني ومسؤول أرشيف وسكرتير تنفيذي",
-      "organization": "مستشفى الملك — صنعاء، اليمن",
-      "description": "حل المشكلات التقنية المتعلقة بالأجهزة والأنظمة لضمان سير العمل دون انقطاع (2021 – 2022). تنظيم وأرشفة البيانات والوثائق الطبية والملفات الإلكترونية (2020). إدارة المراسلات الإدارية وتنظيم المواعيد وتسهيل التواصل بين الأقسام (2018 – 2019).",
-      "icon": "mdi-hospital-box",
-      "color": "#F59E0B",
-      "sort_order": 4,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.experience",
-    "pk": 28,
-    "fields": {
-      "year": "2023",
-      "title": "دورة إدارة السيرفرات MCSA وتدريب اتصالات سبأفون",
-      "organization": "مركز آزال للتدريب & الشركة اليمنية للهاتف النقال (سبأفون)",
-      "description": "إدارة سيرفرات ويندوز وخوادم الشبكات MCSA Server Administration من مركز آزال للتطوير. تدريب ميداني وعملي متقدم في شبكات الاتصالات لدى شركة سبأفون.",
-      "icon": "mdi-server-security",
-      "color": "#0078D4",
-      "sort_order": 5,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.experience",
-    "pk": 29,
-    "fields": {
-      "year": "2024",
-      "title": "مشاركات وجوائز ريادية وعلمية",
-      "organization": "المسابقة الوطنية لرواد المشاريع الإبداعية & المسابقة العلمية للجامعات",
-      "description": "التأهل للنهائيات في المسابقة الوطنية لرواد المشاريع الإبداعية (الموسم الرابع) بمشروع تطبيق \"لمعة\". المركز العاشر في المسابقة العلمية التنافسية على مستوى الجامعات في اليمن. دورات معتمدة في استراتيجيات التسويق وصناعة المحتوى.",
-      "icon": "mdi-trophy-award",
-      "color": "#EC4899",
-      "sort_order": 6,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.statistic",
-    "pk": 29,
-    "fields": {
-      "label": "سنوات خبرة في المجال",
-      "value": 5,
-      "suffix": "+",
-      "description": "في تطوير الواجهات وقواعد البيانات والدعم الفني والشبكات",
-      "icon": "mdi-calendar-check-outline",
-      "color": "#3B82F6",
-      "sort_order": 1,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.statistic",
-    "pk": 30,
-    "fields": {
-      "label": "شهادات وتدريبات معتمدة",
-      "value": 4,
-      "suffix": "+",
-      "description": "MCSA، اتصالات سبأفون، فوتوشوب، لغة إنجليزية",
-      "icon": "mdi-certificate-outline",
-      "color": "#10B981",
-      "sort_order": 2,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.statistic",
-    "pk": 31,
-    "fields": {
-      "label": "جوائز ومشاركات وطنية",
-      "value": 2,
-      "suffix": "",
-      "description": "نهائيات رواد المشاريع الإبداعية والمسابقة العلمية",
-      "icon": "mdi-trophy-outline",
-      "color": "#F59E0B",
-      "sort_order": 3,
-      "is_active": true
-    }
-  },
-  {
-    "model": "api.project",
-    "pk": 2,
-    "fields": {
-      "slug": "prosanaa-gis-platform",
-      "title": "منصة برو صنعاء للمسوحات الميدانية والخرائط الجغرافية (ProSanaa)",
-      "category": "نظم المعلومات الجغرافية & تطبيقات الويب (GIS & Full-Stack)",
-      "role": "مهندس ومطور Full-Stack & UI/UX Designer",
-      "year": "2026",
-      "short_description": "منصة استخبارات جغرافية وميدانية متكاملة لإدارة المسوحات الذكية، تتبع نقاط البيع وتوزيع المتاجر، وجدولة زيارات المناديب الميدانية مع خرائط تفاعلية وتحليلات أداء لحظية.",
-      "full_description": "منصة سحابية متطورة مصممة لتمكين المؤسسات والشركات التجارية من إدارة كافة العمليات الميدانية بكفاءة متناهية. تجمع المنصة بين تقنيات نظم المعلومات الجغرافية (GIS) والرسم البياني للبيانات اللحظية.\n\nتتيح المنصة للمشرفين بناء استبيانات متقدمة وتوجيهها للمناديب، تتبع خطوط السير ونقاط البيع على الخريطة التفاعلية، مقارنة نتائج المسوحات الدورية، واستخراج تقارير تحليلية شاملة مدعومة بمؤشرات الأداء الرئيسية (KPIs). كما تتضمن تطبيق جوال مخصص للعمل الميداني بدون انقطاع.",
-      "problem": "صعوبة متابعة المناديب الميدانيين يدوياً، غياب التوثيق الجغرافي الدقيق لنقاط البيع، بطء جمع نتائج الاستبيانات الورقية، وغياب رؤية بيانية موحدة لتقييم الأداء في مختلف المناطق والمحافظات.",
-      "architecture": "تم بناء النظام بمعمارية حديثة تفصل بين الخدمات: الواجهة الأمامية مبنية بـ Vue 3 + Vuetify مع مكتبة Leaflet للخرائط التفاعلية و ECharts للتحليلات الإحصائية المتقدمة. الواجهة الخلفية مبنية على Laravel API عالي السرعة مع دعم البث اللحظي عبر WebSockets (Pusher/Laravel Echo) وتطبيق جوال مخصص للميدان.",
-      "features": [
-        "خرائط جغرافية تفاعلية دقيقة (Leaflet GIS) لعرض وتوزيع المتاجر والزيارات",
-        "محرك إنشاء استبيانات ميدانية ذكي ونظام متقدم لمقارنة النتائج والردود",
-        "لوحة تحليلات ورسوم بيانية تفاعلية (ECharts) لمراقبة مؤشرات الأداء الحيوية",
-        "إدارة المناطق الجغرافية، خطوط السير، وجدولة زيارات المناديب ومتابعة تنفيذها",
-        "إدارة الأهداف التشغيلية والبيعية الشهرية والأسبوعية للفرق الميدانية",
-        "تطبيق جوال مخصص للعمل الميداني للمناديب لتوثيق الزيارات مباشرة"
-      ],
-      "objectives": [
-        "أتمتة العمليات الميدانية بالكامل وتحويلها من ورقية إلى سحابية 100%",
-        "تمكين صانعي القرار من رؤية التوزيع الجغرافي للمتاجر على الخريطة الحية",
-        "تسريع وتيرة اتخاذ القرارات التسويقية بناءً على بيانات استبيانات دقيقة ولحظية"
-      ],
-      "metrics": [
-        "زيادة كفاءة الزيارات الميدانية بنسبة 65%",
-        "تقليص وقت إعداد تقارير المسح من أيام إلى ثوانٍ معدودة",
-        "تغطية جغرافية دقيقة لأكثر من 5000 نقطة بيع ومتجر"
-      ],
-      "tags": [
-        "Vue 3",
-        "Laravel",
-        "Leaflet GIS",
-        "Vuetify 3",
-        "ECharts",
-        "WebSockets",
-        "Pinia",
-        "RESTful API",
-        "Mobile App"
-      ],
-      "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&q=85&auto=format&fit=crop",
-      "before_image": "",
-      "after_image": "",
-      "client_name": "مؤسسة التوزيع والتسويق الميداني",
-      "testimonial_quote": "أحدثت منصة برو صنعاء نقلة نوعية في كفاءة فرقنا الميدانية ومنحتنا رؤية جغرافية واضحة لم نكن نملكها من قبل.",
-      "before_notes": [],
-      "after_notes": [],
-      "architecture_stages": [],
-      "demo_url": "https://github.com/abdulkhaliqalsaidi-source/prosanaa-frontend",
-      "github_url": "https://github.com/abdulkhaliqalsaidi-source/prosanaa-frontend",
-      "accent_color": "#10B981",
-      "sort_order": 1,
-      "is_featured": true,
-      "is_published": true,
-      "created_at": "2026-09-18 04:55:19.312735",
-      "updated_at": "2026-09-18 04:55:19.340660"
-    }
-  },
-  {
-    "model": "api.project",
-    "pk": 3,
-    "fields": {
-      "slug": "riyadhi-construction-cms",
-      "title": "منصة شركة الرياضي مع منشئ الصفحات وإدارة المحتوى (Riyadhi CMS)",
-      "category": "أنظمة إدارة المحتوى وتطبيقات الويب (CMS & Enterprise)",
-      "role": "مطور Full-Stack & مهندس واجهات",
-      "year": "2026",
-      "short_description": "موقع شركة ومؤسسة مقاولات رائدة مزود بنظام إدارة محتوى متقدم (CMS) ومنشئ صفحات تفاعلي (Page Builder) بأكثر من 15 كتلة ديناميكية مع دعم كامل للغات وRTL.",
-      "full_description": "منصة ويب متكاملة مبنية بأحدث معايير تصميم الواجهات (Modern Dark Aesthetic) وسرعة الاستجابة، مخصصة لشركات المقاولات والأعمال الإنشائية.\n\nتتميز المنصة بوجود لوحة تحكم إدارية احترافية تمنح إدارة الشركة حرية كاملة في بناء وتخصيص صفحات الموقع وأقسامه بالسحب والإفلات (Drag & Drop) بدون كتابة أي سطر برمجي، مع دعم كامل للغتين العربية والإنجليزية وتوافق شامل مع محركات البحث وتكامل مباشر مع WhatsApp.",
-      "problem": "الحاجة إلى موقع يعكس الفخامة والجودة الهندسية للمشاريع مع التخلص من صعوبة الاعتماد على المطور في كل تعديل لمحتوى الخدمات أو معارض الصور أو الفرق.",
-      "architecture": "واجهة أمامية مبنية بـ Vue 3 و Tailwind CSS لضمان أعلى سرعة تحميل ورشاقة بصرية، مع باك إند Laravel 11 لتأمين واجهات الـ REST API، وإدارة ملفات الوسائط، والمصادقة الآمنة بالرموز المشفرة.",
-      "features": [
-        "منشئ صفحات ذكي (Page Builder) مع أكثر من 15 كتلة جاهزة (سلايدر، إحصائيات، كروت، أسئلة شائعة، جداول أسعار)",
-        "إعادة ترتيب الأقسام بالسحب والإفلات (Drag & Drop Sections)",
-        "دعم كامل للغة العربية باتجاه RTL واللغة الإنجليزية مع تبديل سلس",
-        "نظام تخصيص السمة البصرية (8 لوحات ألوان جاهزة وتحكم مباشر بالألوان والخطوط)",
-        "معارض أعمال وسلايدر متحرك مع شريط تقدم وتأثيرات بصرية جذابة",
-        "تكامل فوري لرسائل التواصل مع تنبيهات الرسائل غير المقروءة وزر WhatsApp عائم"
-      ],
-      "objectives": [
-        "منح العميل تحكماً مطلقاً في محتوى موقعه وتصميمه دون الحاجة لمبرمج",
-        "تحقيق أعلى تجربة مستخدم مع تصميم داكن احترافي يجذب كبار العملاء",
-        "توفير قوالب جاهزة ومجهزة للبيع على المنصات العالمية مثل CodeCanyon"
-      ],
-      "metrics": [
-        "سرعة تحميل فائقة بأقل من ثانية واحدة (1s Load Time)",
-        "مرونة بنسبة 100% في تخصيص أكثر من 15 قسماً ديناميكياً",
-        "متجاوب بالكامل مع كافة مقاسات الشاشات والهواتف الذكية"
-      ],
-      "tags": [
-        "Vue 3",
-        "Laravel 11",
-        "Tailwind CSS",
-        "Page Builder",
-        "CMS",
-        "RTL",
-        "Vite",
-        "REST API"
-      ],
-      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=85&auto=format&fit=crop",
-      "before_image": "",
-      "after_image": "",
-      "client_name": "شركة الرياضي للمقاولات العامة",
-      "testimonial_quote": "المنصة وفّرت علينا الكثير من الجهد والوقت بفضل منشئ الصفحات السلس وسرعة الموقع المذهلة.",
-      "before_notes": [],
-      "after_notes": [],
-      "architecture_stages": [],
-      "demo_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
-      "github_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
-      "accent_color": "#3B82F6",
-      "sort_order": 2,
-      "is_featured": true,
-      "is_published": true,
-      "created_at": "2026-09-18 04:55:19.937829",
-      "updated_at": "2026-09-18 04:55:19.937829"
-    }
-  },
-  {
-    "model": "api.project",
-    "pk": 4,
-    "fields": {
-      "slug": "al-shifa-medical-portal",
-      "title": "بوابة مركز الشفاء الطبي والعيادات التخصصية (Al-Shifa Healthcare)",
-      "category": "الأنظمة الطبية والرعاية الصحية (Healthcare & Medical)",
-      "role": "مطور ويب ومصمم أنظمة",
-      "year": "2025",
-      "short_description": "بوابة رقمية شاملة للمستشفيات والعيادات التخصصية لاستعراض الأقسام الطبية، دليل الأطباء، حجز المواعيد، وإدارة التواصل الطبي مع المرضى.",
-      "full_description": "حل برمجي متكامل موجه للمراكز الطبية والمجمعات الصحية، يوفر تجربة سلسة للمرضى للاطلاع على الخدمات والعيادات التخصصية (طوارئ، جراحة، مختبر، أشعة، علاج طبيعي) والتعرف على مواعيد وأطباء المركز.\n\nيشتمل النظام على لوحة تحكم ذكية لإدارة الكوادر الطبية وتحديث أوقات دوامهم، واستقبال طلبات الحجز والاستفسارات الطبية مع إشعارات فورية وتصميم مريح للعين يلبي معايير سهولة الوصول الطبية (Accessibility).",
-      "problem": "صعوبة وصول المرضى لمعلومات الأطباء المناوبين والتخصصات المتاحة وحاجتهم لوسيلة تواصل وحجز مباشرة وواضحة وسريعة في مختلف الأوقات.",
-      "architecture": "معمارية معتمدة على مكونات Vue.js و Laravel، مع هيكل قواعد بيانات دقيق يربط الأقسام بالأطباء والخدمات، وتصميم يراعي أعلى معايير أمان وتشفير البيانات.",
-      "features": [
-        "دليل شامل للأقسام الطبية والخدمات التشخيصية والعلاجية",
-        "ملفات تعريفية للأطباء مع التخصصات وساعات العمل والخبرات",
-        "نظام استقبال طلبات الحجز المسبق والتواصل الفوري مع قسم الاستقبال",
-        "قسم خاص بآراء المرضى وتجارب الشفاء (Patient Testimonials)",
-        "متوافق مع الهواتف الذكية وسريع الاستجابة للوصول السريع في حالات الطوارئ"
-      ],
-      "objectives": [
-        "تحسين وصول المريض للرعاية الصحية والمعلومات الطبية الدقيقة",
-        "تنظيم وميكنة استقبال الحجوزات الطبية في المركز",
-        "بناء صورة احترافية وموثوقة للمركز الطبي على شبكة الإنترنت"
-      ],
-      "metrics": [
-        "تسهيل حجز المواعيد بنسبة 80%",
-        "تقليل وقت الاستفسارات الهاتفية عبر تقديم معلومات الأطباء كاملة رقمياً"
-      ],
-      "tags": [
-        "Vue.js",
-        "Laravel",
-        "Healthcare UI",
-        "Medical CMS",
-        "REST API",
-        "Responsive"
-      ],
-      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=85&auto=format&fit=crop",
-      "before_image": "",
-      "after_image": "",
-      "client_name": "مجمع الشفاء الطبي التخصصي",
-      "testimonial_quote": "تصميم هادئ ومريح للمرضى، وسهل جداً في إدارة مواعيد وأطباء المركز من خلال لوحة التحكم.",
-      "before_notes": [],
-      "after_notes": [],
-      "architecture_stages": [],
-      "demo_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-frontend",
-      "github_url": "https://github.com/abdulkhaliqalsaidi-source/riyadhi-backend",
-      "accent_color": "#0EA5E9",
-      "sort_order": 3,
-      "is_featured": true,
-      "is_published": true,
-      "created_at": "2026-09-18 04:55:20.322979",
-      "updated_at": "2026-09-18 04:55:20.322979"
-    }
-  },
-  {
-    "model": "api.project",
-    "pk": 5,
-    "fields": {
-      "slug": "portfolio-tech-blog",
-      "title": "منصة معرض الأعمال والمدونة التقنية المتكاملة (Antigravity Portfolio)",
-      "category": "الأنظمة السحابية وهندسة الويب (Cloud & Full-Stack)",
-      "role": "مهندس ومطور النظام الرئيسي (Lead Full-Stack Developer)",
-      "year": "2026",
-      "short_description": "منصة معرض أعمال احترافية ومدونة تقنية تعتمد على العمارة الهجينة (SSR/SSG) في Nuxt 4 وباك إند Django REST Framework مع توافق فائق مع محركات البحث (SEO).",
-      "full_description": "منصة رقمية مهنية تمثل أحدث المعايير في هندسة الويب الحديثة. تقدم تجربة تصفح غامرة بجماليات الـ Dark Mode وتأثيرات Glassmorphism الفاخرة، مع سرعة تحميل فائقة وتوافق 100% مع محركات البحث (SEO) عبر الرندر الهجين لـ Nuxt 4.\n\nترتبط المنصة بباك إند قوي مبني على Django 5 REST Framework مع قاعدة بيانات SQLite مدمجة ومؤمنة بالكامل، ولوحة تحكم حية لإدارة المحتوى وإحصائيات الزوار والرسائل، مع استضافة سحابية مستقلة على Vercel و Render.",
-      "problem": "الحاجة إلى منصة متكاملة وسريعة تجمع بين معرض الأعمال والمدونة الهندسية المتطورة مع إدارة مركزية للمحتوى وظهور قوي في الصفحة الأولى بمحركات البحث.",
-      "architecture": "معمارية هجينة تفصل الواجهات بـ Nuxt 4 على Vercel لتقديم SSR وخريطة sitemap.xml تلقائية، مع خادم خلفي مستقل بـ Django 5 و SQLite على Render مع مصادقة JWT ونظام تصدير بيانات تلقائي.",
-      "features": [
-        "رندر هجين فائق السرعة (SSR/Prerendering) متوافق تماماً مع Google Search Console",
-        "لوحة تحكم إدارية كاملة لإدارة المشاريع والمقالات والمهارات والسيرة الذاتية",
-        "مولد خريطة الموقع (Sitemap XML) وملف Robots.txt وبيانات JSON-LD المنظمة تلقائياً",
-        "تصميم داكن عصري بجماليات Glassmorphism وأيقونات تفاعلية دقيقة",
-        "نظام مراسلة وتواصل فوري مع حماية ضد هجمات الـ Throttling والـ CSRF"
-      ],
-      "objectives": [
-        "بناء واجهة رقمية تعكس الاحترافية الهندسية بأحدث التقنيات العالمية لعام 2026",
-        "تحقيق درجة 100% في مؤشرات أداء Core Web Vitals و SEO",
-        "توفير استقلالية تامة في استضافة وإدارة الفرونت إند والباك إند"
-      ],
-      "metrics": [
-        "نتيجة أداء 98/100 على اختبارات Google Lighthouse",
-        "سرعة استجابة الـ API في أقل من 80 ميلي ثانية",
-        "فهرسة فورية بنسبة 100% في محرك بحث Google"
-      ],
-      "tags": [
-        "Nuxt 4",
-        "Vue 3",
-        "Django 5",
-        "Python",
-        "SQLite",
-        "Vuetify 3",
-        "SSR",
-        "SEO",
-        "Vercel",
-        "Render"
-      ],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=85&auto=format&fit=crop",
-      "before_image": "",
-      "after_image": "",
-      "client_name": "مشروع شخصي / هندسي",
-      "testimonial_quote": "تكامل تقني استثنائي يجمع بين قوة بايثون في الباك إند وسرعة ومرونة Nuxt في الفرونت إند.",
-      "before_notes": [],
-      "after_notes": [],
-      "architecture_stages": [],
-      "demo_url": "https://portfolio-frontend-pink-mu.vercel.app",
-      "github_url": "https://github.com/abdulkhaliqalsaidi-source/portfolio-frontend",
-      "accent_color": "#7B6EF6",
-      "sort_order": 4,
-      "is_featured": true,
-      "is_published": true,
-      "created_at": "2026-09-18 04:55:20.693004",
-      "updated_at": "2026-09-18 04:55:20.693004"
-    }
-  },
-  {
-    "model": "api.blogpost",
-    "pk": 1,
-    "fields": {
-      "title": "دليل بناء المعماريات السحابية عالية التوفر والأداء في الأنظمة الحديثة",
-      "slug": "high-availability-cloud-architecture-guide",
-      "category": "هندسة البرمجيات والتطوير",
-      "excerpt": "استعراض شامل لأفضل ممارسات تصميم بنية الأنظمة السحابية الموزعة، إدارة قواعد البيانات المتزامنة، وتطبيق استراتيجيات التخزين المؤقت لضمان أداء فائق.",
-      "content": "<h2>مقدمة حول المعماريات السحابية الحديثة</h2>\n<p>في عصر الأنظمة الرقمية المتسارعة، لم يعد بناء التطبيقات يقتصر على كتابة كود وظيفي فقط، بل يتطلب هندسة معمارية تضمن <strong>التوسع الأفقي (Horizontal Scalability)</strong>، استمرارية العمل دون انقطاع (Zero Downtime)، وسرعة معالجة متناهية.</p>\n<blockquote>\n<p>\"المعمارية الجيدة ليست التي تجعل النظام يعمل اليوم فقط، بل التي تجعل التعديل عليه وتوسيعه غداً أمراً سلساً وآمناً.\"</p>\n</blockquote>\n<hr>\n<h2>1. نموذج البناء الطبقي (Layered System Design)</h2>\n<p>تعتمد المعمارية النظيفة على فصل الاهتمامات بين طبقات النظام:</p>\n<ul>\n<li><strong>طبقة العرض والواجهات (Frontend Layer):</strong> واجهات تفاعلية سريعة تعتمد على تقنيات الـ SPA/SSR.</li>\n<li><strong>طبقة الخوادم والـ API Gateway:</strong> معالجة الطلبات، التحقق من الصلاحيات (Authentication &amp; RBAC)، وإدارة معدل الطلبات (Rate Limiting).</li>\n<li><strong>طبقة منطق الأعمال والخدمات المصغرة (Domain &amp; Business Logic):</strong> خدمات مستقلة تؤدي وظائف محددة ومترابطة.</li>\n<li><strong>طبقة قواعد البيانات والتخزين المؤقت (Data &amp; Cache Layer):</strong> عزل عمليات القراءة عن الكتابة واستخدام محركات الكاش السريعة.</li>\n</ul>\n<hr>\n<h2>2. كود تطبيقي: إدارة الكاش الذكي باستخدام Redis</h2>\n<p>في المثال البرمجي التالي، نستعرض دالة مخصصة في Python لتطبيق نمط <strong>Cache-Aside Pattern</strong> مع معالجة الاستعلامات بكفاءة:</p>\n<pre><code class=\"language-python\">import json\nimport redis\nfrom typing import Optional, Any\n\n# تهيئة اتصال الـ Cache مع معالجة مهلة الاتصال\ncache_client = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)\n\ndef get_or_set_cache(key: str, fetch_callback, ttl_seconds: int = 3600) -&gt; Any:\n    \"\"\"\n    استرجاع البيانات من الكاش إن وجدت، أو جلبها وتخزينها تلقائياً\n    \"\"\"\n    cached_data = cache_client.get(key)\n    if cached_data:\n        # استرجاع فوري من الذاكرة العشوائية\n        return json.loads(cached_data)\n    \n    # جلب البيانات من قاعدة البيانات الأساسية\n    fresh_data = fetch_callback()\n    if fresh_data is not None:\n        cache_client.setex(key, ttl_seconds, json.dumps(fresh_data))\n        \n    return fresh_data\n</code></pre>\n<hr>\n<h2>3. مقارنة الأداء قبل وبعد تطبيق استراتيجيات التخزين المؤقت</h2>\n<table>\n<thead>\n<tr>\n<th>معيار القياس</th>\n<th>قبل التحسين (Direct DB Queries)</th>\n<th>بعد تطبيق التخزين المؤقت (Redis Cache)</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>متوسط زمن الاستجابة</td>\n<td>420ms</td>\n<td><strong>18ms (تحسن بنسبة 95%)</strong></td>\n</tr>\n<tr>\n<td>استهلاك موارد المعالج</td>\n<td>78% في أوقات الذروة</td>\n<td><strong>15% كحد أقصى</strong></td>\n</tr>\n<tr>\n<td>معدل تحمل الطلبات المتزامنة</td>\n<td>1,200 طلب / ثانية</td>\n<td><strong>18,000+ طلب / ثانية</strong></td>\n</tr>\n</tbody></table>\n<hr>\n<h2>4. الخلاصة والتوصيات العملية</h2>\n<ol>\n<li><strong>ابدأ بالبساطة:</strong> لا تلجأ للخدمات المصغرة (Microservices) المعقدة ما لم تكن هناك حاجة فعلية لحجم النظام وفريق العمل.</li>\n<li><strong>عزل المهام الثقيلة:</strong> استخدم طوابير المهام الخلفية (Background Workers مثل Celery أو RabbitMQ) للعمليات الطويلة.</li>\n<li><strong>المراقبة الاستباقية:</strong> اعتمد على أدوات مراقبة الأداء (APM) وسجلات التدقيق لتحديد نقاط الاختناق قبل أن يشعر بها المستخدم.</li>\n</ol>",
-      "cover_image": "",
-      "tags": [
-        "Cloud",
-        "Microservices",
-        "Python",
-        "Architecture",
-        "Redis"
-      ],
-      "reading_time_minutes": 6,
-      "views_count": 9,
-      "likes_count": 0,
-      "is_featured": true,
-      "is_published": true,
-      "sort_order": 1,
-      "meta_title": "دليل بناء المعماريات السحابية عالية التوفر",
-      "meta_description": "تعلم كيفية تصميم وبناء المعماريات السحابية الموزعة لضمان أداء مستقر ومعالجة آلاف الطلبات المتزامنة.",
-      "meta_keywords": "معمارية برمجية, حوسبة سحابية, قواعد بيانات, Redis",
-      "published_at": "2026-08-26 02:28:01.766806",
-      "updated_at": "2026-09-08 04:01:52.836246"
-    }
-  },
-  {
-    "model": "api.blogpost",
-    "pk": 2,
-    "fields": {
-      "title": "منهجية التفكير التصميمي وبناء أنظمة الواجهات (Design Systems) القابلة للتوسع",
-      "slug": "design-thinking-and-scalable-design-systems",
-      "category": "تصميم واجهات وتجربة مستخدم UI/UX",
-      "excerpt": "كيف تبني نظام تصميم موحد يربط بين المصممين والمطورين، يقلل من هدر الوقت، ويخلق تجربة بصرية متسقة وهوية رقمية استثنائية لمنتجك.",
-      "content": "<h2>أهمية نظام التصميم (Design System)</h2>\n<p>أنظمة التصميم ليست مجرد مكتبة لملفات Figma أو لوحة ألوان عشوائية، بل هي <strong>لغة تواصل مشتركة</strong> وعقد عمل بين المصمم والمطور وفريق المنتج لضمان اتساق كافة التجارب الرقمية.</p>\n<hr>\n<h2>1. ركائز نظام التصميم المتكامل</h2>\n<ol>\n<li><strong>رموز التصميم (Design Tokens):</strong> الوحدات الذرية الأساسية للقيم (الألوان، الخطوط، المسافات، وظلال الـ Elevation).</li>\n<li><strong>المكونات التفاعلية (Interactive UI Components):</strong> أزرار، حقول إدخال، نوافذ منبثقة، وبطاقات ذات حالات محددة (Default, Hover, Active, Disabled).</li>\n<li><strong>إمكانية الوصول والشمولية (Accessibility - WCAG 2.1):</strong> تباين ألوان مريح، دعم قارئات الشاشة، ومراعاة مختلف المستخدمين.</li>\n</ol>\n<blockquote>\n<p>\"التصميم العظيم ليس ما يُرى بالعين فقط، بل ما يُشعر به من سلاسة وبساطة أثناء الاستخدام اليومي.\"</p>\n</blockquote>\n<hr>\n<h2>2. خطوات مسار التفكير التصميمي (Design Thinking Workflow)</h2>\n<ul>\n<li><strong>الفهم والتعاطف (Empathize):</strong> إجراء المقابلات وبناء شخصيات المستخدمين.</li>\n<li><strong>التحديد (Define):</strong> صياغة المشكلة والتحدي بدقة.</li>\n<li><strong>التوليد والتخطيط (Ideate &amp; Wireframe):</strong> رسم المخططات الهيكلية منخفضة الدقة.</li>\n<li><strong>النمذجة (Prototype):</strong> بناء واجهات تفاعلية عالية الدقة.</li>\n<li><strong>الاختبار والتحقق (Test):</strong> قياس سهولة الاستخدام وإجراء التحسينات المستمرة.</li>\n</ul>",
-      "cover_image": "http://localhost:8000/media/uploads/ChatGPT_Image_13_%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3_2026_08_44_32_%D8%B5_GoSxwaJ.png",
-      "tags": [
-        "UI/UX",
-        "Design System",
-        "Figma",
-        "Design Thinking"
-      ],
-      "reading_time_minutes": 5,
-      "views_count": 5,
-      "likes_count": 0,
-      "is_featured": true,
-      "is_published": true,
-      "sort_order": 2,
-      "meta_title": "بناء أنظمة الواجهات وتجربة المستخدم القابلة للتوسع",
-      "meta_description": "دليل بناء Design System متكامل من التفكير الأولي وحتى التسليم النهائي للواجهات.",
-      "meta_keywords": "تصميم واجهات, تجربة مستخدم, Design System, Figma",
-      "published_at": "2026-08-26 02:28:50.645296",
-      "updated_at": "2026-08-26 04:24:57.675596"
-    }
-  },
-  {
-    "model": "api.blogpost",
-    "pk": 3,
-    "fields": {
-      "title": "استراتيجيات تحويل الأفكار إلى منتجات رقمية ناجحة ومربحة",
-      "slug": "digital-product-strategy-and-growth",
-      "category": "إدارة واستراتيجيات الأعمال",
-      "excerpt": "خارطة طريق واضحة لرواد الأعمال وأصحاب المشاريع للتحقق من جدوى الفكرة وبناء نموذج العمل (Business Model) وتحقيق أعلى عائد استثمار.",
-      "content": "## من الفكرة إلى الإطلاق الناجح\n\nالكثير من المشاريع الرقمية تفشل ليس بسبب سوء البرمجة أو ضعف التصميم، بل بسبب بناء منتج لا يحل مشكلة حقيقية في السوق.\n\n---\n\n## 1. نموذج إطلاق الـ MVP (المنتج الأولي القابل للتطبيق)\n\n- تحديد الميزة الجوهرية (Core Value Proposition) والتركيز عليها فقط.\n- إطلاق سريع للتحقق من تفاعل الجمهور المستهدف (Validate Assumptions).\n- جمع التغذية الراجعة (Feedback Loops) والتطوير بناءً على أرقام وسلوك المستخدمين الفعلي.\n\n---\n\n## 2. مؤشرات الأداء الرئيسية (KPIs) لنجاح المشاريع\n\n- **تكلفة الاستحواذ على العميل (CAC):** كم تنفق لجلب عميل جديد؟\n- **القيمة الدائمة للعميل (LTV):** كم ينفق العميل خلال فترة استخدامه للمنتج؟\n- **معدل الاحتفاظ (Retention Rate):** هل يعود المستخدمون لاستخدام النظام بانتظام؟\n",
-      "cover_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=80",
-      "tags": [
-        "Business",
-        "Startup",
-        "Growth",
-        "Product Management"
-      ],
-      "reading_time_minutes": 4,
-      "views_count": 2,
-      "likes_count": 0,
-      "is_featured": false,
-      "is_published": true,
-      "sort_order": 3,
-      "meta_title": "استراتيجيات بناء المنتجات الرقمية ونمو الأعمال",
-      "meta_description": "دليل استراتيجي لتحويل الأفكار إلى منتجات ذات عائد استثماري ونمو مستمر.",
-      "meta_keywords": "ريادة أعمال, استراتيجيات الأعمال, نمو المشاريع, إدارة المنتجات",
-      "published_at": "2026-08-26 02:28:50.799221",
-      "updated_at": "2026-08-26 02:28:50.799221"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "architecture_note_desc",
-    "fields": {
-      "key": "architecture_note_desc",
-      "value": "",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-08-25 23:01:37.704905"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "architecture_note_title",
-    "fields": {
-      "key": "architecture_note_title",
-      "value": "",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-08-25 23:01:37.704905"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "availability_badge_text",
-    "fields": {
-      "key": "availability_badge_text",
-      "value": "متاح لاستقبال المشاريع وفرص العمل",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "",
-      "updated_at": "2026-09-19T01:39:58.062337+00:00"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "contact_enabled",
-    "fields": {
-      "key": "contact_enabled",
-      "value": "true",
-      "group_name": "general",
-      "setting_type": "boolean",
-      "description": "تفعيل نموذج التواصل",
-      "updated_at": "2026-08-26 03:42:58.025993"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "default_language",
-    "fields": {
-      "key": "default_language",
-      "value": "ar",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "اللغة الافتراضية للموقع",
-      "updated_at": "2026-08-26 03:42:58.025993"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "enable_contact_form",
-    "fields": {
-      "key": "enable_contact_form",
-      "value": "true",
-      "group_name": "general",
-      "setting_type": "boolean",
-      "description": "",
-      "updated_at": "2026-08-25 23:01:37.720868"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "enable_particles_bg",
-    "fields": {
-      "key": "enable_particles_bg",
-      "value": "true",
-      "group_name": "general",
-      "setting_type": "boolean",
-      "description": "",
-      "updated_at": "2026-08-25 23:01:37.722283"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "enable_testimonials",
-    "fields": {
-      "key": "enable_testimonials",
-      "value": "true",
-      "group_name": "general",
-      "setting_type": "boolean",
-      "description": "",
-      "updated_at": "2026-08-25 23:01:37.722283"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "hero_role_typing",
-    "fields": {
-      "key": "hero_role_typing",
-      "value": "مطور واجهات أمامية, مهندس Vue.js & Vuetify, مبرمج برمجيات وقواعد بيانات, متخصص شبكات وسيرفرات",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "",
-      "updated_at": "2026-09-19T01:39:58.062337+00:00"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "maintenance_mode",
-    "fields": {
-      "key": "maintenance_mode",
-      "value": "False",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "إيقاف الموقع مؤقتاً للصيانة",
-      "updated_at": "2026-08-26 01:43:57.195540"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "meta_description",
-    "fields": {
-      "key": "meta_description",
-      "value": "",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-08-25 23:01:37.722283"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "meta_keywords",
-    "fields": {
-      "key": "meta_keywords",
-      "value": "",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-08-25 23:01:37.722283"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "projects_per_page",
-    "fields": {
-      "key": "projects_per_page",
-      "value": "6",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "عدد المشاريع المعروضة في الصفحة",
-      "updated_at": "2026-08-26 01:43:57.195540"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "rtl",
-    "fields": {
-      "key": "rtl",
-      "value": "True",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "تفعيل اتجاه الكتابة من اليمين إلى اليسار",
-      "updated_at": "2026-08-26 02:05:30.431464"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "settings",
-    "fields": {
-      "key": "settings",
-      "value": "[{\"key\": \"site_title\", \"value\": \"عبد الخالق الصايدي | مهندس برمجيات وFront-End Developer\", \"group_name\": \"seo\"}, {\"key\": \"title_template\", \"value\": \"%s | عبد الخالق الصايدي\", \"group_name\": \"seo\"}, {\"key\": \"site_description\", \"value\": \"الموقع الشخصي ومعرض أعمال عبد الخالق الصايدي - مهندس برمجيات ومطور واجهات أمامية Front-End متخصص في بناء وتطوير الأنظمة السحابية وتطبيقات الويب الحديثة.\", \"group_name\": \"seo\"}, {\"key\": \"site_domain\", \"value\": \"https://portfolio-frontend-pink-mu.vercel.app\", \"group_name\": \"seo\"}, {\"key\": \"og_image\", \"value\": \"/avatar.jpg\", \"group_name\": \"seo\"}]",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-09-18 05:19:30.981857"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "show_statistics",
-    "fields": {
-      "key": "show_statistics",
-      "value": "True",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "إظهار قسم الإحصائيات",
-      "updated_at": "2026-08-26 01:43:57.195540"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "show_testimonials",
-    "fields": {
-      "key": "show_testimonials",
-      "value": "True",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "إظهار قسم تقييمات العملاء",
-      "updated_at": "2026-08-26 01:43:57.195540"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "theme",
-    "fields": {
-      "key": "theme",
-      "value": "system",
-      "group_name": "general",
-      "setting_type": "text",
-      "description": "المظهر الافتراضي للموقع",
-      "updated_at": "2026-08-26 02:05:30.431976"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "typing_roles",
-    "fields": {
-      "key": "typing_roles",
-      "value": "مطور واجهات أمامية, مهندس Vue.js & Vuetify, مبرمج برمجيات وقواعد بيانات, متخصص شبكات وسيرفرات",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-09-19T01:39:58.062337+00:00"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "whatsapp_number",
-    "fields": {
-      "key": "whatsapp_number",
-      "value": "+967771523243",
-      "group_name": "general",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-09-19T01:39:58.062337+00:00"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "site_description",
-    "fields": {
-      "key": "site_description",
-      "value": "الموقع الشخصي ومعرض أعمال عبد الخالق علي محمد الصايدي - مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify والربط مع Django REST APIs وإدارة قواعد البيانات Oracle و MySQL.",
-      "group_name": "seo",
-      "setting_type": "string",
-      "description": "الوصف التعريفي للموقع",
-      "updated_at": "2026-09-19T01:39:58.062337+00:00"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "site_title",
-    "fields": {
-      "key": "site_title",
-      "value": "عبد الخالق علي محمد الصايدي | مطور واجهات أمامية وبرمجيات",
-      "group_name": "seo",
-      "setting_type": "string",
-      "description": "العنوان الرئيسي للموقع",
-      "updated_at": "2026-09-19T01:39:58.062337+00:00"
-    }
-  },
-  {
-    "model": "api.sitesetting",
-    "pk": "title_template",
-    "fields": {
-      "key": "title_template",
-      "value": "%s | عبد الخالق الصايدي",
-      "group_name": "seo",
-      "setting_type": "string",
-      "description": "",
-      "updated_at": "2026-09-18 05:19:30.768201"
-    }
-  },
-  {
-    "model": "api.mediafile",
-    "pk": 1,
-    "fields": {
-      "title": "proj_ChatGPT Image 13 أغسطس 2026، 08_44_32 ص.png",
-      "file": "uploads/ChatGPT_Image_13_أغسطس_2026_08_44_32_ص_GoSxwaJ.png",
-      "file_type": "image",
-      "file_size": 1248784,
-      "uploaded_at": "2026-08-25 03:40:09.118201"
-    }
-  },
-  {
-    "model": "api.mediafile",
-    "pk": 4,
-    "fields": {
-      "title": "resume_سيره ذاتيه باللون الأبيض و الأزرق بنمط نظيف.pdf",
-      "file": "uploads/سيره_ذاتيه_باللون_الأبيض_و_الأزرق_بنمط_نظيف.pdf",
-      "file_type": "document",
-      "file_size": 74498,
-      "uploaded_at": "2026-08-25 04:04:58.451345"
-    }
-  },
-  {
-    "model": "api.mediafile",
-    "pk": 8,
-    "fields": {
-      "title": "صورة داخل المقال",
-      "file": "uploads/11_Ub4sU8S.png",
-      "file_type": "image",
-      "file_size": 1984932,
-      "uploaded_at": "2026-08-26 04:26:46.417809"
-    }
-  },
-  {
-    "model": "api.mediafile",
-    "pk": 10,
-    "fields": {
-      "title": "avatar_Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
-      "file": "uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
-      "file_type": "image",
-      "file_size": 2425434,
-      "uploaded_at": "2026-09-08 04:05:04.668684"
-    }
-  },
-  {
-    "model": "api.mediafile",
-    "pk": 11,
-    "fields": {
-      "title": "proj_image_Gemini_Generated_Image_2fb9v02fb9v02fb9.png",
-      "file": "uploads/Gemini_Generated_Image_2fb9v02fb9v02fb9_51ebfw9.png",
-      "file_type": "image",
-      "file_size": 2425434,
-      "uploaded_at": "2026-09-09 04:03:25.664930"
-    }
-  },
-  {
-    "model": "api.mediafile",
-    "pk": 12,
-    "fields": {
-      "title": "proj_before_image_Gemini_Generated_Image_14qis114qis114qi.jpg",
-      "file": "uploads/Gemini_Generated_Image_14qis114qis114qi.jpg",
-      "file_type": "image",
-      "file_size": 723834,
-      "uploaded_at": "2026-09-09 04:05:15.281837"
-    }
-  },
-  {
-    "model": "api.mediafile",
-    "pk": 13,
-    "fields": {
-      "title": "proj_after_image_Gemini_Generated_Image_89heni89heni89he.jpg",
-      "file": "uploads/Gemini_Generated_Image_89heni89heni89he.jpg",
-      "file_type": "image",
-      "file_size": 699367,
-      "uploaded_at": "2026-09-09 04:05:20.750733"
-    }
+      "updated_at": "2026-09-22T05:47:37.219928+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:49:00.303Z"
   }
+},
+{
+  "model": "api.auditlog",
+  "pk": 97,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:55:43.766Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 98,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "/avatar.jpg",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-09-22T05:48:59.932136+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:56:12.136Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 99,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "logo": "mdi-rocket-launch-outline"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:56:42.158Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 100,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "14",
+    "details": {
+      "title": "logo_ChatGPT Image 3 مايو 2026، 02_05_24 م - Copy.jpg"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:57:05.318Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 101,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "/avatar.jpg",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "http://127.0.0.1:8000/media/uploads/ChatGPT_Image_3_%D9%85%D8%A7%D9%8A%D9%88_2026_02_05_24_%D9%85_-_Copy.jpg",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-09-22T05:56:41.829923+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:57:05.863Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 102,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "logo": "http://127.0.0.1:8000/media/uploads/ChatGPT_Image_3_%D9%85%D8%A7%D9%8A%D9%88_2026_02_05_24_%D9%85_-_Copy.jpg"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:57:27.132Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 103,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "logo": "http://127.0.0.1:8000/media/uploads/ChatGPT_Image_3_%D9%85%D8%A7%D9%8A%D9%88_2026_02_05_24_%D9%85_-_Copy.jpg"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T02:58:35.407Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 104,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "logo": "mdi-xml"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T03:16:28.060Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 105,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "إنشاء مقال جديد",
+    "entity_type": "BlogPost",
+    "entity_id": "4",
+    "details": {
+      "title": "ما وراء سرعة الويب: هندسة واجهات فائقة الأداء باستخدام Vue و Nuxt",
+      "category": "تطوير الويب (Frontend Development)"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T04:15:49.991Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 106,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تعديل مقال",
+    "entity_type": "BlogPost",
+    "entity_id": "4",
+    "details": {
+      "title": "ما وراء سرعة الويب: هندسة واجهات فائقة الأداء باستخدام Vue و Nuxt"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-09-22T04:16:10.909Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 107,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "رفع ملف وسائط جديد",
+    "entity_type": "MediaFile",
+    "entity_id": "15",
+    "details": {
+      "title": "avatar_11.png"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T00:35:02.439Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 108,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-09-22T06:16:27.974335+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T00:35:05.389Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 109,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تسجيل دخول ناجح",
+    "entity_type": "Authentication",
+    "entity_id": "1",
+    "details": {
+      "username": "admin"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:01:47.376Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 110,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "aurora"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:03:19.164Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 111,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "orbit"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:03:42.996Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 112,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-10T03:35:04.218264+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:04:05.282Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 113,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:04:05.016382+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:04:26.245Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 114,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "horizon"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:04:27.754Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 115,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:04:26.023352+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:04:31.054Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 116,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:04:30.890437+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:04:56.551Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 117,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "aurora"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:05:32.101Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 118,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:04:56.459041+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:05:33.383Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 119,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:05:33.203946+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:06:06.455Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 120,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "constellation"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:06:07.459Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 121,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "aurora"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:13:20.076Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 122,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:06:06.237409+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:13:22.196Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 123,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:13:21.694835+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:13:49.586Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 124,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:13:49.325493+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:14:17.094Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 125,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:14:16.927499+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:35:26.920Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 126,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:35:26.585937+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:35:44.943Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 127,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "horizon"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:35:46.021Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 128,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:35:44.821489+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:36:16.042Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 129,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:36:15.936589+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:36:39.396Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 130,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "orbit"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:36:40.352Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 131,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:36:39.252852+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:37:07.184Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 132,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "aurora"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:37:07.809Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 133,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:37:07.088684+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:37:24.487Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 134,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "constellation"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:37:25.612Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 135,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:37:24.329775+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:40:35.915Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 136,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:40:35.685146+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:40:51.593Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 137,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "horizon"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:41:18.089Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 138,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:40:51.483841+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:54:22.943Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 139,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "aurora"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:54:46.581Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 140,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:54:22.840657+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:55:24.822Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 141,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_background": "orbit"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:55:26.973Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 142,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث الملف الشخصي",
+    "entity_type": "Profile",
+    "entity_id": "1",
+    "details": {
+      "full_name": "عبد الخالق علي محمد الصايدي",
+      "title": "مطور واجهات أمامية وبرمجيات | Frontend & Software Developer",
+      "tagline": "مطور واجهات ومصمم برمجيات متخصص في بناء واجهات مستخدم تفاعلية وعالية الأداء بـ Vue.js و Vuetify",
+      "bio": "مطور واجهات ومصمم برمجيات يمتلك خبرة متخصصة في بناء واجهات مستخدم تفاعلية وعالية الأداء باستخدام Vue.js و Vuetify. يمتلك معرفة بالربط مع واجهات برمجة التطبيقات (REST APIs) وإطار العمل Django REST Framework، بالإضافة إلى خلفية في إدارة قواعد البيانات (Oracle Database, MySQL)، والدعم الفني وإدارة سيرفرات وشبكات MCSA/CCNA.",
+      "email": "abdulkhaliq.al.saidi@gmail.com",
+      "phone": "+967 771523243",
+      "whatsapp": "967771523243",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "behance": "",
+      "dribbble": "",
+      "instagram": "",
+      "youtube": "",
+      "website": "",
+      "twitter": "",
+      "location": "صنعاء، اليمن",
+      "avatar": "http://127.0.0.1:8000/media/uploads/11.png",
+      "resume": "/Abdulkhaliq_Alsaidi_CV.pdf",
+      "logo": "mdi-xml",
+      "available_for_work": true,
+      "years_of_experience": 5,
+      "id": 1,
+      "updated_at": "2026-10-11T01:55:24.714639+03:00"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T22:56:37.318Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 143,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "حذف ملف وسائط",
+    "entity_type": "MediaFile",
+    "entity_id": "14",
+    "details": {},
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T23:15:04.049Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 144,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "cyber-neon",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:13:35.197Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 145,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "3d-holo",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:14:01.041Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 146,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "bento-beam",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:14:22.267Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 147,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "architectural",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:14:39.853Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 148,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "minimal-studio",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:15:02.879Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 149,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "3d-holo",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:15:26.436Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 150,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "bento-beam",
+      "hero_avatar_glow": "false",
+      "hero_avatar_badges": "false"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:28:15.720Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 151,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "cyber-neon",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:28:34.542Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 152,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "bento-beam",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:30:11.120Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 153,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "bento-beam",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:30:21.308Z"
+  }
+},
+{
+  "model": "api.auditlog",
+  "pk": 154,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "action": "تحديث إعدادات الموقع العامة",
+    "entity_type": "SiteSetting",
+    "entity_id": "",
+    "details": {
+      "hero_avatar_style": "golden-luxury",
+      "hero_avatar_glow": "true",
+      "hero_avatar_badges": "true"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-12T04:37:29.265Z"
+  }
+},
+{
+  "model": "api.mediafile",
+  "pk": 15,
+  "fields": {
+    "title": "avatar_11.png",
+    "file": "uploads/11.png",
+    "file_type": "image",
+    "file_size": 1984932,
+    "uploaded_at": "2026-10-10T00:35:01.378Z"
+  }
+},
+{
+  "model": "api.blogpost",
+  "pk": 1,
+  "fields": {
+    "title": "دليل بناء المعماريات السحابية عالية التوفر والأداء في الأنظمة الحديثة",
+    "slug": "high-availability-cloud-architecture-guide",
+    "category": "هندسة البرمجيات والتطوير",
+    "excerpt": "استعراض شامل لأفضل ممارسات تصميم بنية الأنظمة السحابية الموزعة، إدارة قواعد البيانات المتزامنة، وتطبيق استراتيجيات التخزين المؤقت لضمان أداء فائق.",
+    "content": "<h2>مقدمة حول المعماريات السحابية الحديثة</h2>\n<p>في عصر الأنظمة الرقمية المتسارعة، لم يعد بناء التطبيقات يقتصر على كتابة كود وظيفي فقط، بل يتطلب هندسة معمارية تضمن <strong>التوسع الأفقي (Horizontal Scalability)</strong>، استمرارية العمل دون انقطاع (Zero Downtime)، وسرعة معالجة متناهية.</p>\n<blockquote>\n<p>\"المعمارية الجيدة ليست التي تجعل النظام يعمل اليوم فقط، بل التي تجعل التعديل عليه وتوسيعه غداً أمراً سلساً وآمناً.\"</p>\n</blockquote>\n<hr>\n<h2>1. نموذج البناء الطبقي (Layered System Design)</h2>\n<p>تعتمد المعمارية النظيفة على فصل الاهتمامات بين طبقات النظام:</p>\n<ul>\n<li><strong>طبقة العرض والواجهات (Frontend Layer):</strong> واجهات تفاعلية سريعة تعتمد على تقنيات الـ SPA/SSR.</li>\n<li><strong>طبقة الخوادم والـ API Gateway:</strong> معالجة الطلبات، التحقق من الصلاحيات (Authentication &amp; RBAC)، وإدارة معدل الطلبات (Rate Limiting).</li>\n<li><strong>طبقة منطق الأعمال والخدمات المصغرة (Domain &amp; Business Logic):</strong> خدمات مستقلة تؤدي وظائف محددة ومترابطة.</li>\n<li><strong>طبقة قواعد البيانات والتخزين المؤقت (Data &amp; Cache Layer):</strong> عزل عمليات القراءة عن الكتابة واستخدام محركات الكاش السريعة.</li>\n</ul>\n<hr>\n<h2>2. كود تطبيقي: إدارة الكاش الذكي باستخدام Redis</h2>\n<p>في المثال البرمجي التالي، نستعرض دالة مخصصة في Python لتطبيق نمط <strong>Cache-Aside Pattern</strong> مع معالجة الاستعلامات بكفاءة:</p>\n<pre><code class=\"language-python\">import json\nimport redis\nfrom typing import Optional, Any\n\n# تهيئة اتصال الـ Cache مع معالجة مهلة الاتصال\ncache_client = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)\n\ndef get_or_set_cache(key: str, fetch_callback, ttl_seconds: int = 3600) -&gt; Any:\n    \"\"\"\n    استرجاع البيانات من الكاش إن وجدت، أو جلبها وتخزينها تلقائياً\n    \"\"\"\n    cached_data = cache_client.get(key)\n    if cached_data:\n        # استرجاع فوري من الذاكرة العشوائية\n        return json.loads(cached_data)\n    \n    # جلب البيانات من قاعدة البيانات الأساسية\n    fresh_data = fetch_callback()\n    if fresh_data is not None:\n        cache_client.setex(key, ttl_seconds, json.dumps(fresh_data))\n        \n    return fresh_data\n</code></pre>\n<hr>\n<h2>3. مقارنة الأداء قبل وبعد تطبيق استراتيجيات التخزين المؤقت</h2>\n<table>\n<thead>\n<tr>\n<th>معيار القياس</th>\n<th>قبل التحسين (Direct DB Queries)</th>\n<th>بعد تطبيق التخزين المؤقت (Redis Cache)</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>متوسط زمن الاستجابة</td>\n<td>420ms</td>\n<td><strong>18ms (تحسن بنسبة 95%)</strong></td>\n</tr>\n<tr>\n<td>استهلاك موارد المعالج</td>\n<td>78% في أوقات الذروة</td>\n<td><strong>15% كحد أقصى</strong></td>\n</tr>\n<tr>\n<td>معدل تحمل الطلبات المتزامنة</td>\n<td>1,200 طلب / ثانية</td>\n<td><strong>18,000+ طلب / ثانية</strong></td>\n</tr>\n</tbody></table>\n<hr>\n<h2>4. الخلاصة والتوصيات العملية</h2>\n<ol>\n<li><strong>ابدأ بالبساطة:</strong> لا تلجأ للخدمات المصغرة (Microservices) المعقدة ما لم تكن هناك حاجة فعلية لحجم النظام وفريق العمل.</li>\n<li><strong>عزل المهام الثقيلة:</strong> استخدم طوابير المهام الخلفية (Background Workers مثل Celery أو RabbitMQ) للعمليات الطويلة.</li>\n<li><strong>المراقبة الاستباقية:</strong> اعتمد على أدوات مراقبة الأداء (APM) وسجلات التدقيق لتحديد نقاط الاختناق قبل أن يشعر بها المستخدم.</li>\n</ol>",
+    "cover_image": "",
+    "tags": [
+      "Cloud",
+      "Microservices",
+      "Python",
+      "Architecture",
+      "Redis"
+    ],
+    "reading_time_minutes": 6,
+    "views_count": 10,
+    "likes_count": 0,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 1,
+    "meta_title": "دليل بناء المعماريات السحابية عالية التوفر",
+    "meta_description": "تعلم كيفية تصميم وبناء المعماريات السحابية الموزعة لضمان أداء مستقر ومعالجة آلاف الطلبات المتزامنة.",
+    "meta_keywords": "معمارية برمجية, حوسبة سحابية, قواعد بيانات, Redis",
+    "published_at": "2026-08-26T02:28:01.766Z",
+    "updated_at": "2026-09-08T04:01:52.836Z"
+  }
+},
+{
+  "model": "api.blogpost",
+  "pk": 2,
+  "fields": {
+    "title": "منهجية التفكير التصميمي وبناء أنظمة الواجهات (Design Systems) القابلة للتوسع",
+    "slug": "design-thinking-and-scalable-design-systems",
+    "category": "تصميم واجهات وتجربة مستخدم UI/UX",
+    "excerpt": "كيف تبني نظام تصميم موحد يربط بين المصممين والمطورين، يقلل من هدر الوقت، ويخلق تجربة بصرية متسقة وهوية رقمية استثنائية لمنتجك.",
+    "content": "<h2>أهمية نظام التصميم (Design System)</h2>\n<p>أنظمة التصميم ليست مجرد مكتبة لملفات Figma أو لوحة ألوان عشوائية، بل هي <strong>لغة تواصل مشتركة</strong> وعقد عمل بين المصمم والمطور وفريق المنتج لضمان اتساق كافة التجارب الرقمية.</p>\n<hr>\n<h2>1. ركائز نظام التصميم المتكامل</h2>\n<ol>\n<li><strong>رموز التصميم (Design Tokens):</strong> الوحدات الذرية الأساسية للقيم (الألوان، الخطوط، المسافات، وظلال الـ Elevation).</li>\n<li><strong>المكونات التفاعلية (Interactive UI Components):</strong> أزرار، حقول إدخال، نوافذ منبثقة، وبطاقات ذات حالات محددة (Default, Hover, Active, Disabled).</li>\n<li><strong>إمكانية الوصول والشمولية (Accessibility - WCAG 2.1):</strong> تباين ألوان مريح، دعم قارئات الشاشة، ومراعاة مختلف المستخدمين.</li>\n</ol>\n<blockquote>\n<p>\"التصميم العظيم ليس ما يُرى بالعين فقط، بل ما يُشعر به من سلاسة وبساطة أثناء الاستخدام اليومي.\"</p>\n</blockquote>\n<hr>\n<h2>2. خطوات مسار التفكير التصميمي (Design Thinking Workflow)</h2>\n<ul>\n<li><strong>الفهم والتعاطف (Empathize):</strong> إجراء المقابلات وبناء شخصيات المستخدمين.</li>\n<li><strong>التحديد (Define):</strong> صياغة المشكلة والتحدي بدقة.</li>\n<li><strong>التوليد والتخطيط (Ideate &amp; Wireframe):</strong> رسم المخططات الهيكلية منخفضة الدقة.</li>\n<li><strong>النمذجة (Prototype):</strong> بناء واجهات تفاعلية عالية الدقة.</li>\n<li><strong>الاختبار والتحقق (Test):</strong> قياس سهولة الاستخدام وإجراء التحسينات المستمرة.</li>\n</ul>",
+    "cover_image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "UI/UX",
+      "Design System",
+      "Figma",
+      "Design Thinking"
+    ],
+    "reading_time_minutes": 5,
+    "views_count": 6,
+    "likes_count": 0,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 2,
+    "meta_title": "بناء أنظمة الواجهات وتجربة المستخدم القابلة للتوسع",
+    "meta_description": "دليل بناء Design System متكامل من التفكير الأولي وحتى التسليم النهائي للواجهات.",
+    "meta_keywords": "تصميم واجهات, تجربة مستخدم, Design System, Figma",
+    "published_at": "2026-08-26T02:28:50.645Z",
+    "updated_at": "2026-08-26T04:24:57.675Z"
+  }
+},
+{
+  "model": "api.blogpost",
+  "pk": 3,
+  "fields": {
+    "title": "استراتيجيات تحويل الأفكار إلى منتجات رقمية ناجحة ومربحة",
+    "slug": "digital-product-strategy-and-growth",
+    "category": "إدارة واستراتيجيات الأعمال",
+    "excerpt": "خارطة طريق واضحة لرواد الأعمال وأصحاب المشاريع للتحقق من جدوى الفكرة وبناء نموذج العمل (Business Model) وتحقيق أعلى عائد استثمار.",
+    "content": "## من الفكرة إلى الإطلاق الناجح\n\nالكثير من المشاريع الرقمية تفشل ليس بسبب سوء البرمجة أو ضعف التصميم، بل بسبب بناء منتج لا يحل مشكلة حقيقية في السوق.\n\n---\n\n## 1. نموذج إطلاق الـ MVP (المنتج الأولي القابل للتطبيق)\n\n- تحديد الميزة الجوهرية (Core Value Proposition) والتركيز عليها فقط.\n- إطلاق سريع للتحقق من تفاعل الجمهور المستهدف (Validate Assumptions).\n- جمع التغذية الراجعة (Feedback Loops) والتطوير بناءً على أرقام وسلوك المستخدمين الفعلي.\n\n---\n\n## 2. مؤشرات الأداء الرئيسية (KPIs) لنجاح المشاريع\n\n- **تكلفة الاستحواذ على العميل (CAC):** كم تنفق لجلب عميل جديد؟\n- **القيمة الدائمة للعميل (LTV):** كم ينفق العميل خلال فترة استخدامه للمنتج؟\n- **معدل الاحتفاظ (Retention Rate):** هل يعود المستخدمون لاستخدام النظام بانتظام؟\n",
+    "cover_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Business",
+      "Startup",
+      "Growth",
+      "Product Management"
+    ],
+    "reading_time_minutes": 4,
+    "views_count": 2,
+    "likes_count": 0,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 3,
+    "meta_title": "استراتيجيات بناء المنتجات الرقمية ونمو الأعمال",
+    "meta_description": "دليل استراتيجي لتحويل الأفكار إلى منتجات ذات عائد استثماري ونمو مستمر.",
+    "meta_keywords": "ريادة أعمال, استراتيجيات الأعمال, نمو المشاريع, إدارة المنتجات",
+    "published_at": "2026-08-26T02:28:50.799Z",
+    "updated_at": "2026-08-26T02:28:50.799Z"
+  }
+},
+{
+  "model": "api.blogpost",
+  "pk": 4,
+  "fields": {
+    "title": "ما وراء سرعة الويب: هندسة واجهات فائقة الأداء باستخدام Vue و Nuxt",
+    "slug": "building-blazing-fast-interfaces-with-vue-nuxt",
+    "category": "تطوير الويب (Frontend Development)",
+    "excerpt": "السرعة ليست مجرد ميزة تقنية، بل هي تجربة مستخدم لا تقبل المساومة. اكتشف كيف تحول Vue و Nuxt تطبيقاتك من مجرد صفحات ويب إلى تجارب رقمية فائقة السرعة تتحدى معايير الأداء التقليدية.",
+    "content": "<h2>مقدمة: لماذا السرعة هي العملة الأغلى؟</h2>\n<p>في عصر \"اقتصاد الانتباه\"، تكلفك أجزاء من الثانية من بطء التحميل خسارة مستخدمين دائمين. لم يعد المطورون يتنافسون فقط على الميزات، بل على مدى سرعة استجابة الواجهة. هنا يبرز الثنائي الذهبي: <strong>Vue.js</strong> بمرونته، و <strong>Nuxt</strong> بقوته في هندسة الأداء.</p>\n<h2>1. استراتيجيات الرندرة الذكية في Nuxt</h2>\n<p>سرعة الواجهة تبدأ من مكان معالجة البيانات. Nuxt يقدم لك \"قائمة طعام\" من خيارات الرندرة التي تغير قواعد اللعبة:</p>\n<ul>\n<li><strong>SSR (Server-Side Rendering):</strong> مثالي للمحتوى الذي يحتاج إلى SEO قوي وسرعة ظهور أولية (FCP).</li>\n<li><strong>SSG (Static Site Generation):</strong> للحصول على سرعة البرق؛ حيث يتم بناء الصفحات مسبقاً وتوزيعها عبر شبكات توصيل المحتوى (CDN).</li>\n<li><strong>ISR (Incremental Static Regeneration):</strong> الموازنة المثالية؛ تحديث الصفحات في الخلفية دون الحاجة لإعادة بناء الموقع بالكامل.</li>\n</ul>\n<blockquote>\n<p>\"الأداء ليس وظيفة إضافية، بل هو بنية أساسية تُبنى منذ السطر الأول من الكود.\"</p>\n</blockquote>\n<h2>2. تحسين الأداء في Vue: ما وراء الكود التقليدي</h2>\n<p>لا يكفي استخدام إطار عمل سريع، يجب أن تستخدمه بذكاء. إليك تقنيات احترافية:</p>\n<h3>أ. التحميل الكسول (Lazy Loading) للمكونات</h3>\n<p>لا تقم بتحميل كل شيء دفعة واحدة. استخدم <code>defineAsyncComponent</code> لتقسيم الكود (Code Splitting) بشكل ذكي.</p>\n<pre><code class=\"language-javascript\">// مثال بسيط للتحميل الكسول\nconst HeavyComponent = defineAsyncComponent(() =&gt; \n  import('./components/HeavyComponent.vue')\n)\n</code></pre>\n<h3>ب. تحسين الـ Reactivity</h3>\n<p>تجنب مراقبة الكائنات الضخمة (Deep Reactivity) إذا لم تكن بحاجة إليها. استخدم <code>shallowRef</code> بدلاً من <code>ref</code> للبيانات الكبيرة لتقليل استهلاك الذاكرة.</p>\n<h2>3. التعامل مع الأصول (Assets) بذكاء</h2>\n<p>الأداء لا يقتصر على الكود، بل على كيفية تقديم الصور والخطوط:</p>\n<ul>\n<li><strong>Nuxt Image:</strong> الحل الأمثل لتغيير حجم الصور وتحسين صيغتها (WebP) تلقائياً.</li>\n<li><strong>Font Optimization:</strong> استخدم الـ CSS Font Loading API لضمان عدم حجب المحتوى أثناء تحميل الخطوط.</li>\n</ul>\n<h2>4. مراقبة الأداء كعقيدة</h2>\n<p>لا يمكنك تحسين ما لا يمكنك قياسه. استخدم أدوات مثل:</p>\n<ul>\n<li><strong>Lighthouse:</strong> لتقييم معايير الـ Core Web Vitals.</li>\n<li><strong>Nuxt DevTools:</strong> لمراقبة حجم الـ Payload وتوقيت تحميل المكونات في بيئة التطوير.</li>\n</ul>\n<h2>خاتمة: رحلة لا تنتهي</h2>\n<p>بناء واجهات فائقة السرعة هو مزيج من الفن والعلم. باستخدام Vue و Nuxt، أنت لا تملك فقط أدوات قوية، بل تملك نظاماً بيئياً متكاملاً يدفعك نحو التميز. ابدأ بتقسيم الكود، اعتمد استراتيجية رندرة تناسب محتواك، ولا تتوقف أبداً عن قياس الأداء.</p>\n<p>السرعة هي احترام لوقت المستخدم، وهذا هو جوهر التطوير الاحترافي في 2024 وما بعدها.</p>",
+    "cover_image": "",
+    "tags": [
+      "Vue.js",
+      "Nuxt",
+      "Frontend",
+      "WebPerformance",
+      "WebDevelopment"
+    ],
+    "reading_time_minutes": 2,
+    "views_count": 0,
+    "likes_count": 0,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 0,
+    "meta_title": "دليل بناء واجهات فائقة السرعة بـ Vue و Nuxt",
+    "meta_description": "تعلم كيفية بناء تطبيقات ويب فائقة السرعة باستخدام تقنيات Vue و Nuxt المتقدمة، من الرندرة الذكية إلى تحسين الأداء البرمجي.",
+    "meta_keywords": "Vue.js, Nuxt.js, تطوير الويب, سرعة المواقع, تحسين الأداء, Frontend, البرمجة",
+    "published_at": "2026-09-22T04:15:49.748Z",
+    "updated_at": "2026-09-22T04:16:10.733Z"
+  }
+}
 ]
