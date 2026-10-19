@@ -82,6 +82,8 @@ class ProfileSerializer(serializers.ModelSerializer):
         request = self.context.get('request')
         
         avatar_val = str(instance.avatar or '').strip()
+        if '11.png' in avatar_val or avatar_val == 'http://127.0.0.1:8000/media/uploads/11.png':
+            avatar_val = ''
         if avatar_val:
             if avatar_val.startswith('data:') or avatar_val.startswith('http://') or avatar_val.startswith('https://'):
                 data['avatar'] = avatar_val
@@ -94,6 +96,8 @@ class ProfileSerializer(serializers.ModelSerializer):
             data['avatar'] = ''
             
         resume_val = str(instance.resume or '').strip()
+        if 'Abdulkhaliq_Alsaidi_CV.pdf' in resume_val or resume_val == '/Abdulkhaliq_Alsaidi_CV.pdf':
+            resume_val = ''
         if resume_val:
             if resume_val.startswith('data:') or resume_val.startswith('http://') or resume_val.startswith('https://'):
                 data['resume'] = resume_val
