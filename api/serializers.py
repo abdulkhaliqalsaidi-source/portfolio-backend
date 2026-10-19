@@ -83,7 +83,7 @@ class ProfileSerializer(serializers.ModelSerializer):
         
         avatar_val = str(instance.avatar or '').strip()
         if avatar_val:
-            if avatar_val.startswith('http://') or avatar_val.startswith('https://'):
+            if avatar_val.startswith('data:') or avatar_val.startswith('http://') or avatar_val.startswith('https://'):
                 data['avatar'] = avatar_val
             elif avatar_val.startswith('/media/') or avatar_val.startswith('media/'):
                 clean_path = '/' + avatar_val.lstrip('/')
@@ -95,7 +95,7 @@ class ProfileSerializer(serializers.ModelSerializer):
             
         resume_val = str(instance.resume or '').strip()
         if resume_val:
-            if resume_val.startswith('http://') or resume_val.startswith('https://'):
+            if resume_val.startswith('data:') or resume_val.startswith('http://') or resume_val.startswith('https://'):
                 data['resume'] = resume_val
             elif resume_val.startswith('/media/') or resume_val.startswith('media/'):
                 clean_path = '/' + resume_val.lstrip('/')
@@ -107,7 +107,7 @@ class ProfileSerializer(serializers.ModelSerializer):
 
         logo_val = str(instance.logo or '').strip()
         if logo_val:
-            if logo_val.startswith('http://') or logo_val.startswith('https://'):
+            if logo_val.startswith('data:') or logo_val.startswith('http://') or logo_val.startswith('https://'):
                 data['logo'] = logo_val
             elif logo_val.startswith('/media/') or logo_val.startswith('media/'):
                 clean_path = '/' + logo_val.lstrip('/')
